@@ -1,0 +1,98 @@
+#Wreck Logs
+wreck-log-subheader: "DataLog"
+wreck-log-cont: "CONTINUE"
+
+#General 1
+wreck-log-gen1-header: "Captain {captname}'s Log"
+wreck-log-gen1-body: "[Final Entry] Stardate: 78795.33 Captain {captname}'s log.\n We've received new instructions from home. They want the {shipname} to practice some high speed, high G manuevers. I don't really want to, but I've requested confirmation, and it will be done. Helm has been drinking extra coffee, and says he's ready to give it a shot.\n\n I hope it works."
+wreck-log-gen1-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 2
+wreck-log-gen2-header: "Captain {captname}'s Log"
+wreck-log-gen2-body: "[Final Entry] We've pick up our latest manifest of medical supplies. Things are going well so far, but we're about to enter disputed territory and you can never be quite sure what will come at you out here."
+wreck-log-gen2-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 3
+wreck-log-gen3-header: "Captain {captname}'s Log"
+wreck-log-gen3-body: "[Final Entry] I swear, this is the last time I do VIP duty. I don't care if she is the daughter of my boss's boss, I've about had it. I've ordered helm to accelerate to full, asteroid field be damned. Upside of getting rid of this passenger faster, we'll all be getting home faster too."
+wreck-log-gen3-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 4
+wreck-log-gen4-header: "Captain {captname}'s Log"
+wreck-log-gen4-body: "[Final Entry] We are three weeks out of port, and {randcrewname} is the latest to get die. We've radioed home, but they don't seem eager to send help given how sick we are. I have developed a cough, and I fear it may not be long before I am unable to do my duty. May God watch over us in this trying time."
+wreck-log-gen4-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 5
+wreck-log-gen5-header: "Captain {captname}'s Log"
+wreck-log-gen5-body: "[Final Entry] ... the sensor echo we've had the last hour has turned out to be some kind of object, approximately 2m in length. We're going to bring it on board and see what it is. It may have salvage value."
+wreck-log-gen5-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 6
+wreck-log-gen6-header: "Captain {captname}'s Log"
+wreck-log-gen6-body: "[Final Entry] The distress signal turned out to be an escape pod from the {shipname2}. We're going to be docking with it soon, and bring the survivors on board. I've order the first officer to meet our guest with a sidearm, just incase. I'm sure it'll be fine, but my gut is still uneasy anytime something like this happens."
+wreck-log-gen6-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 7
+wreck-log-gen7-header: "Captain {captname}'s Log"
+wreck-log-gen7-body: "[Final Entry] I hate carrying passengers. We took this extra job sinec it pays so well, but didn't figure out it was prisoners until we were loading them onboard. Fingers crossed they don't make any trouble."
+wreck-log-gen7-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 8
+wreck-log-gen8-header: "Captain {captname}'s Log"
+wreck-log-gen8-body: "[Final Entry] The new crewman has been aggitating the rest for a week now. He keeps bringing up pay, and I've repeatedly told him to take it up with HQ, not me. He better not cause any problems, we're a long way from a brig."
+wreck-log-gen8-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 9
+wreck-log-gen9-header: "Captain {captname}'s Log"
+wreck-log-gen9-body: "[Final Entry] I can't believe I took this command. Little did I know the engineering crew was Kal'Giri, I never would have brought my men onboard had I known. There have been a number of fights in the mess, and I fear it may continue to get worse."
+wreck-log-gen9-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 10
+wreck-log-gen10-header: "Captain {captname}'s Log"
+wreck-log-gen10-body: "[Final Entry] ... I've seen this once before. It's called Space Madness. But I've never seen it spread before. I've had to lock two crewmembers in their cabins but I fear it is not enough. We're one week away from port, I just hope we can make it there before further problems develop."
+wreck-log-gen10-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 11
+wreck-log-gen11-header: "Captain {captname}'s Log"
+wreck-log-gen11-body: "[Final Entry] It is with deep sorrow I must log the death of Engineer {engname}. He was inspecting the plasma manifolds when the safety valve failed, and caused burns all over his body. I hope we can get this bucket of bolts home before any further mishaps afflict us."
+wreck-log-gen11-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 12
+wreck-log-gen12-header: "Captain {captname}'s Log"
+wreck-log-gen12-body: "[Final Entry] Where the hell was I? I should've seen the debris on sensors. But now I've done it. The engine manifold is clogged and I've got to go EVA to fix it. Here goes nothing."
+wreck-log-gen12-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 13
+wreck-log-gen13-header: "Captain {captname}'s Log"
+wreck-log-gen13-body: "[Final Entry] I've told {crewname} TIME and TIME AGAIN. DO NOT BUY parts from Azorian resellers. Now we're facing complete reactor failure because the supression field is fluctuating due to a bad reset valve. We're going to try to make due with just five and at half power. Maybe we'll get to port in time."
+wreck-log-gen13-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 14
+wreck-log-gen14-header: "Captain {captname}'s Log"
+wreck-log-gen14-body: "[Final Entry] It's been 20 days since we got stuck in this gravitional anomaly. We're low on fuel, food and are 12 days overdue. I can only hope they send someone to look for us before our oxygen runs out in three days. What was I thinking investigating the sensor echo? If we make it, this will still haunt my conscience."
+wreck-log-gen14-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 15
+wreck-log-gen15-header: "Captain {captname}'s Log"
+wreck-log-gen15-body: "[Final Entry] It's been two days since we were attacked by the energy sucking lifeform. I lack a better name for it, but whatever it is, it has caused our energy reserves to drop by 80%. I've sent out messages, but so far have received no replies."
+wreck-log-gen15-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#General 16
+wreck-log-gen16-header: "Captain {captname}'s Log"
+wreck-log-gen16-body: "[Final Entry] I'm sure of it. We've seen sensor blips for the last two days. Pirates have been haunting this area for a while now and I'm sure they're waiting for us to be offguard. We'll be ready though, come Hell or highwater."
+wreck-log-gen16-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+
+#Druminence 1
+wreck-log-drum1-header: "Captain's Log"
+wreck-log-drum1-body: "With a burst of static, the Druminence log flashes a number of unrecognizable characters before going silent. It seems unrecoverable."
+wreck-log-drum1-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"
+
+#Druminence 2
+wreck-log-drum2-header: "Captain's Log"
+wreck-log-drum2-body: "The Druminence log briefly displays a number of dates, of which the meaning can only be guessed at."
+wreck-log-drum2-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"
+
+#Druminence 3
+wreck-log-drum3-header: "Captain's Log"
+wreck-log-drum3-body: "Following a brief bout of vibration, the log mechanism goes permenantly silent."
+wreck-log-drum3-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"

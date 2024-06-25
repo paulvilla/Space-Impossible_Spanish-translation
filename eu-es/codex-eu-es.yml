@@ -1,0 +1,1322 @@
+codex-basics: "Basics"
+codex-basics-itempickup-title: "Item Pickup"
+codex-basics-itempickup-body: |
+ [h1]Picking Up Items[/h1]
+ [img]moddata://base/art/codex/itempickup.png[/img]
+ When tiles are destroyed from mining (or other causes) items will drop into space. To pick up these items, you must be within range and then hit {key-pickupitems}. This will transfer nearby items into your ship's $cargo$[url=codex://codex.components.cargobay]Cargo Bays[/url]. Items which cannot fit inside your ships cargo bays will be left lying in space. 
+ 
+ Item pickup range can be increased by certain [url=codex://codex.intermediate.enhancements]Enhancements[/url]
+ 
+ 
+codex-basics-inventory-title: "Inventory Basics"
+codex-basics-inventory-body: |
+ [h1]Inventory Basics[/h1]
+ [h2]Basics[/h2]
+ Any object or vessel which has atleast one $cargo$[url=codex://codex.components.cargobays]Cargo Bay[/url] will have an Inventory. Inventory is comprised of all $cargo$Cargo Bays on that vessel. The contents of each $cargo$Cargo Bay can be viewed separately by selecting it from the [00ff4e]top row[-]. Selecting a $cargo$Cargo Bay will display all the [dd3f3f]Cargo Slots[-]. A Cargo Slot can contain up to one stack of a single item.
+ 
+ [img]moddata://base/art/codex/cargodisplay.png[/img]
+ 
+ [h2]Moving Items[/h2]
+ To move items between Cargo Slots, hover over an item and press {key-mouse0}. This will pickup the full stack. To transfer the item stack from the cursor to a Cargo Slot, press {key-mouse0} while hovering over destination. Pressing {key-mouse1} while hovering over a Cargo Slot will transfer a single item from the stack to the slot. If items already exist in the Cargo Slot of the same type they will be added up to the maximum stack size for that item.
+ 
+ Items can be moved between slots:
+ [list]
+ [*]In the same Cargo Bay
+ [*]Into other Cargo Bays on the same vessel
+ [*]Into the cargo of the other currently inspected vessel. 
+ [/list]
+ Items can be directly added to a $cargo$Cargo Bay without switching to it by dragging and dropping an item stack over a cargo bay button.
+ 
+ [h3]Splitting[/h3]
+ Item stacks can be split in half by {key-mouse1} over the stack in an inventory. This will place half of the items from that stack onto the cursor.
+ 
+ [h3]Quick Actions[/h3]
+ Holding {key-leftshift} and pressing {key-mouse0} over an item stack will transfer it directly to the first available slot in the other vessel inventory. This means if the action is done on the inspected vessel's Inventory, it will transfer it to your vessel, and if performed on an item stack in your own Inventory, the transfer will be to the inspected vessel's Cargo Bays. Pressing {key-mouse1} while holding {key-leftshift} will do the same but with only a single item from the hovered stack.
+ 
+ [h3]Dropping in space[/h3]
+ Items on the cursor can be dropped into space under the cursor location with {key-mouse0}.
+ 
+ 
+codex-basics-paperdoll-title: "Paper doll/Inspection Basics"
+codex-basics-paperdoll-body: |
+ [h1]Inspection[/h1]
+ 
+ While hovering the cursor over a vessel, press and hold {key-actionprimary} to open its Inspection panel. This panel will show its name, Inventory, a number of vessel stats, actions and enable the [i]Paper Doll[/i] overlay. You can also inspect your currently controlled vessel with {key-toggleinventory}. Your vessel's Inspection panel is on the right, while the other vessel is on the left.
+ 
+ [h2]Paper Doll Overlay[/h2]
+ [img]moddata://base/art/codex/paperdoll.png[/img]
+ The Paper Doll overlay will appear on top of a vessel. This overlay shows the current [url=codex://codex.basics.components]Components[/url], [url=codex://codex.basics.mounts]Mounts[/url] and ranges for $weap$Weapons, $shield$Shields, $hangar$Hangars and $assembl$Assemblers. The most important feature of the overlay however is that it allows you to switch Components in and out of Mounts without the need of an $assembl$[url=codex://codex.components.assembler]Assembler[/url]. 
+ 
+ [h2]Equipping and Swapping Components[/h2]
+ 
+ [img]moddata://base/art/codex/inventorycodex1.png[/img]
+ 
+ [h3]Equipping[/h3]
+ To equip a component in a mount, first pickup the component with the cursor (e.g. out of Inventory). Then press and hold {key-mouse0} over the intended mount on the overlay. If the component fits (and you have correct Access) it will be slotted into the mount and now can be used.
+ 
+ [h3]Removing[/h3]
+ To remove a component from a mount, hover the cursor over the mount and press and hold {key-mouse0}. This will place the component on the cursor. The component can then be placed in Inventory or another mount or otherwise dealt with. Holding {key-leftshift} while pressing {key-mouse0} over the mount will transfer the component directly to your controlled ships cargo (if there is space).
+ 
+ [h3]Recovery[/h3]
+ [img]moddata://base/art/codex/recovery.png[/img]
+ On certain vessels where access is limited, or outside an $assembl$Assembler, the only way to retrieve components is with Recovery. Press and hold {key-mouse0} on the component where it can take up to take several seconds to process. There is a chance the component will be freed, or a chance the component is broken, and only item parts are the outcome.
+ 
+ [h3]Swapping[/h3]
+ Components can be directly swapped without first emptying the mount as long as the cursor only has a single component of the correct type, the component in the mount will be placed on the cursor.
+ 
+ [h3]Quick Equip[/h3]
+ Holding {key-leftctrl} and pressing {key-mouse0} over a component in any inventory will place it in the first valid empty mount on your currently controlled vessel. If no valid mounts are available it will remain in inventory.
+ 
+ [h2]Viewing Larger Vessels[/h2]
+ Once you are in control of a larger vessel it may become useful to be able to move your camera for a better view. With Inspection open and the Paper Doll overlay showing you can hold down {key-leftctrl} and drag the view around with {key-mouse0}, this can be particularly helpful if zoomed in and placing components. Releasing {key-leftctrl} will return the view to focus on the center of the vessel.
+ 
+ [h2]Controlling the Overlay[/h2]
+ Near the top of the relevant inventory there are several button toggles than can be used to control what is shown on the Paper Doll overlay.
+ 
+ [img]moddata://base/art/codex/astralcontrols.png[/img]
+ In order left to right:
+ [list]
+ [*]Center of Mass: Shows the mass center, mainly useful when building but can help to see why a ship feels off balance
+ [*]Center of Thrust: Shows the average center of thrust, if this is far out of line from the Center of Mass the ship will not fly straight
+ [*]Range Indicators: Toggles visibilty of weapon, shield etc ranges. Has 3 modes Off, Show all and Auto which will attempt to show only the relevant ranges.
+ [*]Power Overlay: Toggles visibility of the power overlay. Has 3 modes Off, Show always and Auto which will only show when hovering reactors.
+ [/list]
+codex-basics-mining-title: "Mining Basics"
+codex-basics-mining-body: |
+ [h1]Mining[/h1]
+ Asteroids are a primary source of raw materials. You can mine asteroids for these resources by flying within $weap$[url=codex://codex.components.weapons]Weapon[/url] range and pressing {key-actionsecondary} to target a tile.  Holding {key-actionsecondary} will allow weapons to aim directly at the cursor. 
+ [img]moddata://base/art/codex/mining.png[/img]
+ When a [url=codex://codex.basics.tile]Tile[/url] is destroyed it will drop a resource depending on its type, this can be rock, ice or more importantly ore and other useful materials used in [url=codex://codex.basics.manufacturing]Manufacturing[/url]. See [url=codex://codex.basics.itempickup]Item Pickup[/url] for details on how to transfer the items to your inventory.
+ [img]moddata://base/art/codex/resourceitems.png[/img]
+ Different areas and regions of the galaxy contain different type of resources. Travel to different locations and further out to different star systems to discover materials useful in more advanced recipes.
+codex-basics-manufacturing-title: "Manufacturing Basics"
+codex-basics-manufacturing-body: |
+ [h1]Manufacturing Basics[/h1]
+ [img]moddata://base/art/codex/manubutton.png[/img]
+ Press the Manufacturing button from your vessel or the inspected vessel's inventory to open the Manufacturing window. From this window you can use $lab$[url=codex://codex.components.labs]Fabricator[/url] to process resources and manufacture new [url=codex://codex.basics.components]Components[/url] and [url=codex://codex.basics.tiles]Tiles[/url].
+ 
+ The manufacturing window is split into four main sections in order top to bottom:
+ [list]
+ [*][00ff4e]Fabricator selection[-]
+ [*][0cdaff]Input and Output selection[-]
+ [*][dd3f3f]Recipe List for the Current Fabricator)[-]
+ [*][fffc00]Selected recipe Info[-]
+ [*][c000ff]Quantity selector[-]
+ [/list]
+ 
+ [img]moddata://base/art/codex/manuwindow.png[/img]
+ 
+ [h3]How to Craft Quick Guide[/h3]
+ To manufacture a recipe:
+ [list]
+ 1. Select the fabricator in the Fabricator Selection
+ 2. Set the desired input and output. 
+ 3. Select the recipe in the Recipe List
+ 4. Select quantity of output items
+ 5. Press [i]MANUFACTURE[/i] to begin the recipe
+ 6. Wait for the recipes to complete
+ 7. Manufactured items will be added to the inventory of the vessel selected via Output.
+ [/list]
+ 
+ [h2]Fabricator Selection[/h2]
+ [img]moddata://base/art/codex/lablist.png[/img]
+ From the top of the Manufacturing window you can select between the available Fabricators on that vessel with {key-mouse0}. If a fabricator requires money to use, it will show the green currency symbol [00ff33]Ⱡ[-]. If the fabricator has encountered a problem a [ff0000]$exclaim$[-] will show.
+ 
+ [h2]Fabricator In Progress[/h2]
+ Once a Fabricator has begun the inputted recipe, it will take a few moments (more if selected quantity is large), and lock input until the process is done.
+ 
+ [img]moddata://base/art/codex/activelab.png[/img]
+ 
+ [h3]Manufacturing Problems[/h3]
+ [list]
+ [*][ff0000]ERROR: NOT ENOUGH POWER[-]: The fabricator has lost power and cannot continue to craft. Add or change reactors to increase Power available to the fabricator for it to be able to manufacture.
+ [*][ff0000]ERROR: BROKEN MOUNT[-]: The fabricator has lost too many tiles underneath it. Add the missing tiles back with an $assembl$Assembler.
+ [/list]
+ NOTE: If the output available space is filled while the fabricator is in use, the manufactured items will overflow into space around the fabricator's vessel.
+ [h2]Recipe Selection[/h2]
+ When a fabricator is selected all recipes that can be manufactured in that fabricator will be displayed in the recipe selection list. 
+ 
+ [img]moddata://base/art/codex/recipelist.png[/img]
+ 
+ Pressing {key-mouse0} will select a recipe and display its information in the Recipe Info section at the bottom of the window. The selected recipe can be started using the [i]MANUFACTURE[/i] button, or you can also start a recipe by double clicking it.
+ 
+ The Recipe list can be filtered using the search box, or by using the yellow $manu$ button to filter only those recipes that can be crafted immediately with on-hand materials.
+ 
+ [h2]Recipe Info[/h2]
+ Selecting a recipe will shows its information at the bottom of the manufacturing window.
+ 
+ [img]moddata://base/art/codex/recipeinfo.png[/img]
+ 
+ The Selected Recipe display shows information on Input items required and Output items created by the recipe. This window can be used to hover over output (and input) items to get further details on what will be created. If there is a price required, it will be visible on the [i]MANUFACTURE[/i] button.
+codex-basics-systemview-title: "Warp (aka System View)"
+codex-basics-systemview-body: |
+ [h1]Warp[/h1]
+ [h2]Controls[/h2]
+ Traveling at warp allows you to travel within and between systems. You can move at warp using the keys {key-moveforward} {key-rotatecounterclockwise} {key-moveback} {key-rotateclockwise} or clicking (or holding) {key-mouse0} which will move the ship towards the cursor. 
+ 
+ Speed at warp is determined by a ships ╠ Warp Factor, a value based on the total combined Warp Rating of all $engine$[url=codex://codex.components.engines]Engines[/url] and the ships Mass. Current speed also adjusts depending on how far the cursor is from the ship when using mouse control. Move the cursor closer to the ship to slow down for tighter turns, etc.
+ 
+ [h2]Regions[/h2]
+ [img]moddata://base/art/codex/warpengage.png[/img]
+ Star Systems consist of visitable Asteroid Fields, Stations, Distress Calls and Fleets in addition to the nonvisitable background stars, planets and moons. These are all what are referred to as [i]Regions[/i] and can be entered by pressing {key-engage} when within range. Entering a region will drop your ship out of warp into a relative location within region.
+ 
+ [h2]Traveling to Other Systems[/h2]
+ [img]moddata://base/art/codex/sysedge.png[/img]
+ In order to find better resources and equipment you will eventually need to leave the first Star System. To travel to another system, you must be outside star's major gravity field, and use the "Leave System" option, or travel to the edge of the star system. You will then be able to pick the next system to visit.
+ 
+codex-basics-combat-title: "Combat Basics"
+codex-basics-combat-body: |
+ [h1]Combat Basics[/h1]
+ The universe is a not-so-friendly place which means at some point you may have to fight to stay alive. The basics of combat are similar to [url=codex://codex.basics.mining]Mining[/url]; you will want to target enemy tiles with {key-actionsecondary} and destroy them, however, there are strategies and effects depending on which [url=codex://codex.basics.tiles]Tiles[/url] you destroy and in what order.
+ 
+ [h2]Targeting Components[/h2]
+ To succeed at combat, you will need to prevent your opponent from using their [url=codex://codex.basics.components]Components[/url] against you. Destroying the tile(s) on which a component sits will destroy that component and any use it has for the enemy such as :
+ [list]
+ [*][b]$weap$ Weapons[/b]: Destroying a Weapon will prevent them from using it against you, opening a gap in their defenses.
+ [*][b]$engine$ Engines[/b]: Destroying an Engine will lower enemy mobility, allowing you to catch up or stop them from fleeing. It could throw off their center of thrust, creating difficulty in controlling the ship.
+ [*][b]$shield$ Shields[/b]: Destroying a Shield will prevent it from protecting vital components.
+ [*][b]$reactor$ Reactors[/b]: Destroying a Reactor will create a large explosion destroying nearby tiles. It will also remove any power the reactor generated, possibly leaving other components un-powered and disabled.
+ [*][b]$cargo$ Cargo Bays[/b]: Destroying a Cargo Bay will drop all its contents, if all you care about is loot this can be a quick way to grab it and get out.
+ [/list]
+ The most important component/mount for combat is the [b]$bridge$ Bridge[/b], once all bridges are destroyed the vessel will lose control and be considered as "killed", it can then be freely looted or treated as any other uncontrolled object.
+ 
+ If you desire a certain component an enemy has, think carefully when destroying component tiles as this has a high chance to destroy that component and drop component parts instead. It may be beneficial to try and split that piece away or destroy all the bridges instead.
+ 
+ [h2]Combat Scanner[/h2]
+ To quickly view the location of key components of an enemy hover over them and press {key-actionprimary} this will reveal all the vital component location in a radius around the cursor.
+ [img]moddata://base/art/codex/quickscan.png[/img]
+ 
+ [h2]Targetting Window[/h2]
+ Holding {key-leftshift} and pressing {key-actionprimary} on an enemy will open it in the targeting window.
+ [img]moddata://base/art/codex/targetwindow.png[/img]
+ The targeting window is useful when attacking fast moving enemies or enemies from a far as it allows you to fire at tiles the same as usual (pressing {key-actionsecondary}) but with a fixed view.
+ The further an enemy is from you however the lower the target lock quality and when this reaches zero the lock will be lost and the window will close.
+codex-basics-eva-title: "EVA"
+codex-basics-eva-body: |
+ [h1]EVA[/h1]
+ Pressing {key-enterexitvessel} will let you enter EVA allowing you to fly around in a space suit and do several activities.
+ [img]moddata://base/art/codex/eva1.png[/img]
+ 
+ [h2]Moving in EVA[/h2]
+ {key-suitmoveup} {key-suitmoveleft} {key-suitmovedown} {key-suitmoveright} will let you thrust up, left, down, and right respectively relative to the screen. Your EVA suit will always aim towards the cursor.
+ 
+ [h2]Life Support[/h2]
+ [img]moddata://base/art/codex/lifesupport.png[/img]
+ EVA suits have a limited oxygen supply shown by the blue bar over the action bar. Make sure to keep an eye on your oxygen supply as if it runs out you will be left dead, adrift in space.
+ 
+ [h2]EVA Abilities[/h2]
+ [h3]Switching Vessels[/h3]
+ One of EVAs main uses is in switching vessels. Once in EVA you can enter other vessels that aren't already being controlled and you have access to by moving close to them and pressing {key-enterexitvessel}.
+ 
+ [h3]Repairing[/h3]
+ [img]moddata://base/art/codex/evarepair1.png[/img]
+ EVA can be used to repair damaged tiles. To repair switch to the repair tool by selecting it in the action bar or pressing {key-hotbarslot2}.
+ [img]moddata://base/art/codex/evarepairicon.png[/img]
+ With the repair tool selected, aim at the tile that needs repair and hold {key-actionsecondary}.
+ 
+ [h3]Hacking Tools[/h3]
+ [img]moddata://base/art/codex/evahack1.png[/img]
+ While in EVA, it is possible to use the hacking tool to bypass lockouts and gain control of vessels that might otherwise be inaccessible (including those without $bridge$[url=codex://codex.components.bridges]Bridges[/url]). Note you may not get full access to the vessel (to change components, inventory etc) for this you will need to seek some outside assistance.
+ [img]moddata://base/art/codex/evahackicon.png[/img]
+ With the hacking tool selected, aim at a tile belonging to the vessel, and hold {key-actionsecondary}. Stay close to the vessel for the duration of the hack, and you will automatically take control when the action is complete. If the hacked object is missing a $bridge$[url=codex://codex.components.bridges]Bridges[/url] a new [url=codex://codex.basics.tiles]Tile[/url] with a Bridge will be added to the vessel.
+
+ 
+ [h3]Assembling New Vessels[/h3]
+ Create a new vessel from scratch while EVA by moving into range of an $assembl$[url=codex://codex.components.assemblers]Assembler[/url] and pressing the [b]START BUILDING[/b] button.
+ 
+codex-basics-hailing-title: "Hailing & Dialogue"
+codex-basics-hailing-body: |
+ [h1]Hailing & Dialogue[/h1]
+ [h2]Being Hailed[/h2]
+ Throughout your travels you will be hailed by friendly and not-so-friendly vessels.  When receiving a hail the Incoming Hails button will show on the UI and an arrow will appear on screen pointing to source of the hail.
+ 
+ [img]moddata://base/art/codex/hailui.png[/img]
+ 
+ To answer an incoming hail press this button or press {key-viewhail}. Note that important incoming hails will automatically popup. Any unanswered hails will be shown as a list when pressing the incoming hail button.
+ 
+ [h2]Hailing Others[/h2]
+ It can often be required to hail other vessels be it to instigate a trade, hand in an item for a [url=codex://codex.intermediate.sysproblems]Problem[/url] or just to tell them to get spaced. To hail another vessel either inspect it (by holding {key-actionprimary}) and press the hail button or hover over the vessel and press {key-hail}. 
+ 
+ [h2]Dialogue Tips[/h2][list]
+ [*]Pressing {key-leftshift} & the corresponding number key will respond with that reply option
+ [/list]
+codex-basics-navscanner-title: "Nav Scanner"
+codex-basics-navscanner-body: |
+ [h1]Nav Scanner[/h1]
+ 
+ The nav scanner appears in a ring around your ship as bars pointing away from your ship in various colors. The nav scanner has two main modes of operation, the always running active scanner and the activated ore scanner.
+ 
+ [img]moddata://base/art/codex/navscanner1.png[/img]
+ 
+ [h2]Active Scanner[/h2]
+ The active scanner appears as blue (and red) bars. These bars represent the scannable power signature of nearby vessels. The longer the bar, greater the signature. 
+ 
+ The signature of a vessel is determined by a combination of its [url=codex://codex.basics.tiles]Tiles[/url], [url=codex://codex.basics.components]Components[/url] and whether those components are currently active. Signature also decays over distance, so a large complex vessel further away can appear the same length as a smaller ship much closer.
+ 
+ When in at Warp, the active scanner will instead show regions instead of individual vessels or on objects.
+ 
+ [h3]Threat indicator[/h3]
+ Vessels that have actively targeted you will trigger an alert sound and appear as red bars on the scanner as long as you are still their target.
+ 
+ [h2]Ore Scanner[/h2]
+ Pressing {key-scan} or using the button near the action bar will trigger an ore scan, this scan appears as momentary orange bars representing the passive signature of nearby objects, ore tiles have the greatest passive signature. This can be useful in finding man-made objects hidden inside debris or asteroid clusters, as well as finding the juiciest mining targets.
+ 
+codex-basics-tiles-title: "Tiles"
+codex-basics-tiles-body: |
+ [h1]Tiles[/h1]
+ [img]moddata://base/art/codex/tiles.png[/img]
+ Tiles are the building blocks of everything in the universe. There are many types of tiles from simple Rock, vital Ores to man-made Hulls each of which having their own properties and uses.
+ 
+ [h2]Health[/h2]
+ Every tile has a health value: how much damage it can sustain before it is destroyed.
+ 
+ [h2]Type[/h2]
+ Tiles fall under two main types :
+ [list]
+ [*]Mining - includes rock, ore and generally "natural" Tiles
+ [*]Combat - includes all Hulls, Glass and most man-made Tiles
+ [/list]
+ These types determine how much damage certain weapons will do to them. A Mining Laser for example does much more damage to a Rock tile than a Hull tile, whereas a Salvage Beam does the opposite. These damage stats are shown on each $weap$[url=codex://codex.components.weapons]Weapons[/url] tooltip.
+ 
+ [h2]Loot[/h2]
+ When a tile's health reaches zero (0) it may drop an item (or several) depending on the Tile type and the properties of the weapon that did the killing damage. For example a Rock Tile will drop Rock if destroyed by a regular Particle Cannon, two (2) Rock if destroyed by a Mining Laser (as it has 2x Loot Multiplier) but zero (0) Rock if destroyed by a Salvage Beam.
+ 
+ [h2]Mass[/h2]
+ All tiles have different amounts of mass. This tile mass will be added to the total mass of the object to which it belongs. The more massive an object is the harder it is to push or move with Engines therefore it becomes very important to choose wisely when picking Tiles to build with.
+ 
+ [h2]Innate Power[/h2]
+ There are Tiles known to possess rare innate power properties. These tiles provide some power without the need for a $reactor$[url=codex://codex.components.reactors]Reactor[/url].
+codex-basics-mounts-title: "Mounts"
+codex-basics-mounts-body: |
+ [h1]Mounts[/h1]
+ [img]moddata://base/art/codex/mounts.png[/img]
+ Mounts are placed on [url=codex://codex.basics.tiles]Tiles[/url] and allow slotting of [url=codex://codex.basics.components]Components[/url]. Mounts by themselves do not provide any functionality but there placement can be crucial. Mounts can only be placed during construction.
+ 
+ [h2]Component Compatability[/h2]
+ Only certain components can fit in certain mounts, this is shown on the individual component tooltips but follows the general rule of Component Type and Size. e.g a Large Weapon fits in a Large Weapon mount.
+ 
+ [h2]Sizes[/h2]
+ Mounts come in a variety of sizes which cover different areas of tiles:
+ [img]moddata://base/art/codex/mountsizes.png[/img]
+ [list]
+ [*]Small: 1 Tile
+ [*]Medium: 2 x 2 Tiles
+ [*]Large: 3 x 3 Tiles
+ [*]Gigantic: 4 x 4 Tiles
+ [/list]
+ Larger sized mounts tend to fit better components but not always.
+ 
+ [h2]Power[/h2]
+ [url=codex://codex.intermediate.power]Power[/url] provided by a mount to its component is the [b]Sum of the power of all its tiles[/b]
+ [img]moddata://base/art/codex/mountpower.png[/img]
+ 
+ [h2]Broken Mounts[/h2]
+ Mounts which cover more than one Tile such as a Large Mount can become [i]Broken[/i] once any of the Tiles it lies on are destroyed. 
+ [img]moddata://base/art/codex/brokemount.png[/img]
+ A Broken mount will have a variety of negative effects on its component and if more than 50% of the mounts Tiles are destroyed it will drop the slotted component into space. 
+ 
+ Some of the effects of a broken mount include:
+ [list]
+ [*]Engines will run at increasingly lower thrust the more a mount is broken
+ [*]Weapons will no longer function
+ [*]Shields will collapse and no longer function
+ [*]Fabricators and Assemblers will stop functioning
+ [*]Cargo bays will drop items
+ [*]Hangared vessels in Hangars may become damaged
+ [*]Reactors will explode
+ [/list]
+ More details on what happens to components that are in broken mounts can be found on their individual codex pages.
+codex-basics-components-title: "Components"
+codex-basics-components-body: |
+ [h1]Components[/h1]
+ [img]moddata://base/art/codex/components.png[/img]
+ Components slot into [url=codex://codex.basics.mounts]Mounts[/url] and provide all the functionality of a vessel.
+ 
+ [h2]Mass[/h2]
+ Components can increase an objects Mass when slotted, keep this in mind when choosing components. A large powerful weapon might seem good but it may make your ship more difficult to maneuver.
+ 
+ [h2]Power Requirements[/h2]
+ Most components require [url=codex://codex.intermediate.power]Power[/url] to function. A component gets its power from the mount it is slotted into. If a component is lacking the required power it will have limited function and may not work at all.
+ 
+ [h2]Destruction and Loot[/h2]
+ Components that are in a Mount when it is destroyed have a small chance to drop however most of the time they will be destroyed and only Parts will drop. Exception: Player controlled vessels will drop components 100% in Player Versus Player battles.
+ 
+ [h2]Functionality[/h2]
+ Component functionality is detailed on there individual pages:
+ [list]
+ [*]$assembl$ [url=codex://codex.components.assemblers]Assemblers[/url]
+ [*]$bridge$ [url=codex://codex.components.bridges]Bridges[/url]
+ [*]$cargo$ [url=codex://codex.components.cargobays]Cargo Bays[/url]
+ [*]$engine$ [url=codex://codex.components.engines]Engines[/url]
+ [*]$hangar$ [url=codex://codex.components.hangars]Hangars[/url]
+ [*]$lab$ [url=codex://codex.components.labs]Fabricators[/url]
+ [*]$reactor$ [url=codex://codex.components.reactors]Reactors[/url]
+ [*]$shield$ [url=codex://codex.components.shields]Shields[/url]
+ [*]$weap$ [url=codex://codex.components.weapons]Weapons[/url]
+ [/list]
+ 
+codex-intermediate: "Intermediate"
+codex-intermediate-inventory-title: "Advanced Inventory"
+codex-intermediate-inventory-body: |
+ [h1]Inventory Advanced[/h1]
+ 
+ [h2]Transfer[/h2]
+ [img]moddata://base/art/codex/ico_transfer.png[/img]
+ All items from an entire inventory can be transferred to the 'other' open inventory by pressing the transfer button. The same is true for all the items of a single Cargo Bay. When attempting to transfer all items, but the destination is not large enough, only items that will fit will transfer, while the rest will not be moved.
+ 
+ [h2]Sorting[/h2]
+ [img]moddata://base/art/codex/ico_sort.png[/img]
+ Inventories can be sorted. This works on individual Cargo Bays as well as the whole inventory. Pick the desired method from the drop-down menu for the sort type you desire. Sorting can also be used to stack together the same items into the minimal number of stacks by picking the [i]Stack[/i] option.
+ 
+ [h2]Filtering/Search[/h2]
+ Inventory can be filtered to show items that match entered search terms.
+ [img]moddata://base/art/codex/filterinv.png[/img]
+ Enter search term into the [00ff06]search box[-]. When filtered the cargo bay slot display will change into a [ffd220]filtered set of [i]Results[/i][-] from all cargo bays showing all matching items.
+ 
+ Filtered items can be handled as normal just be aware as the items shown can exceed their max stack count taking an item which does this will only put up to a max stacks worth onto the cursor. 
+ 
+ Items can NOT be placed into an inventory that is currently filtered. 
+ 
+ To clear the active filter press the X in the search bar or select a cargo bay to view.
+codex-intermediate-discovery-title: "Discovery"
+codex-intermediate-discovery-body: |
+ [h1]Discovery[/h1]
+ As you traverse the universe you will discover more about it. Traveling around Star Systems while at Warp will discover regions. The regions will be revealed when within the scanner range.
+ 
+ [img]moddata://base/art/codex/sysscanrange.png[/img]
+ 
+ System scanner range can be increased with [url=codex://codex.intermediate.enhancements]Enhancements[/url].
+ 
+ Discovery information can also be obtained by talking to certain traders or doing certain tasks.
+ 
+ [h2]Discovery States[/h2]
+ Various information about regions can be revealed separately but it can be generally separated into three main states: Unknown, Scanned, Visited.
+ 
+ [h3]Unknown[/h3]
+ An unknown region is a region that you have not yet discovered. It will appear either as a [b]?[/b] icon or sometimes not at all.
+ 
+ [img]moddata://base/art/codex/unknownplanet.png[/img]
+ 
+ [h3]Scanned[/h3]
+ A region that has entered your scanner range will become [i]Scanned[/i] revealing its name and type.
+ 
+ [h3]Visited[/h3]
+ A region that you have previously entered will be marked as [i]Visited[/i]. A visited region will display its name and type along with a number of icons, detailing what is known of that region, such as faction owner, or trader presence.
+ 
+ [img]moddata://base/art/codex/sysregiondisc.png[/img]
+ 
+ The first icon will be that of the faction the others can be one or more of the following:
+ [list]
+ [*][63FC93]Ⱡ[-] - Region has at least one Trader
+ [*][00C38B]🏠[-] - Region is your home
+ [*][CA9F00]$build$[-] - Region has vessel(s) with assemblers
+ [*][B32872]$manu$[-] - Region has vessel(s) with manufacturing capabilities
+ [*][BC003A]$battle$[-] - Region has an ongoing battle
+ [*][FF154A]$boss$[-] - Region contains a dangerous encounter
+ [/list]
+codex-intermediate-factions-title: "Factions"
+codex-intermediate-factions-body: |
+ [h1]Factions[/h1]
+ [img]moddata://base/art/codex/factions.png[/img]
+ 
+ The universe is filled with many Factions vying for power or or simply trying to survive. Where you stand with each of these Factions can greatly affect your survival in the brutal darkness of space.
+ 
+ Every faction has an opinion of you, this in known as your [i]Faction Standing[/i] and can be seen on the Faction List panel {key-togglefactions} along with other helpful information. Only major factions will be visible in the panel.
+ 
+ [img]moddata://base/art/codex/facentry.png[/img]
+ 
+ There are 5 standings, ranging from the lowest, Hated, and at the highest Ally. In the middle is Neutral. Individual factions will behave differently at each level with some being more generous at more neutral standings than others. Each faction standing has incremental changes that will alter elements like price modifications.
+ 
+ [h2]Gaining Standing[/h2]
+ Faction opinion can be increased by helping complete [url=codex://codex.intermediate.sysproblems]System Problems[/url], be wary however as many problems can negatively affect your opinion with other factions. e.g. Destroying a pirate base for the Ticeroy will get you in their good books but the pirates wont be too happy. Answering Distress Calls are also an opportunity to gain (or lose) faction.
+ 
+ When a Faction standing is high enough, besides helping you in battle, many Factions will allow you to use their facilities such as construction yards, cheaper repair costs or better buying and selling price modifications. Some factions may even allow you to  access inventories for free without repercussions. Some other bonuses include:
+ [list]
+ [*]Free access to uncontrolled ships
+ [*]Access to hangar bays
+ [/list]
+ [h2]Losing Faction[/h2]
+ Faction opinion is lost when completing certain Missions, however, it also decreases when you do the following in increasingly worse order:
+ [list]
+ [*]Destroying Tiles on a faction owned vessel
+ [*]Destroying Bridges on a faction owned vessel
+ [*]Completely destroying Trader vessel of a faction
+ [*]Stealing inventory from a faction owned vessel or storage container
+ [/list]
+ Having a low standing with a faction will make them hostile towards chasing you and attacking you on-site as well as locking off access to trading and other facilities.
+codex-intermediate-tractoring-title: "Tractoring"
+codex-intermediate-tractoring-body: |
+ [h1]Tractoring[/h1]
+ The Tractor is a special type of weapon that allows you to attach to another vessel and pull it along with you. To be able to tractor, a Tractor Beam must be slotted into a Weapon Mount, and then a new button will appear on the action bar.
+ [img]moddata://base/art/codex/tractortoggle.png[/img]
+ Pressing the Tractor Toggle button or {key-toggletractors} will enable/disable all equipped tractor beams
+ 
+ [h2]Attaching[/h2]
+ To attach a tractor beam either fire it as a regular weapon or aim the cursor towards the target vessel and press {key-toggletractorbeam}. 
+ 
+ Tractor beams have a mass limit. Every slotted tractor will contribute to the total mass limit, as only one target may be tractored at a time. For example, if there are two tractor beams slotted, each with an individual mass limit of 10, the total mass limit will be 20.
+ 
+ [img]moddata://base/art/codex/tractoring.png[/img]
+ 
+ Attaching to a vessel will link it to yours at a fixed distance, this vessel will then follow your around at will. Attached vessels can also be taken into warp and into other regions and system.
+ 
+ Note however that Tractors will detach automatically if :
+ [list]
+ [*]Another vessel moves between your vessel and the tractored vessel
+ [*]Your vessels tractors lose power or are destroyed
+ [*]Your vessels tractor beams are removed
+ [/list]
+ [h2]Detaching[/h2]
+ To detach an active Tractor press {key-toggletractorbeam}.
+ 
+codex-intermediate-weapgroups-title: "Weapon Groups"
+codex-intermediate-weapgroups-body: |
+ [h1]Weapon Groups[/h1]
+ Too many weapons all firing at once? Want more strategic control over what weapons fire when? Weapon grouping is the answer.
+ 
+ [h2]What are Weapon Groups[/h2]
+ Weapon grouping allows you to toggle specific weapons on and off using the action bar or the keys associated with it. Each weapon group is shown as a slot on the action bar and can control many weapons.
+ [img]moddata://base/art/codex/ctrlgroups1.png[/img]
+ 
+ [h2]Editing / Creating a Group[/h2]
+ To edit a weapon group click the "Toggle Edit Weapon Groups" button.
+ [img]moddata://base/art/codex/ctrlgroups-toggle1.png[/img]
+ Once active, select any weapon slot number on the action bar to make that the selected weapon group.
+ [img]moddata://base/art/codex/flashgrps.png[/img]
+ In edit mode any weapons belonging to that group will flash with a blue highlight
+ [img]moddata://base/art/codex/ctrlgroups2.png[/img]
+ 
+ To ADD a weapon to the group hover over its mount and press {key-mouse0}
+ To REMOVE a weapon from the group hover over its mount press {key-mouse1}
+ 
+ To finish editing a weapon group, press ESC button or, press {key-mouse0} on the "Toggle Edit Weapon Groups" button.
+codex-intermediate-trading-title: "Trade Basics"
+codex-intermediate-trading-body: |
+ [h1]Trading[/h1]
+ There are many captains across the universe willing to engage in one of the oldest pursuits: Trade. To begin trading with someone, [url=codex://codex.basics.hailing]Hail[/url] their vessel and pick the trading response. Most large Cargo Ships will be willing to trade there goods if you have enough [url=codex://codex.intermediate.factions]Faction[/url], but beware, if a captain may not want to trade there may not be a trading response.
+ 
+ [h2]Trade Window[/h2]
+ Starting a trade will open both the Trader's vessel and your inventory. At the top, your and your trading partner's Space Bucks count is displayed. You cannot purchase more that you have the currency for and cannot sell to the Trader more than they have.
+ 
+ [img]moddata://base/art/codex/trade1.png[/img]
+ 
+ NOTE: Trading inventories behave exactly like regular inventory in that you can browse multiple cargo bays [b]however[/b] items can NOT be moved.
+ 
+ [h2]Buying[/h2]
+ [img]moddata://base/art/codex/butslot.png[/img]
+ To purchase an item from the trader hover over the item you want and press {key-mouse0} this will popup the trade window:
+ 
+ [img]moddata://base/art/codex/tradepopup.png[/img]
+ 
+ From the trade popup you can select how many items you wish to purchase with the slider or + and - buttons. The quantity, cost per item and how the price relates to GSP (Galactic Standard Price) are shown underneath.
+ 
+ To purchase the items press the [i]BUY[/i] button, the cost is shown as [i]Total[/i]. If you cannot afford the items the Trader will let you know.
+ 
+ [h3]Quick Purchase[/h3]
+ 
+ Items can be purchased in a quicker manner by hovering over the desired item holding {key-leftshift} and pressing {key-mouse0} to purchase the full stack or {key-mouse1} to purchase a single item. 
+ 
+ Per item purchase price is shown on the tooltip as below with the % being the prices relation to GSP:
+ 
+ [00ff33]BUY FOR: Ⱡ100([808080]■0 %[-])[-][-]
+ 
+ [h2]Selling[/h2]
+ [img]moddata://base/art/codex/sellslot.png[/img]
+ To sell an item to the trader hover over an item in your inventory and press {key-mouse0} this will popup the trade window, this is identical to the buy window and lets you choose the exact number of items you wish to sell.
+ 
+ To sell the items press the [i]SELL[/i] button, the amount you will receive is shown as [i]Total[/i]. If the Trader the sale will be cancelled and they will let you know.
+ 
+ [h3]Quick Sell[/h3]
+ 
+ Items can be sold in a quicker manner by hovering over the desired item holding {key-leftshift} and pressing {key-mouse0} to purchase the full stack or {key-mouse1} to sell a single item. 
+ 
+ Per item sale price is shown on the tooltip as below with the % being the prices relation to GSP:
+ 
+ [00ff33]SELL FOR: Ⱡ100([808080]■0 %[-])[-][-]
+ 
+ [h2]Restrictions[/h2]
+ Increased standing with the Traders [url=codex://codex.intermediate.factions]Faction[/url] may be required in order to either buy or sell certain items. If an item is restricted it will show a red overlay when hovered and display the required standing on the tooltip.
+ 
+ [h2]Faction Impact[/h2]
+ Your standing with the faction of a trader will affect the price they will buy or sell the item for. Some traders have items they will only sell to individuals of a certain faction standing.
+ 
+ [h2]Trader Refresh[/h2]
+ Traders refresh their stock and Space Bucks every 20 minutes, simply ask the Trader and they will inform you of the time remaining before they will restock.
+ 
+codex-intermediate-transit-travel-title: "Jumpgate Travel"
+codex-intermediate-transit-travel-body: |
+ [h1]Jumpgates[/h1]
+ Jumpgates can be found throughout the universe. These gateways allow travel across vast distances allowing those who enter to transit many systems away.
+ 
+ [img]moddata://base/art/codex/jumpgate.png[/img]
+ 
+ [h2]Traveling[/h2]
+ To utilize a Jumpgate a vessel must be within its aperture (this is a circular area with extreme visual distortion). Once a vessel is within the aperture, the [i]ENTER JUMPGATE[/i] button will display above the action bar.
+ 
+ [img]moddata://base/art/codex/enterwormholebtn.png[/img]
+ 
+ Pressing the [i]ENTER JUMPGATE[/i] button will open up the universe map allowing you to pick your destination system.
+ 
+ [img]moddata://base/art/codex/transit-pick.png[/img]
+ 
+ A valid destination system is either:
+ [list]
+ [*]A system with a gate you have previously [b]visited[/b]
+ [*]A system connected to a gate you have visited and is [b]unlocked[/b]
+ [/list]
+ 
+ Once a destination has been picked your vessel will begin spooling up its engines for transit. The spool up progress is shown as a bar on the button and can be cancelled at any time before it is complete by pressing the button once again. Spool up will be forcefully cancelled if any of the following occur:
+ [list]
+ [*]Vessel takes any tile damage
+ [*]Vessel begins a different warp spool up
+ [*]Vessel leaves the wormhole/jumpgate aperture
+ [/list]
+ As soon as spool up is complete the vessel will transit through the wormhole/jumpgate and after a short period of time exit at the other end.
+ 
+ [h2]Locked/Inactive Gates[/h2]
+ You may come across jumpgates that are inactive or locked. These can be activated by addressing the problem the gate has, often in the form of missing materials. The Jumpgate can be hailed to discover what these are.
+ 
+codex-intermediate-beacons-title: "Beacons"
+codex-intermediate-beacons-body: |
+ [h1]Beacons[/h1]
+ Beacons are usable items that can be placed in space to mark points of interest for later return or for other players to see. With a beacon item on the cursor and the cursor hovering over empty space, press {key-mouse1}. This will place the beacon under your current vessel. Beacons can be placed from inventory while in a region or while at warp.
+ 
+ [img]moddata://base/art/codex/usebeacon.png[/img]
+ 
+ [h2]Beacons Panel[/h2]
+ Viewing, editing and removal of beacons can be done through the Beacons Panel ({key-togglebeacons}). The top part of the beacons panel shows Nearby Beacons--any beacons within the current Star System that were either placed by you or public beacons of other players & factions. The bottom of the beacons panel shows your Beacon Library, a list of all beacons placed or bookmarked by you throughout the universe.
+ 
+ Each beacon listing has
+ [list]
+ 1. Toggle to turn on or off display of the navigation arrow for that beacon
+ 2. Beacon's text
+ 3. Beacon's location
+ 4. Visibility of that beacon to others. Private meaning only you can see it, Public meaning anyone nearby can see it.
+ 5. 
+ [/list] a. If a beacon is yours an Edit button (see below on editing)
+  b. If a beacon is NOT yours a bookmark toggle allowing you to track/un-track this beacon
+ 
+ [img]moddata://base/art/codex/beaconentry.png[/img]
+ 
+ [h3]Editing A Beacon[/h3]
+ If a beacon was placed by you you can edit this beacon by pressing the Edit Toggle, this will expand the listing allowing you to edit the name, icon, visibility etc. of the beacon. To save edits, press the Edit Toggle. To permanently delete this beacons press the Trash Button.
+ 
+ [img]moddata://base/art/codex/beaconedit.png[/img]
+
+codex-intermediate-sysconflict-title: "Star System Conflicts"
+codex-intermediate-sysconflict-body: |
+ [h1]System Conflict[/h1]
+ On your travels throughout the universe you may encounter systems in the midst of conflict. With enough hard work you can offset the balance and either help conquer or defend a system from attackers.
+ 
+ [img]moddata://base/art/codex/sysconflictstart.png[/img]
+ 
+ [h2]Resolving a Conflict[/h2]
+ Once a conflict has begun the system will begin to change with battles breaking out and attackers raiding nearby stations.
+ Assisting one of the two warring factions will push them ever closer to success, this balance of power can be seen from the system view as two opposing bars.
+ 
+ [img]moddata://base/art/codex/sys-inconflict.png[/img]
+ 
+ The first faction to fill their conflict progress bar is deemed the victor.
+ 
+ There are several ways to assist with a conflict:
+ [list]
+ [*]Destroying enemy ships
+ [*]Clearing battle regions of all enemies
+ [*]Assisting with allies in distress calls
+ [/list]
+ 
+ [h2]Recovery[/h2]
+ After the dust has settled whomever won the conflict will now control the system and recovery will begin. During recovery regions will begin transforming either into the new system owners regions or recovering to their previous states. The winning faction will also offer improved trade deals and several new traders can be found flying about the system. A new conflict cannot re-occur during the recovery period.
+
+codex-intermediate-enhancements-title: "Enhancements"
+codex-intermediate-enhancements-body: |
+ [h1]Enhancements[/h1]
+ [img]moddata://base/art/codex/enhancedicon.png[/img]
+ Enhancements are a set of effects that give bonuses, penalties and/or additional features to a whole vessel. When an enhancement is applied (usually by equipping a Bridge) it will apply several effects.
+ 
+ All active Enhancements applied to a vessel can be viewed in its Enhancements Panel accessed by pressing the Enhancement button next to the relevant inventory
+ 
+ [img]moddata://base/art/codex/enhancebutton.png[/img]
+ 
+ This window shows all active enhancements and each entry can be individually hovered for additional information on the various effects it is applying.
+ 
+ [img]moddata://base/art/codex/enhancementswindow.png[/img]
+ 
+ [h2]Stacking Enhancements[/h2]
+ Enhancements of the exact same type do not stack and only one can be in effect at once. For example, if you have two bridges with Weapon Overdrive Mk 1 only one of those will have any effect, however if you have a Weapon Overdrive Mk 1 and a Weapon Overdrive Mk 2 both will apply.
+ 
+ [h2]Enhancement Effects[/h2]
+ [h3]Component & Other Buff / Debuff Effects[/h3]
+ Component modifying effects apply bonus and penalties to all components of that type, across the entire vessel. These modifications can be a fixed value or a percentage change both negative or positive. 
+ 
+ Example: [i]Engine Overdrive Mk 1[/i] gives the following Effects to ALL Engines:
+ [list]
+ [*]Power Required +10% [Percentage]
+ [*]Scanner Signature +10 [Fixed]
+ [*]Thrust +10% [Percentage]
+ [*]Warp Rating +2% [Percentage]
+ [/list]
+ A [b]FIXED[/b] modifier will add or subtract that fixed value from each component's properties. [i]E.g. Engine with a scanner signature of 200 and a fixed signature modifier of +10 will equal  210 signature.[/i]
+ A [b]PERCENTAGE[/b] modifier will change a components property relative to its base. [i]E.g. Engine with a thrust of 10 and a percentage Thrust modifier of +10% will equal 11 thrust.[/i]
+ 
+ Modified component properties are highlighted on a components tooltip with the enhancement icon and are colored purple:
+ 
+ [img]moddata://base/art/codex/enh-engtooltip.png[/img]
+ 
+ [h3]Cloak[/h3]
+ Cloak is an Enhancement effect that allows a vessel to become near undetectable by others. When equipped a Cloak toggle button will show next to the action bar:
+ 
+ [img]moddata://base/art/codex/cloakbutton.png[/img]
+ 
+ Pressing the cloak toggle or {key-togglecloak} will enable/disable it. Be careful however as the cloak does not 100%, fully mask a vessel and if you get too close others will detect you.
+ 
+ Cloaking has some limitations and will be disabled and will be revealed if any of the following occurs:
+ [list]
+ [*]Any tile takes damage
+ [*]Any weapon is fired
+ [*]Vessel begins to spool up for Warp
+ [/list]
+ 
+ [h3]Transporters[/h3]
+ Transporters are an Enhancement effect that change how you enter and exit via EVA. With a Transporter effect active pressing {key-enterexitvessel} will exit you from a vessel BUT will exit you at the current cursor location and not next to the ship, allowing quick evac or distant EVA activities.
+ 
+ [img]moddata://base/art/codex/transport-distance.png[/img]
+ 
+ Vessels with an active Transporter effect can also be entered from great distances instead of only while very close.
+ 
+ [h2]Temporary Enhancements[/h2]
+ Some enhancements are temporary and will only be active for the length of the duration. These are often available following a conflict or a system problem and may be quite powerful.
+codex-intermediate-power-title: "Power"
+codex-intermediate-power-body: |
+ [h1]Power[/h1]
+ [img]moddata://base/art/codex/powericon.png[/img]
+ Power♦ is created by reactors and is required to operate nearly all [url=codex://codex.basics.components]Components[/url].
+ 
+ [h2]Providing Power[/h2]
+ All Tiles on a vessel have a Power value, this is the power either being supplied by nearby reactors or any innate power that a tile type provides. Power distribution in a vessel can be seen when placing reactors or the overlay is manually toggled on/off.
+ 
+ [img]moddata://base/art/codex/power1.png[/img]
+ 
+ In the above image the Matter Reactor provides power to the surrounding tiles in a circle, with the brighter tiles having more power supplied. 
+ Not all Reactors provide power in the same pattern, for example the [i]Belted Fission[/i] series provides a strip of power (as seen below).
+ 
+ [img]moddata://base/art/codex/powerpattern2-unrot.png[/img]
+ 
+ Reactors can be rotated, and will affect the power pattern. If we rotate the Belted Fission 90 degrees the Power provided changes.
+ 
+ [img]moddata://base/art/codex/powerpattern2_rot.png[/img]
+ 
+ Placing multiple overlapping reactors will SUM the power between them where the tiles overlap giving increased power to those tiles.
+ 
+ [img]moddata://base/art/codex/power2.png[/img]
+ 
+ [h2]Component Power[/h2]
+ The power provided to components is however much power is available to the tiles it sits on. As long as the available power exceeds the components Power Required it will be powered and function normally.
+ 
+ [img]moddata://base/art/codex/singlecomppower.png[/img]
+ 
+ The Power that is provided to Components that sit over multiple tiles is the SUM of the power of all those tiles.
+ 
+ [img]moddata://base/art/codex/mountpower.png[/img]
+ 
+ If a component does not have the power required it will show a lightning bolt ([ff0000]♦[-]). The effects of Low Power can be seen on each individual components codex page.
+ 
+ [img]moddata://base/art/codex/notenoughpowerweap.png[/img]
+ 
+ [h2]Power Drain[/h2]
+ Some weapons, such as Magnetronic weaponry, can cause power drain, this will deplete power from Tiles and can even cause it to go negative. 
+ 
+ [img]moddata://base/art/codex/powerdrain-norm.png[/img]
+ 
+ Negative power is shown as white on the power overlay.
+ 
+ [img]moddata://base/art/codex/powerdrain.png[/img]
+ 
+ Power drain can be a great tactical tool as it will render certain components nonfunctional for a short period of time. One way to counter power drain weaponry is to have excess Power available allowing your vessel to take some drain and still allow components to function.
+ 
+ [h2]Power Overlay[/h2]
+ The power overlay can be seen when placing reactors during construction. It can also be seen on the [url=codex://codex.basics.paperdoll]Paper Doll[/url]. Visibility of the power overlay can also be toggled using the relevant buttons and can be set to three states:
+ 
+ [img]moddata://base/art/codex/powertogglestates.png[/img]
+ [list]
+ [*]Automatic: Only shows when editing reactors or mounts
+ [*]On: Shows always as long as the Paper Doll overlay is visible
+ [*]Off: Never shows even when editing reactors[/list]
+codex-intermediate-docking-title: "Docking"
+codex-intermediate-docking-body: |
+ [h1]Docking[/h1]
+ Vessels can be docked and undocked from $hangar$ [url=codex://codex.components.hangars]Hangars[/url] allowing larger vessels to carry lighter, smaller craft.
+ 
+ [h2]How to Dock[/h2]
+ To dock a vessel fly within range of a Hangar:
+ 
+ [img]moddata://base/art/codex/hangarrange.png[/img]
+ 
+ When within range of a Hangar press the [i]START DOCKING[/i] button which will appear above the action bar. Alternatively you can press the Dock button next to an inspected vessels inventory.
+ 
+ [img]moddata://base/art/codex/dockingbutton.png[/img]
+ 
+ [h3]Picking a Hangar[/h3]
+ When the [i]START DOCKING[/i] button is pressed the UI will be hidden and any Hangars within range will be highlighted.
+ 
+ [img]moddata://base/art/codex/hangarpicker.png[/img]
+ 
+ Selecting a Hangar that has a green button will begin docking. If the button is not green this Hangar can not be docked with and a reason will be shown next to it.
+ 
+ [h3]Positioning[/h3]
+ Once docking has begun the Hangar floor will be shown and a representation of the docking vessel will appear above it.
+ 
+ The docking vessel can be moved around the hangar simply by moving the cursor. The docking vessel will always center on the cursor.
+ 
+ [img]moddata://base/art/codex/dock1.png[/img]
+ 
+ The vessel being docked can be rotated in 90 degree increments by pressing {key-r}(clockwise) or holding {key-leftshift} and {key-r}(counter clockwise). Holding {key-mouse0} and dragging in a cardinal direction will point the docking vessel in the direction.
+ 
+ [img]moddata://base/art/codex/dock2.png[/img]
+ 
+ [h3]Placment[/h3]
+ Move the vessel around the hangar floor until it is in a valid position. A vessel is not in a valid position if:
+ [list]
+ [*]Any vessel tiles are outside of the hangar floor.
+ [*]Any vessel tiles overlap blocked parts of a hangar floor. These are shown in black.
+ [*]Any vessel tiles overlap other docked vessels.
+ [/list]
+ A red border will show around the docking vessel if it is in an invalid spot with the tiles of issue being shown with a red hashed overlay.
+ 
+ If in a valid position, the docking vessel it will be highlighted with a green border and can be placed down by pressing {key-mouse0}.
+ 
+ [img]moddata://base/art/codex/dock3.png[/img]
+ 
+ Once placed the vessel can be repositioned by pressing {key-mouse0} or the [i]RE-POSITION[/i] button. Once you are happy with the placement docking can be completed by pressing the [i]CONFIRM DOCKING POSITION[/i] button.
+ 
+ [img]moddata://base/art/codex/dock4-btns.png[/img]
+ 
+ If [i]AUTOMATICALLY ENTER PARENT VESSEL[/i] checkbox is shown and checked upon confirming docking you will take control of the vessel that is being docked with.
+ 
+ [h2]How to Undock[/h2]
+ To undock a vessel from an existing Hangar, first inspect the parent Vessel (hold {key-mouse0). Then press the browse hangars button located to the side of the inventory:
+ [img]moddata://base/art/codex/undockbtn.png[/img]
+ When the browse button is pressed the UI will be hidden and any Hangars on that vessel will be highlighted. Pressing a hangar button will open up the hangar floor for that hangar and show all vessels docked within.
+ [img]moddata://base/art/codex/browsehanagar.png[/img]
+ Hovering over a docked vessel and pressing {key-mouse0} will select it. A selected vessel can be inspected by pressing [i]INSPECT[/i] vessels can also be inspected by double clicking {key-mouse0}.
+ Inventory and components can be VIEWED but neither can be altered while docked. 
+ 
+ The selected vessel can be undocked by pressing the [i]UNDOCK SELECTED[/i] button.
+ 
+ [img]moddata://base/art/codex/undockbtns.png[/img]
+ 
+ If [i]AUTOMATICALLY ENTER UN-DOCKED VESSEL[/i] checkbox is shown and checked upon confirming un-docking you will take control of the vessel that is being un-docked.
+ 
+ [h2]Limitations & Vessels within Vessels[/h2]
+ Vessels that have Hangars with vessels docked within them CAN be docked however there is a default total nested vessel limit of 64 vessels (set with sv_maxhangarchildren) and a hard game limit of 1024.
+codex-components: "Components"
+codex-components-assemblers-title: "Assemblers"
+codex-components-assemblers-body: |
+ [h1]Assemblers[/h1]
+ [img]moddata://base/art/codex/assemblers.png[/img]
+ Assembler components are used to [url=codex://codex.assembly.basics]construct and update vessels[/url].
+ 
+ [h2]Properties[/h2]
+ [h3]Tile Limit[/h3]
+ Each assembler will have a specific tile limit. This limit determines how many tiles the vessel or object under construction can successfully launch from the Assembler.
+ [h3]Weapon Component Limit[/h3]
+ Assemblers only allow a fixed maximum number of weapon mounts to be placed for a successful launch to occur.
+ [h3]Other Component Limit[/h3]
+ Component Mounts other than Weapons are counted under this category. Must be under maximum to launch.
+ [h3]Range[/h3]
+ Assemblers can be accessed from a distance, this [b]Range[/b] defines how far from an Assembler a Vessel has to be before it can be used
+ [h3]Mounts Available[/h3]
+ Mounts are material-free to construct but which specific mounts are available are determined by the Assembler type. Generally speaking, better assemblers give access to larger sized mounts.
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low / no power state Assemblers can no longer be used for Construction.
+ 
+ [h2]Broken State[/h2]
+ When in a broken state Assemblers can no longer be used for Construction.
+codex-components-bridges-title: "Bridges"
+codex-components-bridges-body: |
+ [h1]Bridges[/h1]
+ [img]moddata://base/art/codex/bridges.png[/img]
+ Bridge Mounts are critical to controlling a vessel and slotted components give [url=codex://codex.intermediate.enhancements]Enhancements[/url] to the rest of the Vessel. The Enhancements and the Effects they apply can be seen on the tooltip:
+ 
+ [img]moddata://base/art/codex/enh-bridge-tooltip.png[/img]
+ 
+ [h2]Control[/h2]
+ At least one Bridge Mount is required to control a Vessel, this mount can remain empty and still operate the vessel. Once all bridges are lost so will control and the vessel will be considered "dead".
+ 
+ [h2]Properties[/h2]
+ [h3]Applied Enhancements[/h3]
+ A Bridge component when slotted can provide a number of [url=codex://codex.intermediate.enhancements]Enhancements[/url] these range from buffs to existing components to new abilities such as Cloak.
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low / no power state Bridges will no longer provide their Enhancements.
+ 
+ [h2]Broken State[/h2]
+ When in a broken state Bridges will no longer provide their Enhancements.
+codex-components-cargobays-title: "Cargo Bays"
+codex-components-cargobays-body: |
+ [h1]Cargo Bays[/h1]
+ [img]moddata://base/art/codex/cargobays.png[/img]
+ Cargo Bay components add [url=codex://codex.basics.inventory]Inventory Slots[/url] to a vessel allowing it to carry more items.
+ 
+ [h2]Properties[/h2]
+ [h3]Capacity[/h3]
+ The Capacity of a Cargo Bay is the maximum number of inventory slots a bay possesses.
+ [h3]Item Mass Mod[/h3]
+ Most Items have a ⌂Mass associated with them. This is shown when hovering a slot and is the total mass for that slot.
+ [img]moddata://base/art/codex/itemmass.png[/img]
+ Items in Inventory add their Mass to the overall Vessel mass. The Item Mass Mod of a Cargo Bay reduces this effect for items slotted into that bay. e.g an Item with a mass of 10 in a Cargo Bay with a Item Mass Mod of -10% will only add 9 to the overall Vessel Mass.
+ 
+ [h2]♦ Low Power[/h2]
+ Low power has no effect on Cargo Bays.
+ 
+ [h2]Broken State[/h2]
+ Broken state has no effect on Cargo Bays however as it becomes Broken items will drop out from them into space.
+codex-components-engines-title: "Engines"
+codex-components-engines-body: |
+ [h1]Engines[/h1]
+ [img]moddata://base/art/codex/engines.png[/img]
+ Engine components allow a Vessel to move by applying thrust in the direction they face. Some engines also enable [url=codex://codex.basics.systemview]╠Warp[/url] and affect how fast you travel while at ╠Warp.
+ 
+ [h2]Movement & Direction[/h2]
+ An engine's influence on movement depends on the direction a Mount is rotated (this can be done when Constructing a Vessel). Directions are relative to the Construction grid:
+ [list]
+ [*]Up: Moves vessel Forward({key-moveforward}) with 100% Thrust. Backwards({key-moveback}) at 10% Thrust.
+ [*]Down: Moves vessel Backward({key-moveback}) with 100% Thrust. Forwards({key-moveforward}) at 10% Thrust.
+ [*]Left: Moves vessel Right({key-moveright}) at 100% Thrust. Left({key-moveleft}) at 10% Thrust.
+ [*]Right: Moves vessel Left({key-moveleft}) at 100% Thrust. Left({key-moveright}) at 10% Thrust.
+ [/list]
+ Engines pointing left and right in addition to strafing sideways will also activate when rotating a vessel helping it to spin. This is based on there position relative to a Vessel's Center of Mass (COM). For example, an Engine facing left above the COM will rotate the vessel Clockwise (at 100%).
+ 
+ [h2]Properties[/h2]
+ [h3]Thrust[/h3]
+ The maximum force given out by an Engine. Bare in mind that as a vessel's mass increases, so too must its thrust to fly it at the same speed. It also includes the amount of torque the engine will contribute.
+ [h3]Acceleration[/h3]
+ Time it takes for an Engine to reach its maximum thrust (in seconds). Quick acceleration is good for maneuvering but may come a the expense of a lower maximum thrust.
+ [h3]Warp Rating[/h3]
+ Many engines have a [i]Warp Rating[/i]. At least one engine must have a Warp Rating greater than 0 in order for a Vessel to enter Warp. The higher an Engine's Warp Rating, the more it affects the overall vessels ╠ [i]Warp Factor[/i].
+ [h3]Warp Spool Up[/h3]
+ Many engines have a warp spool up. This determines the length of time it takes for a vessel to be able to enter warp from the time of activation by the Captain. The vessels warp spool up is determined by the average spool up time of all engines (excluding engines like thrusters and others).
+ [h3]Warp Spool Down[/h3]
+ The amount of time it takes for the engines to cool down following exiting warp. The vessels warp spool down is determined by the average spool down time of all engines (excluding engines like thrusters and others).
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low/no power state an Engine will still run but only at 10% of there maximum thrust.
+ 
+ [h2]Broken State[/h2]
+ When in a broken state Engine thrust will be lower according to how many Tiles still remain under the Engine Mount until there are less than 50% Tiles remaining it will then run at 10% Thrust.
+codex-components-labs-title: "Fabricators"
+codex-components-labs-body: |
+ [h1]Fabricators[/h1]
+ [img]moddata://base/art/codex/labs.png[/img]
+ Fabricator Components allow [url=codex://codex.basics.manufacturing]Manufacturing[/url] of Items from other Items. For example, converting Ore into Sheets and then into Components.
+ 
+ [h2]Properties[/h2]
+ [h3]Input Multiplier[/h3]
+ Fabricators can have an Input Multiplier, this modifies how many items are required for the same recipe.
+ [h3]Output Multiplier[/h3]
+ Fabricators can have an Output Multiplier, this modifies how many items are created for the same recipe.
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low/no power state a Fabricator will pause manufacture of its currently active or newly queued recipes until power is restored.
+ 
+ [h2]Broken State[/h2]
+ When in a broken state a Fabricator will pause manufacture of its currently active or newly queued recipes until Tiles are fixed and it is no longer in a Broken state.
+codex-components-hangars-title: "Hangars"
+codex-components-hangars-body: |
+ [h1]Hangars[/h1]
+ [img]moddata://base/art/codex/hangars.png[/img]
+ Hangar components allow you to [url=codex://codex.intermediate.docking]Dock[/url] other Vessels within the parent vessel. Docked vessels within a Hangar add to the Hangar components Mass.
+ 
+ [h2]Properties[/h2]
+ [h3]Floor Plan[/h3]
+ Each Hangar has a Floor Plan which shows the shape of the hangar and the space it has to place vessels which each square representing a Tile.
+ 
+ [img]moddata://base/art/codex/floorplan.png[/img]
+ [h3]Can Auto Dock[/h3]
+ Certain Hangars have an Automatic Docking capability which allows remote docking of uncontrolled vessels. Hangars without auto dock can only be docked into by flying a vessel while in control of it into the docking range.
+ [h3]Docking Range[/h3]
+ Hangars have a certain range from which vessels must be within in order to dock.
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low/no power state a Hangar can no longer be Docked to or from.
+ 
+ [h2]Broken State[/h2]
+ When in a broken state a Hangar can no longer accept new docking interaction, to or from. Vessels within Hangars when the Tiles are damaged will themselves take damage depending on their location within the Hangar. Vessels may be forcefully undocked from a Hangar if it takes enough damage.
+codex-components-reactors-title: "Reactors"
+codex-components-reactors-body: |
+ [h1]Reactors[/h1]
+ [img]moddata://base/art/codex/reactors.png[/img]
+ Reactor Components supply [url=codex://codex.intermediate.power]Power[/url] to all other components.
+ 
+ [h2]Properties[/h2]
+ [h3]Power Pattern[/h3]
+ Reactors provide power to Tiles and the Mounts that sit on the tiles in a pattern. The Power pattern shows the spread of power with each square equaling one tile and the brightness of a square relating to how much of the Max Power is provided to that square. The white square on the power pattern is the center, where the reactor itself sits.
+ 
+ [img]moddata://base/art/codex/powerpattern.png[/img]
+ 
+ The rotation of the mount a Reactor is within will determine the orientation of the power pattern.
+ [h3]Max Power[/h3]
+ A Reactor can provide a certain maximum power to each tile depending on the power pattern.
+ [h3]Explosion Damage[/h3]
+ When a Reactor is damaged in any way it will explode. The damage applied is determined by the reactors explosion damage. Typically, the higher power output a reactor has the greater the explosion.
+ 
+ [h2]♦ Low Power[/h2]
+ Reactors provide power therefore can never be in a low power state.
+ 
+ [h2]Broken State[/h2]
+ When a Tile of a Reactor mount is destroyed the Reactor will explode.
+ 
+ 
+codex-components-shields-title: "Shields"
+codex-components-shields-body: |
+ [h1]Shields[/h1]
+ [img]moddata://base/art/codex/shields.png[/img] 
+ 
+ Shield Components protect a vessel's hull from weapons, like lasers and torpedoes by creating a temporary protective barrier. If you have shields equipped they can be toggled via the action bar or with {key-toggleshields}.
+ 
+ [img]moddata://base/art/codex/shieldinaction.png[/img]
+ 
+ The shield barrier absorbs damage from outside of the shield which depletes its internal power reserves. These reserves recharge over time but if a shield takes enough damage it will collapse. When a shield collapses the protective barrier is disabled. A collapsed shield leaves the vessel vulnerable while the shield recovers. Note that freshly slotted shields will need time to charge to maximum power.
+ 
+ Shields can overlap or be stacked.
+ 
+ There are two types of shields, [b]Energy Shield[/b] and [b]Projectile Defense[/b].
+ 
+ [h3]Energy Shield[/h3]
+ The Energy Shield category of shields will block all forms of energy weapons, ranging from lasers to plasma projectiles. They typically feature a max amount of damage they will absorb, and when damage threshold is met, collapse, and require a period before reactivating.
+ 
+ WARNING: Energy Shields do NOT protect against weapons fired from within them or against weapons & projectiles that have shield penetrating capabilities.
+ 
+ [h3]Projectile Defense[/h3]
+ The Projectile Defense category of shields will intercept incoming projectiles. Once the projectile has been destroyed, the shield requires a recharge time before being capable to operating again. These projectiles include physical missiles like torpedoes, but also include the energy projectiles produced by Plasma Launchers.
+ 
+ [h2]Properties[/h2]
+ [h3]Radius[/h3]
+ Radius is the coverage of a shield and is measured in tiles from the edge of the mount. Example: a Radius of 3 on a single Tile shield will cover a 7 x 7 area centered on the mount.
+ [img]moddata://base/art/codex/shieldradius.png[/img]
+ [h3]Max Strength[/h3]
+ Every shield has a maximum strength, once it reached this it will no longer recharge.
+ [h3]Recharge Rate[/h3]
+ Active shields continuously recharge strength, up to its maximum strength. The greater the recharge rate the quicker this will occur.
+ [h3]Cooldown[/h3]
+ Once a shield has collapsed it cannot re re-enabled for a certain time, this is referred to as the Cooldown.
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low / no power state Shields will disable and can no longer be used until power is restored.
+ 
+ [h2]Broken State[/h2]
+ When in a broken mount state Shields will disable and can no longer be used until Tiles are restored.
+ 
+codex-components-weapons-title: "Weapons"
+codex-components-weapons-body: |
+ [h1]Weapons[/h1]
+ [img]moddata://base/art/codex/weapons.png[/img]
+ Weapon Components can serve a variety of functions but are mainly used for [url=codex://codex.basics.mining]Mining[/url] and [url=codex://codex.basics.combat]Combat[/url].
+ 
+ [h2]Special Types[/h2]
+ Most weapons do some form of damage, be it in a beam or a salvo of bullets. These can ultimately vary wildly but there are also certain types of weapons that have more specialized function here are just a few:
+ 
+ [h3]Projectile Launchers[/h3]
+ Projectile Launchers launch projectile ammo from your inventory towards the target. 
+ [img]moddata://base/art/codex/fireprojectile.png[/img]
+ When fired, each Projectile launcher will consume the first ammo item in the vessels Inventory and launch it towards the cursor, if there is no ammo available the launcher will not fire.
+ 
+ Projectile Ammo can come in a variety of types and perform many functions such as:
+ [list]
+ [*]Torpedo - Flies straight and does damage on impact
+ [*]Proximity Mine - Stays still when launched but if another vessel comes nearby will explode
+ [*]Seeker Missile - Homes in on nearby signatures exploding on impact
+ [*]Mass Anchor - Flies straight, on impact attaches itself adding mass to the vessel making it harder to control
+ [/list]
+ [h3]Tractor Beams[/h3]
+ Tractor Beams allow you to attach to another vessel and drag it with you, even allowing you to take it into warp and into other regions. [url=codex://codex.intermediate.tractoring]Learn More About Tractor Beams[/url]
+ 
+ [h2]Properties (Common)[/h2]
+ Due to the variety of weaponry, not all properties apply to all weapons. Below is a breakdown of the more common properties
+ 
+ [h3]Firing Arc[/h3]
+ The arc a weapon can fire in (in degrees) centered on the mount. If a weapon tries to fire outside of the arc, the weapon will enter cooldown.
+ [img]moddata://base/art/codex/anglearc_comp.png[/img]
+ [h3]Range[/h3]
+ Maximum distance from the weapon mount that a weapon can reach.
+ [img]moddata://base/art/codex/range1.png[/img]
+ [h3]Cooldown[/h3]
+ Time (in seconds) it takes to recover before firing another burst. Weapons in cooldown will be displayed above the action bar.
+ [img]moddata://base/art/codex/cooldowns.png[/img]
+ [h3]Charge-up Time[/h3]
+ Time it takes for a weapon to charge up before firing.
+ [img]moddata://base/art/codex/chargeup.png[/img]
+ [h3]Speed[/h3]
+ Speed at which a weapon will reach its full range. Infinite speed weaponry will reach range instantly
+ [h3]Duration[/h3]
+ The length of time the weapon is active before it will enter cooldown. If duration is not shown hit effects will apply for one tick (see Hit Effects)
+ [h3]Ignores Shields[/h3]
+ Weapon will ignore and penetrate through shields
+ 
+ [h3]Hit Effects[/h3]
+ Hit effect values are listed as a rate "/t" which refers to "per tick". A tick happens every 1/5th of a second while a weapon is active and not on cooldown. [list]
+ [*]Damage [Mining]: Applies damage to Mining type Tiles such as Rock and Ores
+ [*]Damage [Combat]: Applies damage to Combat type Tiles such as Hull
+ [*]Repair [Combat]: Repairs Combat type Tiles such as Hull
+ [*]Damage [Shields]: Applies damage to Shields
+ [*]Drain Power: Drains power from Tiles surrounding the hit point
+ [*]Attract Force: Pulls whatever is hit towards weapon
+ [*]Repel Force: Pushes whatever is hit away from weapon
+ [/list]
+ [h3]Loot[/h3]
+ Loot describes the chance and quantity multipliers for items drops from Tiles hit by this weapon by Tile type.
+ [img]moddata://base/art/codex/loottooltip.png[/img]
+ 
+ [b]% Percentage[/b] is probability modification, e.g. 100% equals tile will always drop any items it has a chance to. 20% equals only a 20% change that the tile destroyed will drop its items, percentages over 100% increase chance to drop rarer items from tiles.
+ 
+ [b]x Multiplier[/b] is a modifier for how many items will drop from a Tile. eg if Tile usually drops 1 Ore a x2 Loot Multiplier will make the same Tile drop 2 Ore.
+ 
+ [h3]Num Reflections[/h3]
+ Number of Times a reflecting weapon will bounce before stopping
+ 
+ [h3]Fires Random/Ordered Salvo[/h3]
+ Weapon will fire several times in a salvo rather than a single beam/shot. 
+ [img]moddata://base/art/codex/salvo1.png[/img]
+ Sub properties:[list]
+ [*][b]Number[/b]: Quantity of Salvos, e.g. 2 would fire 2 bullets
+ [*][b]Spread[/b]: Angle in degrees.
+   -[i]If Random[/i]: Each shot is at a random angle of max this amount centered around the "desired" direction
+   -[i]If Ordered[/i]: Shots are split evenly within this amount centered around the "desired"
+ [*][b]Time Between[/b]: Time between each shot in the salvo. 0 means all shots fire at the same time.
+ [/list]
+ [h3]Fires Projectile[/h3]
+ Fires a projectile without requiring ammo. Properties of the projectile(s) fires are listed underneath. 
+ 
+ [h2]♦ Low Power[/h2]
+ When in a low / no power state Weapons will disable and can no longer be used until power is restored.
+ 
+ [h2]Broken State[/h2]
+ When in a broken mount state Weapons will disable and can no longer be used until Tiles are restored.
+ 
+ 
+codex-assembly: "Assembly"
+codex-assembly-enter-title: "Starting Construction"
+codex-assembly-enter-body: |
+ [h1]Entering Construction[/h1]
+ To enter construction the Vessel must be within range of an $assembl$[url=codex://codex.components.assemblers]Assembler[/url].  $assembl$Assembler ranges can be seen with the [url=codex://codex.basics.paperdoll]Paper Doll Overlay[/url]. 
+ [img]moddata://base/art/codex/assemblrange.png[/img]
+ 
+ When within range of an $assembl$Assembler, and when controlling a Vessel, the [i]START BUILDING[/i] button will appear at the bottom center. If it is a vessel you don't control, the button will appear in the Inspection panel.
+ 
+ [img]moddata://base/art/codex/buildbutton.png[/img]
+ 
+ [h2]Selecting an Assembler[/h2]
+ After pressing the [i]START BUILDING[/i] button, the UI will be hidden and all Assemblers within range will be highlighted. 
+ 
+ [img]moddata://base/art/codex/picker.png[/img]
+ 
+ Selecting an Assembler that is green will begin editing of the Vessel. If the Assembler is not green, it is not available for construction and a reason will be shown.
+ 
+ [h2]Quick Repair[/h2]
+ Most assemblers will give the option for a quick repair, this will repair all damaged, but still intact, tiles.
+ 
+ [h2]Paid Construction[/h2]
+ Most commerical spaceports or shipyards will allow you to use their $assembl$Assembler, for a price. This fee is paid once per visit, and will last as long as the captain is in the region, allowing for several visits if fine tuning your vessel.
+
+codex-assembly-basics-body: 
+codex-assembly-basics-title: "Core concepts & Tile/Component Limits"
+codex-assembly-basics-body: |
+ [h1]Construction Basics[/h1]
+ Construction allows you to create new vessels, improve existing ones or simply give something a fresh coat of paint.
+ 
+ [h2]Basics[/h2]
+ A Vessel is made out of 3 parts:
+ [list]
+ [*][b]Tiles[/b]: these are the building blocks and make up the majority of a vessels structure. Tiles are required to place Mount upon, without a Tile there is no Mount. [url=codex://codex.basics.tiles]Learn More About Tiles[/url]
+ [*][b]Mounts[/b]: The slots in which components can be placed. A Mount must be placed on top of tiles, they possess no health or structure of their own. [url=codex://codex.basics.mounts]Learn More About Mounts[/url]
+ [*][b]Components[/b]: these provide functionality to a vessel. Components are placed in Mounts, if a Mount is destroyed the Component will drop into space. Components can also be swapped outside of construction without the need of an Assembler. [url=codex://codex.basics.components]Learn More About Components[/url]
+ [/list]
+ Construction UI is split into a few main sections:
+ [list]
+ 1. [3ce238]Vessel Information[-]: Shows current stats and allows you to change the vessel name by clicking the blue banner.
+ 2. [fffc00]Main functions[-]: You can pick between Edit Tiles or Edit component modes, repair damaged tiles, clear all, cleare unconnected, template options and Launch the vessel when done as well as several other functions.
+ 3. [c000ff]The construction grid[-]: Displays the vessel, its tiles, mounts and components and is where new tiles/mounts/components can be added/removed/edited.
+ 4. [00aeff]Source Location[-]: Controls where the tiles and components come from. Includes "My Inventory" (the vessel controlled by player), Assembler's Inventory (inventory of vessel Assembler is on), Target's Inventory (if editing another vessel) and Local Space (any near by floating items).
+ 5. [ffa200]Mode Selection[-]: Sets the mode on whether to add/remove tiles, add/remove mounts, add/remove components or tile painting
+ 6. [ff7b7b]Available Items[-]: Depending on the selected mode, this area shows available tiles, paints, mounts or components.
+  [/list]
+ [img]moddata://base/art/codex/buildui.png[/img]
+ 
+ [h2]Editing a Vessel[/h2]
+ The main flow for editing is as follows:
+ [list]
+ 1. Pick Source Location.
+ 2. Pick Mode (edit tiles/edit components etc)
+ 3. Pick an item to place from the selection list. NOTE: Items need to be made available before entering Construction.
+ 4. Place it on the construction grid by hovering over a square and pressing or dragging with {key-mouse0}.
+ 5. Pressing or Dragging {key-mouse1} over the grid will generally remove Tiles/Mounts from the Vessel grid depending on the current mode and tab selected.
+ [/list]
+ For more detailed information check out [url=codex://codex.assembly.edittiles]Editing Tiles[/url] and [url=codex://codex.assembly.editmounts]Editing Mounts & Components[/url] pages.
+ 
+ The grid view can be zoomed in and out using the scrollwheel and panned around with {key-w} {key-a} {key-s} {key-d}
+ 
+ [h2]Tile and Component Mount Limits[/h2]
+ [img]moddata://base/art/codex/buildlimits.png[/img]
+ Every Assembler has its limit of how many tiles are allowed, how many weapons are allowed and how many non-weapon component mounts are allowed. Mounts without slotted components will still count toward the maximum.
+ 
+ [h2]Advanced Placement Tips[/h2]
+ [list]
+ [*]You can place many Tiles / Mounts / Paints by dragging
+ [*]Hold {key-leftshift} while placing & dragging to keep a straight line
+ [*]Holding {key-leftalt} and pressing {key-mouse0} over a Tile/Mount allows you to "pick" that item depending on your current mode. If you are in Paint mode this will select the matching paint color under the cursor and as long as you have that item available.
+ [*]For those that desire a symmetrical design a mirroring mode can be toggled via the button or with {key-x}. This will cycle between no mirror, horizontal, vertical and both.
+ [/list]
+ [h2]Making Something Larger[/h2]
+ Can you barely squeeze your new grand design on the Grid? To increase the grid size use the drop down box on the left hand side to pick one of the following sizes:
+ [list]
+ [*]Micro 7x7
+ [*]Small 15x15
+ [*]Medium 31x31
+ [*]Large 63x63
+ [*]Gigantic 127x127
+ [/list]
+ NOTE: If you do not need the space it is highly recommended to use a smaller grid size to improve general performance.
+ 
+ For some advanced Construction tips, see [url=codex://codex.assembly.advanced]Advanced Construction[/url].
+ 
+ [h2]Launching[/h2]
+ When you are satisfied with your construction efforts you can leave construction and launch the vessel by pressing the "LAUNCH" button. 
+ 
+codex-assembly-edittiles-title: "Editing Tiles"
+codex-assembly-edittiles-body: |
+ [h1]Editing Tiles[/h1]
+ Press [i]EDIT TILES[/i] from the left actions panel. This will change the selection panel on the right into Tile mode. Tile mode is split into PLACE and PAINT.
+ [h2]Place Tiles[/h2]
+ Setting the selection tab to [i]PLACE[/i] will show all Tiles available to the in-use Assembler (the inventory of the Assembler's vessel only).
+ 
+ To place a Tile, select it from the list with {key-mouse0}, this can then be placed on the grid with {key-mouse0} however there are a number of rules for placement:
+ [list]
+ [*]Tiles MUST be placed next to an existing tile (except when starting a new vessel). This means that sides must touch and diagonal neighbors are not valid.
+ [*]The new Tile cannot push the vessel over the tile limit.
+ [*]Tiles cannot be placed if another vessel or object is occupying that space.
+ [/list]
+ Tiles may be replaced by another tile type. With the new Tile on the cursor, simply press {key-mouse0} over the existing tile. NOTE: If the new tile type can be painted the existing paint color will be kept, this may not make it obvious the replacement worked.
+ 
+ To remove an existing Tile, hover the cursor over the intended Tile and press {key-mouse1}. This will return that Tile to the Assemblers inventory. If the Tile item cannot fit into the Assemblers inventory it will be dumped into space around the Assembler.
+ 
+ Removing Tiles may create [b]Split Pieces[/b] these are highlighted in red. If you Launch with any Split Pieces the highlighted Tiles will be returned to the Assembler along with any Mounts/Components that were sitting on them.
+ 
+ [h2]Paint Tiles[/h2]
+ Setting the selection tab to PAINT will show all the colors you can paint Tiles with. Use paints to give your vessels unique paint jobs without affecting the properties of the underlying tiles.
+ 
+ To paint, select a color from the selection list with {key-mouse0} then hover over the Tile you wish to paint on the grid and press {key-mouse0}. 
+ 
+ To remove a paint color and restore a Tile to its natural color hover a Tile and press {key-mouse1}. 
+ 
+ NOTE: Not all Tiles can be painted. Only Hulls and other man made Tiles can take paint.
+ 
+ [h2]Size[/h2]
+ The amount of tiles placed or painted can be adjusted with the {key-leftbracket} and {key-rightbracket} keys.
+ 
+codex-assembly-editmounts-title: "Editing Mounts & Components"
+codex-assembly-editmounts-body: |
+ [h1]Editing Mounts & Components[/h1]
+ Press [i]EDIT COMPONENTS[/i] from the left actions panel this will change the selection panel on the right into Components mode. Components mode is split into MOUNT and COMP.
+ 
+ [h2]Place Mounts[/h2]
+ With the selection tab set to MOUNT you will be able to see all the [url=codex://codex.basics.mounts]Mounts[/url] available to place by the current Assembler. Note that Mounts are NOT items and are only restricted by the current Assembler's type, not Inventory.
+ 
+ To place a Mount, select the mount from all the varying types and sizes available with {key-mouse0}, this can then be placed on the grid with {key-mouse0}. A Mount can only be placed IF:
+ [list]
+ [*]All grid squares under it are filled with Tiles
+ [*]No part of the mount is off the edge of the grid
+ [/list]
+ To remove a Mount, hover over the mount and press {key-mouse1}. Removing a mount will return any component in it to the Assembler inventory or if it cannot fit, into space.
+ 
+ Certain mount types can be rotated, these mounts display a direction arrow and are:
+ [list]
+ [*]$weap$Weapons: By 15° increments, Determines which direction the weapon points.
+ [*]$engine$Engines: By 90° increments, Determines direction of thrust.
+ [*]$reactor$Reactors: By 90° increments, Determines how the power pattern is spread.
+ [/list]
+ To rotate a mount hover over it and press {key-r} to rotate a mount clockwise, holding {key-leftshift} while pressing {key-r} will rotate it counter clockwise. Pressing {key-uparrow} {key-downarrow} {key-leftarrow} {key-rightarrow} while hovering will point the mount in that respective direction.
+ 
+ [h2]Place Components[/h2]
+ With the selection tab set to COMP you will be able to see all component items within the Assemblers inventory. Although [url=codex://codex.basics.components]Components[/url] can be placed outside of construction they can also be changed within it.
+ 
+ [img]moddata://base/art/codex/comppicker.png[/img]
+ 
+ To place a component, first select the type from the top list, this will show all components of that type that are available within the Assemblers inventory. Select the component you wish to place with {key-mouse0} and then hover a mount in which it will fit and press {key-mouse0}. 
+ 
+ For a component to fit in a mount it must:
+ [list]
+ [*]Be the correct type (Bridge, Weapon etc) 
+ [*]Support the mount (see "Fits in Mount" on tooltip)
+ [/list]
+ To remove a component, hover over it and press {key-mouse1}, this will return it to the Assemblers inventory or if it cannot fit, into space.
+
+codex-assembly-templates-title: "Template Save/Load"
+codex-assembly-templates-body: |
+ [h1]Construction Templates[/h1]
+ If you have spent a lot of time designing a vessel or simply want to share it with other captains, you will want to save your vessel as a Template.
+ 
+ [h2]Saving[/h2]
+ While in construction the current vessel can be saved as a template by pressing the [i]SAVE TEMPLATE[/i] button on the main Construction panel. This will allow you to name the Template and allow you to load it later or share it with a friend or even on the Steam Workshop.
+ 
+ [h2]Auto Saves[/h2]
+ During construction the currently edited vessel will be saved as a template: when entering, when exiting and every 2 minutes with a maximum of 3 auto saves. Auto saved templates can be loaded like any normal template.
+ 
+ [h2]Loading[/h2]
+ To load a template press the [i]LOAD TEMPLATE[/i] button while in construction.
+ 
+ [img]moddata://base/art/codex/loadtemplate.png[/img]
+ 
+ The Load Template window will allow you to browse all Templates you have previously saved or have subscribed to on the Steam Workshop. To load a template first select it in the list and then press the [i]LOAD[/i] button. 
+ 
+ Loading a template will clear the current vessel and return all its tiles and components to the Assembler inventory, note that these items DO count towards the required items.
+ 
+ Loading templates will do their best to match tiles, mounts and components, but when that is not possible it will use a basic tile and leave the mounts empty.
+  
+ [h2]Sharing[/h2]
+ [h3]Simple String[/h3]
+ Templates can be quickly shared using the [i]IMPORT[/i] and [i]EXPORT[/i] buttons in the Load Template window.
+ [list]
+ [*]To EXPORT: Select a Template you have saved from the list and press the EXPORT button. This will show a large string of text which you can copy and share.
+ [*]To IMPORT: Press the IMPORT button and paste the string of text into the input box. Pressing [i]IMPORT[/i] will add this Template to the list to Load as you like.
+ [/list]
+ [h3]Steam Workshop[/h3]
+ Templates can be subscribed to on the Steam workshop, these will show at the top of the Load template list. To add a Template you have made to the Steam workshop you can follow our guide : [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1461693416]https://steamcommunity.com/sharedfiles/filedetails/?id=1461693416[/url]
+
+codex-assembly-advanced-title: "Advanced Construction"
+codex-assembly-advanced-body: |
+ [h1]Advanced Construction[/h1]
+ Construction also features a number of advanced capabilities, including highlighting for selecting tiles/mounts, copying, cutting and rotation of pasted elements.
+ 
+ [h2]Highlighting[/h2]
+ Using the middle mouse button {key-mouse2}, it is possible to click and drag to select both tiles and mounts. These selected tiles/mounts can then be altered.
+ 
+ [img]moddata://base/art/codex/buildselect.png[/img]
+ 
+ [h2]Copying[/h2]
+ Elements that are selected via highlighting can be copied with {key-leftctrl}+{key-c}. This will create a new set of these elements, and leave the original as they were.
+ 
+ [img]moddata://base/art/codex/buildcopy.png[/img]
+ 
+ [h2]Cutting[/h2]
+ Elements that are selected via highlighting can be cut with {key-leftctrl}+{key-x}. This will remove the original elements and re-create the elements at the desired position.
+ 
+ [h2]Rotating[/h2]
+ Rotating of selected elements is done with the {key-r} key, just the same as rotation mounts facing.
+ 
+ [h2]Mirroring[/h2]
+ Mirroring of selected elements is done with the {key-x} key, this toggles through various mirroring modes.
+ 
+ [h2]Deleting[/h2]
+ In addition to other actions, deleting of selected elements is possible via the {key-delete} key.
+ 
+codex-intermediate-sysproblems-title: "Star System Problems"
+codex-intermediate-sysproblems-body: |
+ [h1]Star System Problems[/h1]
+ Problems are events that can happen in a Star System. They consist of several steps, each step having a distinct objective. Objectives typically may include destroying menancing aliens, recovering lost probe data, or delivering stranded crew members.
+ 
+ As each step is completed, rewards will be granted and the next step will start. Be sure to read the description for information about each step.
+ 
+ [img]moddata://base/art/codex/sysproblem.png[/img]
+ 
+ In multiplayer, several players can contribute to solving the current step.

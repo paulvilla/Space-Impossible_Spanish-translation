@@ -1,0 +1,572 @@
+problem-completestep-subheader: "{sysstar} System"
+
+#Solar Problem ==============================================================================================================
+problem-default-solar-title: "Solar Upheaval"
+problem-default-solar-step1-summary: "Help Local Ships in Distress"
+problem-default-solar-step1-desc: |
+ [h1]Solar Upheaval[/h1]
+ [h2]Ships in Distress[/h2]
+ The local star, {sysstar}, has been under going a period of intense fluctuations. It is wreaking havoc on local shipping, as the solar flares are hitting their barely-shielded computer cores far beyond their minimum level specifications. Help local ships in [em]Distress[/em] and get them going again or ferry their passengers safely to a local station.
+
+problem-default-solar-distress1: We are in distress! Our computer cores have been scrambled due to the solar activity and we need assistance!
+problem-drum-solar-distress1: BEGIN TRANSLATION --[ Distress! Computer cores scrambled by solar activity. Assistance required! ]-- END TRANSLATION
+problem-default-solar-distress1-opt-takepeople: You're in luck. I can take your passengers to safety.
+problem-default-solar-distress1-peoplespawn: Thank you! We're launching our eva suits now. Pick us up!
+problem-drum-solar-distress1-peoplespawn: BEGIN TRANSLATION --[ Gratitude! Launching EVA suits. Pick us up! ]-- END TRANSLATION
+problem-default-solar-step1-opt-handin: Station, I have found some of your people who needed rescuing. Prepare to receive them.
+problem-default-solar-step1-suc: Captain, passengers received. Medical says they are in good condition. Thanks for your help.
+problem-drum-solar-step1-suc: BEGIN TRANSLATION --[ Captain, passengers received. Medical reports good condition. Thank you for help. ]-- END TRANSLATION
+problem-default-solar-step1-complete: Good work. However the problem isn't solved yet. Continue working with local authorities to finish the problem.
+problem-drum-solar-step1-complete: BEGIN TRANSLATION --[ Good job. Problem not solved. Work with local authorities to finish. ]-- END TRANSLATION
+problem-default-solar-step2-complete-reqtractor: I need a tractor, can you supply one?
+problem-default-solar-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-solar-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+
+problem-default-solar-step2-summary: "Gather and Deliver Probe Data"
+problem-default-solar-step2-desc: |
+ [h1]Solar Upheaval[/h1]
+ [h2]The Data Question[/h2]
+ Following the help given to local ships-in-distress, the immediate disaster is over. However, the star is threatening to increase its activity again any day now. A team of scientists are working on the problem, but they haven't been able to get their probe data yet. These scientists can be helped by tracking down and collecting the [em]Solar Probe[/em] data from [em]Asteroid Fields[/em] and returning it to a local station for analysis.
+ 
+problem-default-solar-solarprobe-header: "{vesselname}"
+problem-default-solar-solarprobe-hail1: Solar probe has been online and collecting data continuously. Data buffers are full. Data available for delivery.
+problem-default-solar-solarprobe-opt-req: Probe, prepare your data for upload on my command. Launch.
+problem-default-solar-solarprobe-give: Data compiled and launched. Buffers cleared. Probe shutting down.
+problem-default-solar-solarprobe-hail-done: Data already launched. Buffers have been cleared. Unable to recreate data entries.
+problem-default-solar-step2-opt-handin: Station, I have the solar probe data available for transmission. Prepare to receive.
+problem-default-solar-step2-suc: Thank you Captain. Data received. We will get this to the scientists immediately.
+problem-drum-solar-step2-suc: BEGIN TRANSLATION --[ Thank. Captain. Data receive. Immediate scientist convey. ]-- END TRANSLATION
+problem-default-solar-step2-complete: Good work Captain. The scientists are pouring over the data now.
+problem-drum-solar-step2-complete: BEGIN TRANSLATION --[ Good work. Captain. Scientist study data. ]-- END TRANSLATION
+
+problem-default-solar-step3-summary: "Deploy Solar Modulation Platforms"
+problem-default-solar-step3-desc: |
+ [h1]Solar Upheaval[/h1]
+ [h2]A Solution is Calculated[/h2]
+ The probe data has yielded great results in analyzing the activity of star {sysstar}. The scientists have provided some leads that engineers are now using to produce Solar Modulation Platforms, some kind of device that will sit in high solar orbit, and help to keep the star friendly to spacefaring life. Lend a hand in getting these platforms into place at each designated [em]Solar Probe Location[/em], as each one has to be placed in a specific location as determined by the scientists. The undeployed platforms can be found near the station [em]Solar Probe Factory[/em].
+ 
+problem-default-solar-solarplatform-handin1: Good work Captain. This platform is in position and ready to go.
+problem-drum-solar-solarplatform-handin1: BEGIN TRANSLATION --[ Good work. Captain. Platform in position. Ready. ]-- END TRANSLATION
+problem-default-solar-solarfactory-hail: Hello Captain. We can supply the solar platforms needed for deployment. It'll be up to you to get it into position.
+problem-drum-solar-solarfactory-hail: BEGIN TRANSLATION --[ Hello. Captain. Solar platform supply available. Deploy position responsibility. ]-- END TRANSLATION
+problem-default-solar-solarfactory-reqplatform: Station, can you launch another platform? I am ready to tow it.
+problem-default-solar-solarfactory-reqplatform-granted: Understood Captain. We are launching a platform now. Good luck.
+problem-drum-solar-solarfactory-reqplatform-granted: BEGIN TRANSLATION --[ Understood. Captain. Platform launch now. Good luck. ]-- END TRANSLATION
+problem-default-solar-solarfactory-reqplatform-denied: Negative Captain. We have limited resources available. There is already a platform available nearby.
+problem-drum-solar-solarfactory-reqplatform-denied: BEGIN TRANSLATION --[ Negative. Captain. Limited resources. Nearby available platform. ]-- END TRANSLATION
+problem-default-solar-step3-complete: Amazing Captain. All platforms have been deployed and are working! The star is stabilizing. Thank you for your help.
+problem-drum-solar-step3-complete: BEGIN TRANSLATION --[ Amazing. Captain. All platforms deploy. Work! Star stabilize. Grateful for help. ]-- END TRANSLATION
+
+problem-default-solar-opt-getbuff: Station, I am ready for my reward.
+problem-default-solar-givebuff: Sure thing Captain. Thanks again for your help with the star issue.
+problem-drum-solar-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Music Festival ==============================================================================================================
+problem-default-musicfestival-title: "Music and Cultural Festival"
+problem-default-musicfestival-step1-summary: "Pick up and deliver the mis-delivered banners to station"
+problem-default-musicfestival-step1-desc: |
+ [h1]Music and Cultural Festival[/h1]
+ [h2]Lost in Shipping[/h2]
+ With the cultural council's approval, the preparations for the music and culture festival is in full swing. That means lots of food, music, dancing and mimery to be had. The downside: it is proving to be disorganized chaos in getting it all together. The latest issue is that person ordering banners for the festival has fallen sick and their replacement ordered the banners to the wrong location. Now there's these expensive banners sitting in cargo pods everywhere but where they should be. Help get things back on track by picking up at nearby stations and delivering the cargo, [em]Music Festival Delivery[/em], to the right location.
+ 
+problem-default-musicfestival-station: Are you here to help with the music festival? Are you keeping up to date?
+problem-default-musicfestival-step1-opt-handin: I have found some of your banners. Prepare to receive them.
+problem-default-musicfestival-step1-suc: You've done it. A banner found and recovered.
+problem-default-musicfestival-step1-complete: Thanks for the help Captain! You have no idea how expensive it would have been to have these replaced.
+
+problem-default-musicfestival-step2-summary: "Rescue the stranded musicians"
+problem-default-musicfestival-step2-desc: |
+ [h1]Music and Cultural Festival[/h1]
+ [h2]Missing Musicians[/h2]
+ What a disaster! Even with the banner delivery issue fixed, there's now the issue that the musicians shuttles have run out of fuel. These are some of the best musicians in the galaxy, and their sitting out in space, slowly freezing to death all for this event! Find the [em]Music Ship[/em], help rescue these people and get them to the safety of a warm and powered station.
+ 
+problem-default-musicfestival-distress1: Help! We have run out of fuel while on our way to the music festival. We are freezing out here! Can you help us?
+problem-default-musicfestival-distress1-opt-takepeople: Yeah, I can help you. Be prepared to be picked up.
+problem-default-musicfestival-distress1-peoplespawn-header: Musician
+problem-default-musicfestival-distress1-peoplespawn: I am preparing for the space walk. Don't leave me hanging.
+problem-default-musicfestival-step2-opt-handin: I have some musicians for you. They should warm up in no time.
+problem-default-musicfestival-step2-suc: Slightly cold musician received. Thank you captain.
+problem-default-musicfestival-step2-complete: All missing musicians accounted for. Our thanks to you captain.
+
+problem-default-musicfestival-step3-summary: "Destroy or pay off the bootlegging pirates"
+problem-default-musicfestival-step3-desc: |
+ [h1]Music and Cultural Festival[/h1]
+ [h2]Bootlegging Bandits[/h2]
+ Can anything get worse!? We have finally gotten things off the ground, only to be threatened by pirates! Apparently one of their cowardly colleagues have smuggled a recording device into the closed session rehearsels and they are now threatening to sell boot legs of the sessions. This would economically ruin the festival as we were counting on the recording sales to cover the costs. Help locate the [em]Pirate Radio Broadcast[/em] and stop these pirated copies before they are able to disseminate the records.
+ 
+problem-default-musicfestival-pirateradiostation: Pirate Radio Station. You have records that don't belong to you.
+problem-default-musicfestival-pirateradiostation-station: So they sent you huh? You ready to pay up?
+problem-default-musicfestival-pirateradiostation-opt-bribe: Fine. I have been authorized to pay you to make sure the bootlegs are destroyed. Here you go.
+problem-default-musicfestival-pirateradiostation-bribe-suc: Fair deal. See, it didn't hurt that much to ensure everyone was happy.
+problem-default-musicfestival-pirateradiostation-bribe-fail: What are you crazy? You call that a bribe?
+problem-default-musicfestival-pirateradiostation-bribed: I've destroyed the bootlegs now get outta here.
+problem-default-musicfestival-step3-complete: Good work Captain! With the bootlegs destroyed and the festival well underway, this have been a smashing success! Thank you so very much.
+
+#music problem solved
+problem-default-musicfestival-station-aftermath: Thanks for all the help! Enjoy the music festival!
+trader-musicfestival: Festival Trader
+
+problem-default-musicfestival-opt-getbuff: Station, I am ready for my reward.
+problem-default-musicfestival-givebuff: We can't thank you enough for saving the music festival. Here you go.
+problem-drum-musicfestival-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Mutiny ==============================================================================================================
+problem-default-mutiny-title: "Mutinous Crew"
+problem-default-mutiny-step1-summary: "Discover and analyze broadcast sources"
+problem-default-mutiny-step1-desc: |
+ [h1]Mutinous Crew[/h1]
+ [h2]What are these signals?[/h2]
+ There have been an uptick in errant signals criscrossing the system. Add on the fact they are heavily encrypted has local command staff raising their eyebrows. They want it investigated before reporting to Ticeroy High Command. The last known positions of the broadcasts are marked as [em]Signal Location[/em] and should be investigated.
+problem-default-mutiny-step1-proximity: "Encased in ice? Try to extract its from the frozen confines."
+ 
+problem-default-mutiny-freedbeacon-header: "{vesselname}"
+problem-default-mutiny-freedbeacon-text: UNAUTHORIZED ACCESS DETECTED *bzzt* [i][cccccc]{vesselname} self destructs as you attempt to investigate however you were able to pickup the location of another signal[/i][-]
+problem-default-mutiny-step1-complete: "Local Command commends you on your assistance. Local Command will be in contact soon."
+problem-default-mutiny-step1-complete-reqtractor: I need a tractor, can you supply one?
+problem-default-mutiny-step1-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+
+problem-default-mutiny-step2-summary: "Disable and deliver ships wanted for questioning"
+problem-default-mutiny-step2-desc: |
+ [h1]Mutinous Crew[/h1]
+ [h2]Troubling Trends[/h2]
+ Intentionally buried broadcast equipment hidden in icesteroids? Very troubling. Local Command reports several ships are active, but not responding to recent orders. Perhaps they have something to do with all of this. Track those [em]Uncooperating Ships[/em] down, disable them if you must, and tractor them back to a starbase for investigation.
+ 
+problem-default-mutiny-step2-opt-handin: "I have a ship ready to be processed."
+problem-default-mutiny-step2-handin-start: "That's another ship down. Good work."
+problem-default-mutiny-step2-complete: "All the ships are accounted for. We will process the crew and get to the bottom of this."
+problem-default-mutiny-step3-summary: "Transport and deliver space marines"
+problem-default-mutiny-step3-desc: |
+ [h1]Mutinous Crew[/h1]
+ [h2]So, It's Come to This[/h2]
+ Mutiny! That is the only the answer to what is happening here in the system. Our collected intelligence indicates that several crews have mutinied and are using abandoned mining outposts to gather. Ticeroy High Command has been informed of what is happening and in turn has authorized the use of space marines to board and execute any mutinous crews found aboard the space stations. Pick up and transport these vacuum formed marines from any loyal Ticeroy station to the [em]Hidden Base[/em] and help put an end to this mutiny once and for all.
+ 
+problem-default-mutiny-opt-reqmarines: "I am ready to transport the space marines."
+problem-default-mutiny-reqmarines-peoplespawn: "Space marines ready for pick up."
+problem-default-mutiny-reqmarines-hasmarines: "I'm sorry Captain it appears you already have some marines onboard."
+problem-default-mutiny-step3-complete: "Excellent work Captain. The mutinous dogs have been put down. Local Command thanks you."
+problem-default-mutiny-abandonedship-hail-header: ABANDONED VESSEL
+problem-default-mutiny-abandonedship-hail: [i][cccccc]Hail is open but there is no response. It appears the starship has been completely abandoned[-][/i]
+problem-default-mutiny-mutineersurrender-text: Alright alright! You got us. Just don't blow us up!
+problem-default-mutiny-ship-handin1: Thanks for bringing the ship in. It will be processed. 
+problem-default-mutiny-base-hail1: What do you want?
+problem-default-mutiny-base-opt-sendmarines: Station! Stand down and prepare to be boarded! 
+problem-default-mutiny-base-infilsuccess: Captain. My men and I have successfully seized control of the station. Thanks for the lift.
+problem-default-mutiny-base-sendmarines-sent: Marines are prepared and beginning their boarding now.
+
+problem-default-mutiny-opt-getbuff: Station, I am ready for my reward.
+problem-default-mutiny-givebuff: After how you handled the mutiny, you deserve every bit of our thanks.
+problem-drum-mutiny-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Trade Gone Aray ==============================================================================================================
+problem-default-tradesgoneawry-title: "Trade Negotiations Gone Awry"
+problem-default-tradesgoneawry-step1-summary: "Contact the Unknown Vessels Within Asteroid Fields"
+problem-default-tradesgoneawry-step1-desc: |
+ [h1]Trade Negotiations Gone Awry[/h1]
+ [h2]Unknown Visitors[/h2]
+ The system governor has recently been in trade negotiations with our neighboring system for some much required raw mineral rights. Things had been progressing well over the last few weeks until suddenly all contact was cut off with the system's trade team. And now, in the last few days, unidentified ships with travel vectors from the neighbor system have been spotted flying throughout our system, visiting asteroid fields. We need help figuring out if these two events are connected. Help establish a dialogue with these visitors by trying to communicate with them. Hail every [em]Unknown Ship[/em] that you come across when visiting an [em]Asteroid Field[/em].
+ 
+problem-default-tradesgoneawry-step1-complete: "Good work Captain. We are starting to see a trend here with these contacts."
+problem-drum-tradesgoneawry-step1-complete: "BEGIN TRANSLATION --[ Good Results. Pattern emerging. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-unknownship-hail: *burst of static as they close their comms*
+
+problem-default-tradesgoneawry-step2-summary: "Disable Unknown Vessels and Arrest Crew"
+problem-default-tradesgoneawry-step2-desc: |
+ [h1]Trade Negotiations Gone Awry[/h1]
+ [h2]More Questions than Answers[/h2]
+ Despite our best efforts to contact these unidentified ships, they have been fleeing contact. The governor's office is demanding some answers. Is this a prelude to an invasion? Was the negotiations just a tactic to test our resourcefulness? We need to figure it out. We need to be more aggressive and get some answers. Help get those answers by disabling these [em]Foreign Ships[/em] and arrest their crew for questioning. 
+ 
+ 
+problem-default-tradesgoneawry-step2-opt-handin: "I have some crew for questioning"
+problem-default-tradesgoneawry-step2-suc: "Thanks. We'll take them from here."
+problem-drum-tradesgoneawry-step2-suc: "BEGIN TRANSLATION --[ Gratitude. Responsibility assumed. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete: "Thanks for your help. The governor's office has the interrogators standing by."
+problem-drum-tradesgoneawry-step2-complete: "BEGIN TRANSLATION --[ Gratitude for aid. Interrogators await at governor's office. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete-reqtractor: I need a tractor, can you supply one?
+problem-default-tradesgoneawry-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-tradesgoneawry-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-shipsurrender-text: Very well. We are clearly no match for you. We surrender.
+problem-drum-tradesgoneawry-shipsurrender-text: BEGIN TRANSLATION --[ Understood. Inferiority acknowledged. Surrender initiated. ]-- END TRANSLATION
+problem-default-tradesgoneawry-shipsurrender-opt-takepeople: I will be taking you in for questioning. Prepare to be transported.
+problem-default-tradesgoneawry-shipsurrender-peoplespawn: Understood. Our crew is now ready for pick up.
+problem-drum-tradesgoneawry-shipsurrender-peoplespawn: BEGIN TRANSLATION --[ Understood. Crew prepared for retrieval. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-step3-summary: "Find and Retrieve the Weapon Stockpiles"
+problem-default-tradesgoneawry-step3-desc: |
+ [h1]Trade Negotiations Gone Awry[/h1]
+ [h2]Neighbor Betrayal[/h2]
+ The interrogations of the captured crews have been enlightening. The governor's office has discovered that the neighboring system has been stockpiling weapons within our system the entire time the negotiations have been going on. What a betrayal! Help clear these stockpiles by seizing them from the [em]Asteroid Fields[/em] they are stashed in and deliver them to our stations.
+ 
+problem-default-tradesgoneawry-step3-opt-handin: "I have some weapons to hand in."
+problem-default-tradesgoneawry-handinweapons-ack: "Understood, prepare to transfer them now."
+problem-drum-tradesgoneawry-handinweapons-ack: "BEGIN TRANSLATION --[ Understood. Prepare for transfer. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step3-complete: "Good work Captain. The Governor's office is satisfied we have foiled the plot for invasion. Much of the thanks goes to you."
+problem-drum-tradesgoneawry-step3-complete: "BEGIN TRANSLATION --[ Great Effort. Foiled invasion plot. Governor pleased. Much thanks. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-weapcontainer-handin1: Weapon container received.
+problem-drum-tradesgoneawry-weapcontainer-handin1: BEGIN TRANSLATION --[ Weapon container received. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-opt-getbuff: Station, I am ready for my reward.
+problem-default-tradesgoneawry-givebuff: With your help we were able to stop our aggressive neighbor. You deserve this and more.
+problem-drum-tradesgoneawry-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Ancient Relics ==============================================================================================================
+problem-default-ancientrelics-title: "Ancient War Relics"
+problem-default-ancientrelics-step1-summary: "Destroy Oddly Glowing Asteroids"
+problem-default-ancientrelics-step1-desc: |
+ [h1]Ancient War Relics[/h1]
+ [h2]Unintended Discovery[/h2]
+ It is well known we are not the first species to inhabit this region of space. Archaeologists  have been turning up sites for years now. We don't really know who they were, but we know they've been gone for a long time now. It turns out some of these sites aren't just simple cultural curiosities. Recent mining activities have apparently activated some kind of... response, which has caused significant damage via explosions throughout the system. We have identified some more of these armed asteroids in our [em]Mining Outposts[/em] and need them destroyed before they do any more damage. Help destroy these [em]Oddly Glowing Asteroid[/em] before anyone else gets hurt.
+ 
+
+problem-default-ancientrelics-step1-complete: "Seems all the trouble asteroids have been pacified. Good work."
+problem-drum-ancientrelics-step1-complete: "BEGIN TRANSLATION --[ Asteroid trouble over. Good job. ]-- END TRANSLATION"
+
+problem-default-ancientrelics-step2-summary: "Reprogram Alien Outposts"
+problem-default-ancientrelics-step2-desc: |
+ [h1]Ancient War Relics[/h1]
+ [h2]Gone from 'Surprised' to 'Alarmed'[/h2]
+ The destruction of the identified boobytrapped asteroids have relieved the immediate threat. However, there has been an uptick in alien communication bands that we have never seen before. Areas long thought empty are showing a number of alien outposts that are relaying this signal. These need to be stopped before whatever is going to happen happens. Help reprogram these [em]Ancient Relays[/em] as to stop their signal broadcast.
+ 
+problem-default-ancientrelics-step2-complete: "With the broadcast stopped, this will hopefully cut off the problem before it gets worse."
+problem-drum-ancientrelics-step2-complete: "BEGIN TRANSLATION --[ Stopped broadcast. Problem not worse. ]-- END TRANSLATION"
+
+problem-default-ancientrelic-relay-hail1: "*short burst of static followed by repetitive beeps greet you*"
+problem-default-ancientrelic-relay-opt-beginhack: --Transmit counter-signal in old style binary--
+problem-default-ancientrelic-relay-hacksuc: "*short burst message fades*. Relay Station has been reprogrammed. Another success."
+
+problem-default-ancientrelics-step3-summary: "Destroy Drone Ships"
+problem-default-ancientrelics-step3-desc: |
+ [h1]Ancient War Relics[/h1]
+ [h2]Something Awakes[/h2]
+ The relay outposts have been successfully reprogrammed. They are no longer broadcasting their signal. However, whatever they were broadcasting seems to have worked, because we are seeing space traffic where we've never seen traffic before. Long range scans suggest they're drone ships, long asleep, now active. These could prove to have a devastating impact that we just cannot allow to happen. Help destroy the [em]Ancient Drone Ships[/em] before they wreak havoc throughout the system.
+  
+problem-default-ancientrelics-step3-complete: "Those ships sure put up a fight. We are lucky whoever made them are no longer around. Thank you for the help Captain."
+problem-drum-ancientrelics-step3-complete: "BEGIN TRANSLATION --[ Ships fought hard. Lucky creators gone. Thank you, Captain. ]-- END TRANSLATION"
+
+problem-default-ancientrelics-opt-getbuff: Station, I am ready for my reward.
+problem-default-ancientrelics-givebuff: After the trouble those ancient machines caused, we are happy to grant you this.
+problem-drum-ancientrelics-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Space Wasp Infestation ==============================================================================================================
+problem-default-spacewasps-title: "Space Wasp Infestation"
+problem-default-spacewasps-step1-summary: "Identify and Destroy Space Hives"
+problem-default-spacewasps-step1-desc: |
+ [h1]Space Wasp Infestation[/h1]
+ [h2]What's that Hum?[/h2]
+ A strange hum is being reported, resonnating through manufacturing equipment and interfering with operations, some workers are reporting. This is a problem as this area is strongly needed to keep up their manufacturing output as designated by the Office of Manufacturing Integrity and Throughput. Help investigate, and if possible, eliminate the cause of this hum throughout the system.
+ 
+problem-default-spacewasps-step1-complete: Those factory workers will be eternally grateful. No one likes dealing with space wasps.
+problem-drum-spacewasps-step1-complete: BEGIN TRANSLATION --[ Workers happy. No wasps. ]-- END TRANSLATION
+problem-default-spacewasps-clearstation-header: Clear Station
+
+problem-default-spacewasps-clearstation-header: Wasp-free Station
+problem-default-spacewasps-clearstation-text: Thanks captain. You have no idea how much of a relief it is to be rid of those wasps.
+ 
+problem-default-spacewasps-step2-summary: "Defeat Workers and Acquire Jelly"
+problem-default-spacewasps-step2-desc: |
+ [h1]Space Wasp Infestation[/h1]
+ [h2]Royal Jelly is a Must Have[/h2]
+ This isn't the first time Space Wasps have been sighted in this quadrant of space. Unfortunately it won't be the last either. That said, we might as well take this opprotunity to get some Royal Jelly. This jelly has strange biomorphic capabilities that any scientist would give their left hand for. Head to any [em]Asteroid Field[/em], find some of this jelly, acquire it, and deliver it to a nearby station.
+ 
+problem-default-spacewasps-step2-opt-handin: I have some jelly to turn over.
+problem-default-spacewasps-step2-suc: Jelly received. It sure is tasty looking.
+problem-drum-spacewasps-step2-suc: BEGIN TRANSLATION --[ Jelly received. Looks good. ]-- END TRANSLATION
+problem-default-spacewasps-step2-complete: Good work Captain. We have enough jelly to work with for years.
+problem-drum-spacewasps-step2-complete: BEGIN TRANSLATION --[ Captain, good job. Jelly for years. ]-- END TRANSLATION
+ 
+problem-default-spacewasps-step3-summary: "Queen and Hive Destroyed"
+problem-default-spacewasps-step3-desc: |
+ [h1]Space Wasp Infestation[/h1]
+ [h2]The Queen is Mad[/h2]
+ The Wasp Queens are on the move. Our specialists theorize they have gotten wind of us stealing their Royal Jelly and is now on a rampage. They are reportedly at warp, traveling with her personal hives and royal entourage. Stop it before it causes permenant damage.
+ 
+problem-default-spacewasps-step3-complete: Thank you for all your work Captain. Those space wasps have been defeated. Hopefully they never return either. Man... I hate that buzzing.
+problem-drum-spacewasps-step3-complete: BEGIN TRANSLATION --[ Thank Captain. Wasps gone. Hope they stay gone. Hate buzzing. ]-- END TRANSLATION
+problem-default-spacewasps-hail: [i][cccccc]Hails are open, but all you hear is the intense humm of angry space wasps[-][/i]
+
+problem-default-spacewasps-opt-getbuff: Station, I am ready for my reward.
+problem-default-spacewasps-givebuff: Spacewasps were no laughing matter. With your help they were eradicated as they should be. Accept our gratitude.
+problem-drum-spacewasps-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+ 
+#Rogue Scientist Breeding Eugenic Abherrations ==============================================================================================================
+problem-default-rogueeugenics-title: "Rogue Scientist Breeding Eugenic Abherrations"
+problem-default-rogueeugenics-step1-summary: "Hail and Retrieve Station Datalogs"
+problem-default-rogueeugenics-step1-desc: |
+ [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
+ [h2]All Quiet on the Science Front[/h2]
+ A number of specialized research stations have recently gone quiet. This isn't completely unheard of, but even their data sharing uplinks are barely transmitting their latest findings, which is unusual. You can be of help by visiting each [em]Research Facility[/em] and get their data logs for analysis.
+ 
+problem-default-rogueeugenics-step1-opt-handin: I have retrieved the data logs. Prepare to receive them.
+problem-default-rogueeugenics-step1-suc: Thank you Captain. Logs received and will be processed.
+problem-drum-rogueeugenics-step1-suc: BEGIN TRANSLATION --[ Logs received. Processing now, Captain. ]-- END TRANSLATION
+problem-default-rogueeugenics-step1-complete: You have done it. All the logs have been retrieved.
+problem-drum-rogueeugenics-step1-complete: BEGIN TRANSLATION --[ All logs retrieved. Well done. ]-- END TRANSLATION
+ 
+problem-default-rogueeugenics-step2-summary: "Force the Suspected Dirty Police to Surrender for Questioning"
+problem-default-rogueeugenics-step2-desc: |
+ [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
+ [h2]Corruption and Bribery[/h2]
+ The stations datalogs are still being analyzed, but it appears they were all visited by a few local space police before things got weird. We suspect these police may be taking bribes and involved in some kind of enforcement or other illegal activity. You can help by bringing these space cops while they're on patrol as [em]Police Ship[/em], in for questioning.
+ 
+problem-default-rogueeugenics-step2-opt-handin: Station, I have some of those dirty cops for you.
+problem-default-rogueeugenics-step2-suc: Thank you Captain. We're going to get to the bottom of this.
+problem-drum-rogueeugenics-step2-suc: BEGIN TRANSLATION --[ Prisoner received. Thank you, Captain. ]-- END TRANSLATION
+problem-default-rogueeugenics-step2-complete: Good work. Enough of the dirty cops have been apprehended. We are going to work them over shortly.
+ 
+problem-default-rogueeugenics-step3-summary: "Investigate and Destroy Bio-Mechanoid Monstrosities"
+problem-default-rogueeugenics-step3-desc: |
+ [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
+ [h2]Serious and Deadly[/h2]
+ It turns out the space police in question were dirty! They were taking bribes to look the other way, even going so far as to, at times, deliver the banned bio-organic materials the scientists was using. We now suspect these scientists were "breeding" bio-mechanoid ships. One of these crooked cops was able to give us the location of several out-of-the-way asteroid regions the scientists may be using. Return to the [em]Research Facilities[/em] you had previously visited and destroy any monstrosities you may find.
+ 
+problem-default-rogueeugenics-step3-complete: You have done it. The bio-mechanoid ships have been dealt with, much to everyones relief.
+problem-drum-rogueeugenics-step3-complete: BEGIN TRANSLATION --[ Bio-mechanoid ships dealt with. Everyone relieved. Good job. ]-- END TRANSLATION
+
+problem-default-rogueeugenics-lab-hail1: Hello Captain. What brings you out here?
+problem-drum-rogueeugenics-lab-hail1: BEGIN TRANSLATION --[ Hello. Captain here. Purpose? ]-- END TRANSLATION
+problem-default-rogueeugenics-lab-opt-req: Lab, where is your data?
+problem-default-rogueeugenics-lab-give: Captain, one moment, checking you clearence... Ok, here is the data. You are good to go.
+problem-drum-rogueeugenics-lab-give: BEGIN TRANSLATION --[ Captain, wait. Clearance check... Done. Data sent. Go. ]-- END TRANSLATION
+problem-default-rogueeugenics-lab-hail-done: We have already received uploaded the data recently. We cannot transmit another one at this time.
+problem-drum-rogueeugenics-lab-hail-done: BEGIN TRANSLATION --[ Data received recently. No transmission now. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-hail1: Hail received. What is going on?
+problem-drum-rogueeugenics-police-hail1: BEGIN TRANSLATION --[ Hail received. Report? ]-- END TRANSLATION
+problem-default-rogueeugenics-police-opt-question: Officer, do you mind answering some questions?
+problem-default-rogueeugenics-police-surrender-text: Ok ok, you've got me. I surrender.
+problem-drum-rogueeugenics-police-surrender-text: BEGIN TRANSLATION --[ Alright, I give up. Surrendering. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-opt-takepeople: Get out of your ship, I'm taking you in.
+problem-default-rogueeugenics-police-peoplespawn: Ok, just don't hurt me. I'll cooperate.
+problem-drum-rogueeugenics-police-peoplespawn: BEGIN TRANSLATION --[ Surrender engaged. Cooperation entailed ]-- END TRANSLATION
+
+problem-default-rogueeugenics-opt-getbuff: Station, I am ready for my reward.
+problem-default-rogueeugenics-givebuff: Please accept our gratitude after your hard work with dealing with those abominations of science.
+problem-drum-rogueeugenics-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+ 
+#Extra Solar Energy Ribbon ==============================================================================================================
+problem-default-extrasolarribbon-title: "Extra Solar Energy Ribbon"
+problem-default-extrasolarribbon-step1-summary: "Collect and Deliver Ship Log Entries"
+problem-default-extrasolarribbon-step1-desc: |
+ [h1]Extra Solar Energy Ribbon[/h1]
+ [h2]Ribbon Wrecked Ships[/h2]
+ Reports of ships in distress are spiking higher than usual. Local authorities aren't sure why, and are requesting local captains help where possible. Visit the [em]Distress Calls[/em] and gather whatever intelligence is available.
+ 
+problem-default-extrasolarribbon-step1-opt-handin: Station, I have some logs for you to parse.
+problem-default-extrasolarribbon-step1-suc: Captain, logs received. Thanks for your help. We'll get the eggheads working on this right away.
+problem-drum-extrasolarribbon-step1-suc: BEGIN TRANSLATION --[ Captain, logs received. Thanks for your help. Eggheads work now. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step1-complete: Good work Captain. You have done more than your fair share. We should have some answers to this problem shortly.
+problem-drum-extrasolarribbon-step1-complete: BEGIN TRANSLATION --[ Good work Captain. You do more than fair share. Answers come soon. ]-- END TRANSLATION
+problem-default-extrasolarribbon-log: The log describes the last moments of the ship before the energy ribbon breaches its hull.
+ 
+problem-default-extrasolarribbon-step2-summary: "Deliver Relief Supplies"
+problem-default-extrasolarribbon-step2-desc: |
+ [h1]Extra Solar Energy Ribbon[/h1]
+ [h2]Supplies are Needed[/h2]
+ The situation around the system is deteriorating faster than ever. The strange energy readings are showing up nearly everywhere, and even stations are being damaged. We are asking available captains to help ferry supplies from the [em]Relief Zone[/em] to [em]Stations in Need[/em]. 
+ 
+problem-default-extrasolarribbon-step2-opt-handin: Here, take these supplies to help get things operating again.
+problem-drum-extrasolarribbon-step2-opt-handin: BEGIN TRANSLATION --[ Supplies. Take. Help things operate. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-suc: Thanks for the relief supplies!
+problem-default-extrasolarribbon-step2-complete: Captain, those relief supplies you delivered will have a great benefit throughout the system.
+problem-drum-extrasolarribbon-step2-complete: BEGIN TRANSLATION --[ Captain, relief supplies have great benefit. System wide. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-complete-reqtractor: I need a tractor, can you supply one?
+problem-default-extrasolarribbon-step2-complete-reqtractor-give: Yes, here's a tractor for you.
+problem-drum-extrasolarribbon-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Tractor. Here. Yes. ]-- END TRANSLATION
+problem-default-extrasolarribbon-reliefcentral: Hello Captain. This is Relief Central. What do you need?
+problem-drum-extrasolarribbon-reliefcentral: BEGIN TRANSLATION --[ Captain. Relief Central speaking. Need what? ]-- END TRANSLATION
+problem-default-extrasolarribbon-reliefcentral-opt-req: Relief Central, I'm here to pick up some supplies for delivery.
+problem-default-extrasolarribbon-reliefcentral-give: Stand by. Here are some supplies. Oh and Captain, keep up the good work.
+problem-drum-extrasolarribbon-reliefcentral-give: BEGIN TRANSLATION --[ Supplies coming. Captain, good work. ]-- END TRANSLATION
+problem-default-extrasolarribbon-distressstation: It's been a pretty bad time since the incident. Do you have any good news?
+problem-drum-extrasolarribbon-distressstation: BEGIN TRANSLATION --[ Bad time since incident. Good news? ]-- END TRANSLATION
+ 
+problem-default-extrasolarribbon-step3-summary: "Deliver the unassembled Deflector parts"
+problem-default-extrasolarribbon-step3-desc: |
+ [h1]Extra Solar Energy Ribbon[/h1]
+ [h2]Scientists Have an Idea[/h2]
+ Scientists have finally determined the cause of all the chaos in the system. There is an extra solar ribbon passing not too far outside the solar system and causing all the problems. We have devised a strategy to deflect the radiation, but need capable captains to collect and assemble the device. We need the [em]Anti Graviton Deflector[/em] parts to be picked up from each [em]Part Pickup[/em] and delivered to the [em]Anti Graviton Deflector Assembly Site[/em]. When this machine is assembled, it should provide protection for the solar system until the energy ribbon moves far enough back into interstellar space.
+ 
+problem-default-extrasolarribbon-step3-complete: Good work! The solar ribbon has been sent back into deep space through your hard work. The system is safe again.
+problem-drum-extrasolarribbon-step3-complete: BEGIN TRANSLATION --[ Energy ribbon back in space. Safe system. Good work! ]-- END TRANSLATION
+
+problem-default-extrasolarribbon-part-handin: [i]Part begins to deploy into its final configuration[/i] 
+
+problem-default-extrasolarribbon-opt-getbuff: Station, I am ready for my reward.
+problem-default-extrasolarribbon-givebuff: Captain, with the retreat of the energy ribbon, we are free to give you this in thanks.
+problem-drum-extrasolarribbon-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+ 
+#Alien Settler Encroachment ==============================================================================================================
+problem-default-foreignencroachment-title: "Alien Settler Encroachment"
+problem-default-foreignencroachment-step1-summary: "Destroy Encroaching Miners"
+problem-drum-foreignencroachment-step1-summary: "Destroy Encroaching Miners"
+problem-drum-foreignencroachment-step1-desc: |
+ [h1]Alien Settler Encroachment[/h1]
+ BEGIN TRANSLATION --[ Non druminence ore gatherers detected within territory. [em]Mining Activity[/em] detected destruction compliance ore gatherers. ]-- END TRANSLATION
+ 
+problem-default-foreignencroachment-step1-complete: BEGIN TRANSLATION --[ Good work. Ore gatherers eradicated. ]-- END TRANSLATION
+ 
+problem-default-foreignencroachment-step2-summary: "Destroy Encroaching Colony Fleets"
+problem-drum-foreignencroachment-step2-summary: "Destroy Encroaching Colony Fleets"
+problem-drum-foreignencroachment-step2-desc: |
+ [h1]Alien Settler Encroachment[/h1]
+ BEGIN TRANSLATION --[ Non druminence populators detected colonizing. Druminence protected area of space, unavailable to non druminence populators. Destroy [em]Encroaching Colony Fleets[/em] encouragement by Druminence Heirarchy. ]-- END TRANSLATION
+ 
+problem-default-foreignencroachment-step2-complete: BEGIN TRANSLATION --[ Druminence Heirarchy content. Populators eradicated. ]-- END TRANSLATION
+problem-default-foreignencroachment-colonyship-text: Whoa! We are just simple settlers looking to find a new world to colonize.
+problem-default-foreignencroachment-colonyship-opt-leave: Turn that ship around, or face the consequences on encroaching upon protected space.
+problem-default-foreignencroachment-colonyship-leaving: Alright! We'll leave the area, but, I'll have you know, many young families will be crushed by this.
+ 
+problem-default-foreignencroachment-step3-summary: "Destroy Military Support for the Colonists"
+problem-drum-foreignencroachment-step3-summary: "Destroy Military Support for the Colonists"
+problem-drum-foreignencroachment-step3-desc: |
+ [h1]Alien Settler Encroachment[/h1]
+ BEGIN TRANSLATION --[ Non druminence combators detected. Escort populator negation quotient for druminence interests. [em]Encroaching Military Fleet[/em] termination required once and for all. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Combat Fleet eradicated. Work complete satisfactory. ]-- END TRANSLATION 
+problem-drum-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Combat Fleet eradicated. Work complete satisfactory. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-opt-getbuff: Station, I am ready for my reward.
+problem-drum-foreignencroachment-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+ 
+#Juice Smugglers ==============================================================================================================
+problem-default-drugsmugglers-title: "Juice Smugglers"
+problem-default-drugsmugglers-step1-summary: "Investigate Suspicious Ships and Intimidate Them"
+problem-default-drugsmugglers-step1-desc: |
+ [h1]Juice Smugglers[/h1]
+ [h2]Juice Is A Problem[/h2]
+ Do you know what Juice is? It's a narcotic that is on the rise. Miners are particularly fond of it, as well as party goers who want to go for hours. The local office wants to stop it however. We know that pirates are manufacturing it, but we're not quite sure how its getting onto the stations. The new approach is to stop all cargo ships before they dock and offload. Help out with this effort by intercepting the cargo fleets and questioning any [em]Suspicious Ship[/em]. Let us see if we can't generate some intelligence.
+ 
+problem-default-drugsmugglers-step1-complete: Juice smugglers got what was coming to them. Good work.
+problem-drum-drugsmugglers-step1-complete: BEGIN TRANSLATION --[ Juice smugglers punished. Good work. ]-- END TRANSLATION
+ 
+problem-default-drugsmugglers-step2-summary: "Locate and Raid Known Drug Sites inside the belt"
+problem-default-drugsmugglers-step2-desc: |
+ [h1]Juice Smugglers[/h1]
+ [h2]Juice Delivery[/h2]
+ The previous part of the operation was successful. With your help we were able to destroy a number of the Juice shipments as well as get some leads on where in the system the stuff is being manufactured. The next step in this operation is to raid the distribution points based on the leads from the cargo haulers. The Space Police need a hand raiding these places. Pick up the agents from a [em]Station[/em] and bring them to [em]Known Drug Site[/em] to raid the stations. 
+ 
+problem-default-drugsmugglers-opt-reqpolice: I am ready to transport the police. Send them over.
+problem-default-drugsmugglers-reqpolice-haspolice: You already have some police onboard.
+problem-drum-drugsmugglers-reqpolice-haspolice: BEGIN TRANSLATION --[ Police onboard. Already there. ]-- END TRANSLATION
+problem-default-drugsmugglers-reqpolice-peoplespawn: The police are ready to be picked up.
+problem-default-drugsmugglers-step2-complete: Yeah! Got those dirt bags. Good work Captain. Thanks for the help.
+problem-drum-drugsmugglers-step2-complete: BEGIN TRANSLATION --[ Dirt bags caught. Good work Captain. Thankful for help. ]-- END TRANSLATION
+ 
+problem-default-drugsmugglers-step3-summary: "Destroy Chemical Stockpile"
+problem-default-drugsmugglers-step3-desc: |
+ [h1]Juice Smugglers[/h1]
+ [h2]Juice Chemical Engineering[/h2]
+ Things are looking good, but we are still one major step away from stopping the Juice problem in the system. Following the raids we were able to find information on a trade route leading to the the location of the manufacturing location. Find it at [em]Secret Drug Lab[/em], and remove their ability to make more by destroying all their [em]Precursor Chemicals[/em].
+ 
+problem-default-drugsmugglers-step3-complete: You have done it again. Another Juice operation shut down.
+problem-drum-drugsmugglers-step3-complete: BEGIN TRANSLATION --[ Juice operation stopped. Done again. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-ship-innocent-hail: Hello Captain, how may I assist you?
+problem-drum-drugsmugglers-ship-innocent-hail: BEGIN TRANSLATION --[ Hello Captain. Help needed? ]-- END TRANSLATION
+problem-default-drugsmugglers-ship-opt-interrogate: Do you know where the juice is coming from?
+problem-default-drugsmugglers-ship-innocent-reply: I swear I don't know! I just carry auto farming equipment!
+problem-drum-drugsmugglers-ship-innocent-reply: BEGIN TRANSLATION --[ Swear. Don't know. Auto farming equipment carrier only. ]-- END TRANSLATION
+problem-default-drugsmugglers-ship-aggro-hail:  Hello Captain, how may I assist you?
+problem-drum-drugsmugglers-ship-aggro-hail: BEGIN TRANSLATION --[ Want know what? ]-- END TRANSLATION
+problem-default-drugsmugglers-shipsurrender-text: Oh no! You've got me. I can't stand the beating. I surrender and I'll tell you everything!
+problem-drum-drugsmugglers-shipsurrender-text: BEGIN TRANSLATION --[ Oh no! Got me. Beating unbearable. Surrender. Tell all! ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-hail1: You don't have the guts to take us on. We control the drugs in this sector of space.
+problem-drum-drugsmugglers-drugoutpost-hail1: BEGIN TRANSLATION --[ You no guts take us. Control drugs in this sector space. ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-opt-sendpolice: The police are being sent. Prepare to be boarded!
+problem-default-drugsmugglers-drugoutpost-raidsuccess: Good work Captain. This station is now under police control.
+problem-drum-drugsmugglers-drugoutpost-raidsuccess: BEGIN TRANSLATION --[ Captain good work. Station now under police control. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-opt-getbuff: Station, I am ready for my reward.
+problem-default-drugsmugglers-givebuff: Captain, the system is once again Juice free thanks to your work. Please accept this token of appreciation.
+problem-drum-drugsmugglers-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+#Generic 1 Step Problems
+problem-default-pirates-title: Problems with Pirates
+problem-default-pirates-step1-summary: Destroy Pirate Vessels
+problem-default-pirates-step1-desc:  |
+ [h1]Problems with Pirates[/h1]
+ The Sixiser Pirates are an expansive band of loosely organized pirates. They have no qualms about looting, plundering, stealing or 'expropriating'. They also dabble in slaves and narcotics. They are constantly about, when you stop one, it feels like another will just take its place. Do your part and help stop some.
+
+problem-default-pirates-step1-complete: Great job, Captain! The pirate vessels have been neutralized, and our cargo is now safe. 
+problem-drum-pirates-step1-complete: BEGIN TRANSLATION --[ Captain good work. Pirate vessels destruction confirmed and celebrated. ]-- END TRANSLATION
+
+problem-default-pirates-opt-getbuff: Station, I am ready for my reward.
+problem-default-pirates-givebuff: We are happy the pirates are gone. Accept this as our thanks.
+problem-drum-pirates-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+problem-default-dumpedcargo-title: Supply Time Running Short
+problem-default-dumpedcargo-step1-summary: Deliver cargo pods to nearby station
+problem-default-dumpedcargo-step1-desc:  |
+ [h1]Supply Time Running Short[/h1]
+ A local delivery ship has had to dump its cargo after an on-board emergency. That cargo needs to be delivered before it expires. Lend a hand and help deliver the goods. Look for [em]Dumped Cargo[/em] and bring the cargo pods to any near by [em]station[/em].
+ 
+problem-default-dumpedcargo-step1-opt-handin: I have one of the cargo pods
+problem-default-dumpedcargo-handin-ack: Understood please deliver it over here
+problem-drum-dumpedcargo-handin-ack: BEGIN TRANSLATION --[ Arrive cargo desired location ]-- END TRANSLATION 
+problem-default-dumpedcargo-cargo-handin1: Cargo container received.
+problem-drum-dumpedcargo-cargo-handin1: BEGIN TRANSLATION --[ Receivement done ]-- END TRANSLATION 
+problem-default-dumpedcargo-step1-complete: Great work Captain! Your prompt response and efficient transport helped us avoid any loss of valuable goods.
+problem-drum-dumpedcargo-step1-complete: BEGIN TRANSLATION --[ Captain good work. Welcomed help assistance delivered time wise well. Loss avoided. ]-- END TRANSLATION 
+
+problem-default-dumpedcargo-opt-getbuff: Station, I am ready for my reward.
+problem-default-dumpedcargo-givebuff: Thank you for picking up and deliverying all the dumped cargo. Accept our gratitude with this.
+problem-drum-dumpedcargo-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+problem-default-oreshortage-title: Ore Shortage
+
+problem-default-oreshortage-tritanium-step1-summary: Deliver Tritanium Ore to Ore Collection Point
+problem-default-oreshortage-tritanium-step1-desc:  |
+ [h1]Ore Shortage[/h1]
+ Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.tritanium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+
+problem-default-oreshortage-magnesite-step1-summary: Deliver Magnesite Ore to Ore Collection Point
+problem-default-oreshortage-magnesite-step1-desc:  |
+ [h1]Ore Shortage[/h1]
+ Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.magnesite} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+
+problem-default-oreshortage-bonivium-step1-summary: Deliver Bonivium Ore to Ore Collection Point
+problem-default-oreshortage-bonivium-step1-desc:  |
+ [h1]Ore Shortage[/h1]
+ Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.bonivium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+
+problem-default-oreshortage-kelbium-step1-summary: Deliver Kelbium Ore to Ore Collection Point
+problem-default-oreshortage-kelbium-step1-desc:  |
+ [h1]Ore Shortage[/h1]
+ Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.kelbium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+
+problem-default-oreshortage-virmatite-step1-summary: Deliver Virmatite Ore to Ore Collection Point
+problem-default-oreshortage-virmatite-step1-desc:  |
+ [h1]Ore Shortage[/h1]
+ Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.virmatite} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+
+ 
+problem-default-oreshortage-step1-opt-handin: Here is some of the ore you requested
+problem-default-oreshortage-step1-suc: Your help with the ore delivery was much appreciated!
+problem-drum-oreshortage-step1-suc: BEGIN TRANSLATION --[ Captain good work. Delivered ore accepted. ]-- END TRANSLATION
+problem-default-oreshortage-step1-complete: Captain, your help is greatly appreciated. Thanks to your efforts our operations are running smoothly again. 
+problem-drum-oreshortage-step1-complete: BEGIN TRANSLATION --[ Operation return smoothly. Thank you Captain. ]-- END TRANSLATION
+
+problem-default-oreshortage-opt-getbuff: Station, I am ready for my reward.
+problem-default-oreshortage-givebuff: The ore shortage is over, for now. Thank you Captain. Accept this as a token of our appreciation.
+problem-drum-oreshortage-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+problem-default-lockedjumpgate-title: Jumpgate Locked
+problem-default-lockedjumpgate-step1-summary: Unlock System Jumpgate
+problem-default-lockedjumpgate-step1-desc:  |
+ [h1]Jumpgate Locked[/h1]
+ [h2]Unlock to transit[/h2]
+ This system has a locked [url=codex://codex.intermediate.transit.travel]Jumpgate[/url]. Discover what region it is in and work towards unlocking it. Doing so will allow travel to the connected star system.
+
+problem-default-lockedjumpgate-step1-complete: Great work Captain! With the jumpgate restored this should improve trade greatly
+problem-drum-lockedjumpgate-step1-complete: BEGIN TRANSLATION --[ Jumpgate engaged and restored. Captain! Great work. ]-- END TRANSLATION
+
+problem-default-piratelife-title: The Pirate Life
+problem-default-piratelife-step1-summary: Destroy Lawless Vessels
+problem-default-piratelife-step1-desc:  |
+ [h1]The Pirate Life[/h1]
+ It's not easy being a pirate. This less restricted way of life is constantly attacked by those who see us as parasites. But, it's not true. We make our own opprotunities from the universe around us. And we never, well rarely, attack one another. A number of ships have refused to recognize our claim on this system and instead attempt to pirate from us! Of all things. Help us free ourselves of these nuisances by destroying as many [em]$fac0$Lawless ships[/em] as possible.
+
+problem-default-piratelife-step1-complete: We will remember this Captain. Your ruthless determination in taking down the Lawless ships has reminded them who truly rules these spaceways.
+
+problem-default-piratelife-opt-getbuff: Station, I am ready for my reward.
+problem-default-piratelife-givebuff: Aye Captain. You have a true pirate hearts in you, and for that, accept this as our thanks.
+problem-drum-piratelife-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
