@@ -8,6 +8,6 @@ Instalación
 -----
 1. Descomprime el .zip
 2. Meter la carpeta eu-es dentro del directorio:
-```json
+```
 C:\Program Files (x86)\Steam\steamapps\common\Space Impossible\GameData\base\language
 ```
