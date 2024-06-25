@@ -1,907 +1,907 @@
-#Distress Calls
+#Llamadas de socorro
 distress-header-alert: "=ALERT="
-distress-subheader-beacon-detected: "BEACON DETECTED"
-distress-text-distress-beacon: "[i][cccccc]DISTRESS BEACON DETECTED IN REGION[-][/i]"
+distress-subheader-beacon-detected: "BALIZA DETECTADA"
+distress-text-distress-beacon: "[i][cccccc]baliza de socorro detectada en la región[-][/i]"
 
-#Default Generics
-distress-default-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-default-header1: "Distress Call"
-distress-default-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-default-nohelp1: "Sorry {vesselname}. I can't help."
-distress-default-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-default-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-default-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-default-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-default-canhelp1: "Don't worry, I'll fight them off."
-distress-default-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-default-being-towed: "We're awaiting a tow to starbase."
+#Genéricos por defecto
+distress-default-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjame en paz y sigue tu camino"
+distress-default-header1: "Llamada de socorro"
+distress-default-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-default-nohelp1: "Lo siento {nombredelbuque}. No puedo ayudarle".
+distress-default-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-default-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-default-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+distress-default-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-default-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-default-nohelp2: "Te mereces lo que te pase. ¡Muere!"
+distress-default-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-default-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-default-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-default-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-default-case1: "Capitán, este es el {nombredelbuque}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto para el reactor, podría volver a ponerme en marcha".
+distress-default-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puede tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-default-case1-partthanks: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de momentos una vez que la instalación esté completa."
 
-#Case 3
-distress-default-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-default-case3-moreinfo: "How did the pilot die?"
-distress-default-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-default-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-default-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-default-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-default-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-default-case3: "¡Ayúdenos, por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-default-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-default-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-default-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-default-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-default-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+distress-default-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-default-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-default-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-default-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-default-case4-cantow: "I'll tow it, sure."
-distress-default-case4-notow: "I don't think so computer. That ship is mine now."
-distress-default-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso 4
+distress-default-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-default-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-default-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ahora está libre de interferencias extrañas y es capaz de operar bajo su propia energía de nuevo. Por favor, espere mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolque este buque al lugar seguro más cercano y alerte a los propietarios".
+distress-default-case4-cantow: "Lo remolcaré, seguro".
+distress-default-case4-notow: "No lo creo ordenador. Ese barco es mío ahora".
+distress-default-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-default-case5-header: "Ship under attack"
-distress-default-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-default-case5-moreinfo: "How did the Captain die?"
-distress-default-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-default-case5-attacker1: "What do you want we are busy"
-distress-default-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-default-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-default-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-default-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-default-case5-header: "Barco bajo ataque"
+distress-default-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {vesselname}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-default-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-default-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos siendo atacados! Por favor, ayúdennos".
+distress-default-case5-attacker1: "¿Qué quieres? Estamos ocupados"
+distress-default-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-default-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-default-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-default-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-default-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-default-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-default-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-default-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso6
+distress-default-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-default-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-default-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-default-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-default-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-default-case7-moreinfo1: "What happened?"
-distress-default-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-default-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-default-case7-takepeople: "I can transport your people. Come on board."
-distress-default-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-default-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo".
+distress-default-case7-moreinfo1: "¿Qué ha pasado?"
+distress-default-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-default-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-default-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-default-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-default-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-default-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-default-case8: "Aquí {nombredelbuque}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-default-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-default-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-default-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-default-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-default-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-default-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-default-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-default-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-default-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-default-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso 10
+distress-default-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-default-case10-takepeople: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-default-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-default-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-default-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-default-case11-peoplespawn: "Here they are, be safe!"
-distress-default-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-default-case11: "¡Capitán! Menos mal que ha venido. Hubo un desastre cerca y necesito regresar. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-default-case11-takepeople: "{nombredelbuque}, llevaré a los supervivientes".
+distress-default-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-default-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. Por favor!"
 
-#Case 12
-distress-default-case12-header: "Ship under attack"
-distress-default-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-default-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-default-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-default-case12-header: "Nave bajo ataque"
+distress-default-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-default-case12-canhelp: "No se preocupen, puedo ayudarles. Los atacantes no tienen ninguna posibilidad".
+distress-default-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-default-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-default-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-default-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-default-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-default-case13: "Esta es la nave {nombredelbuque} bajo el mando del Capitán {nombre}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-default-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-default-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-default-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-default-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-default-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-default-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-default-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en los motores. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-default-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puede utilizar. [Requiere: {item-base:item.part.engine}]"
+distress-default-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-default-case15-header: "Distress Call"
-distress-default-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-default-case15-takepeople: "I can take your evacuees."
-distress-default-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-default-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-default-case15-header: "Llamada de socorro"
+distress-default-case15: "Aquí la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-default-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-default-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-default-case15-crewgone: "[i][cccccc]El saludo está abierto pero parecen estar demasiado concentrados en las reparaciones para responder[-][/i]"
 
-#Case 16
-distress-default-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-default-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-default-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-default-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-default-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-default-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
-distress-default-case16-shiphandin: "Ship received. We'll get it stripped in no time. Feel free to bring more. Station out."
+#Caso 16
+distress-default-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-default-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-default-case16-partthanks: "Gracias por las piezas. Funcionarán bien".
+distress-default-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-default-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-default-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
+distress-default-case16-shiphandin: "Nave recibida. La desguazaremos enseguida. Siéntanse libres de traer más. Estación fuera".
 
 #Druminence Generics
-distress-drum-blackmail-paid: "BEGIN TRANSLATION --[ Pay no more. Currency empty. ]-- END TRANSLATION"
-distress-drum-header1: "Distress Call"
-distress-drum-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-drum-nohelp1: "Sorry {vesselname}. I can't help."
-distress-drum-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-drum-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-drum-aipaybribe1: "BEGIN TRANSLATION --[ Betrayal. Deeply felt. Take currency. ]-- END TRANSLATION"
-distress-drum-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-drum-canhelp1: "Don't worry, I'll fight them off."
-distress-drum-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-drum-being-towed: "BEGIN TRANSLATION --[ Need movement. Spacestation destination. ]-- END TRANSLATION"
+distress-drum-blackmail-paid: "BEGIN TRANSLATION --[ No pagues más. Moneda vacía. ]-- END TRANSLATION"
+distress-drum-header1: "Llamada de socorro"
+distress-drum-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-drum-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-drum-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-drum-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-drum-aipaybribe1: "BEGIN TRANSLATION --[ Traición. Profundamente sentida. Toma moneda. ]-- END TRANSLATION"
+distress-drum-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Armas de primera*"
+distress-drum-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-drum-nohelp2: "Te mereces lo que te pase. Muere".
+distress-drum-being-towed: "BEGIN TRANSLATION --[ Necesita movimiento. Destino estación espacial. ]-- END TRANSLATION"
 
-#Case 1
-distress-drum-case1: "BEGIN TRANSLATION --[ Internal Conflict ended. Vessel named {vesselname}. Reactor damaged. Need Parts or movement to base. ]-- END TRANSLATION"
-distress-drum-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-drum-case1-partthanks: "BEGIN TRANSLATION --[ Part fits. Helpful aid. ]-- END TRANSLATION"
+#Caso 1
+distress-drum-case1: "BEGIN TRANSLATION --[ Conflicto interno finalizado. Buque llamado {nombredelbuque}. Reactor dañado. Necesita Piezas o movimiento a base. FIN DE LA TRADUCCIÓN"
+distress-drum-case1-reactorparts: "Creo que tengo partes de reactor de repuesto que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-drum-case1-partthanks: "BEGIN TRANSLATION --[La parte encaja. Ayuda útil. ]-- END TRANSLATION"
 
-#Case 3
-distress-drum-case3: "BEGIN TRANSLATION --[ Assistance required. Helm uncontrolled. Energy Storm deaths. Vessel named {vesselname} ]-- END TRANSLATION"
-distress-drum-case3-moreinfo: "What happened to the pilot?"
-distress-drum-case3-moreinfo2: "BEGIN TRANSLATION --[ Pilot dead. *UNABLE TO TRANSLATE* Fire Burn. *UNABLE TO TRANSLATE* Cargo hold. Help us! ]-- END TRANSLATION"
-distress-drum-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-drum-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-drum-case3-peoplespawn: "BEGIN TRANSLATION --[ Exited vessel. Vacuum present. Pick up life. ]-- END TRANSLATION"
-distress-drum-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-drum-case3: "BEGIN TRANSLATION --[ Se requiere ayuda. Timón descontrolado. Muertes por tormenta de energía. Buque llamado {vesselname} FIN DE LA TRADUCCIÓN"
+distress-drum-case3-moreinfo: "¿Qué le pasó al piloto?"
+distress-drum-case3-moreinfo2: "BEGIN TRANSLATION --[ Piloto muerto. *UNABLE TO TRANSLATE* Fuego quemado. *UNABLE TO TRANSLATE* Bodega de carga. ¡Help us! ]-- FIN TRADUCCIÓN"
+distress-drum-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Ellos pueden cuidar de ti desde allí. [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-drum-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-drum-case3-peoplespawn: "BEGIN TRANSLATION --[ Nave abandonada. Vacío presente. Recoger vida. ]-- END TRANSLATION"
+distress-drum-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-drum-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 6 months, 9 days, 1 hours and 5 minutes."
-distress-drum-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-drum-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-drum-case4-cantow: "I'll tow it, sure."
-distress-drum-case4-notow: "I don't think so computer. That ship is mine now."
-distress-drum-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso4
+distress-drum-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 6 meses, 9 días, 1 hora y 5 minutos".
+distress-drum-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-drum-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, permanezcan a la espera mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen esta nave al lugar seguro más cercano y alerten a los propietarios".
+distress-drum-case4-cantow: "Lo remolcaré, seguro".
+distress-drum-case4-notow: "No lo creo ordenador. Ese barco es mío ahora".
+distress-drum-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-drum-case5-header: "Ship under attack"
-distress-drum-case5: "BEGIN TRANSLATION --[ Defend required! Under attack! Vessel: {vesselname}. Captain dead. ]-- END TRANSLATION"
-distress-drum-case5-moreinfo: "How did the Captain die?"
-distress-drum-case5-moreinfo2: "BEGIN TRANSLATION --[ Captain, {captname}, smuggle rare crystals. Holy crystal. Smuggle punished with death. Distress call leaked, attackers arrive. Help! ]-- END TRANSLATION"
-distress-drum-case5-attacker1: "What do you want we are busy"
-distress-drum-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-drum-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-drum-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-drum-case5-success: "BEGIN TRANSLATION --[ Thank you. You good friend. ]-- END TRANSLATION"
+#Caso 5
+distress-drum-case5-header: "Barco bajo ataque"
+distress-drum-case5: "BEGIN TRANSLATION --[ ¡Defensa requerida! ¡Barco atacado! Buque: {vesselname}. Capitán muerto. ]-- END TRANSLATION"
+distress-drum-case5-moreinfo: "¿Cómo murió el Capitán?"
+distress-drum-case5-moreinfo2: "BEGIN TRANSLATION --[ Capitán, {captname}, contrabando de cristales raros. Cristal sagrado. Contrabando castigado con la muerte. Llamada de socorro filtrada, llegan atacantes. ¡Socorro! FIN DE LA TRADUCCIÓN
+distress-drum-case5-attacker1: "Qué quieres estamos ocupados"
+distress-drum-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-drum-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-drum-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-drum-case5-success: "BEGIN TRANSLATION --[Gracias. Buen amigo. ]-- END TRANSLATION"
 
-#Case 6
-distress-drum-case6: "BEGIN TRANSLATION --[ Reactor stolen. Ship {vesselname}. Theft unknown. Need {item-base:item.part.reactor} replacement. ]-- END TRANSLATION"
-distress-drum-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-drum-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
+#Caso 6
+distress-drum-case6: "BEGIN TRANSLATION --[ Reactor robado. Nave {nombredelbuque}. Robo desconocido. Necesita reemplazo {item-base:item.part.reactor}. ]-- END TRANSLATION"
+distress-drum-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-drum-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
 distress-drum-case6-partthanks: "BEGIN TRANSLATION --[ {item-base:item.part.reactor} fit. Thank you. {vesselname} concluded. ]-- END TRANSLATION"
 
-#Case 7
-distress-drum-case7: "BEGIN TRANSLATION --[ S.O.S.! Ship {vesselname}. Name {name}. Crew dead or missing. Need help. ]-- END TRANSLATION"
-distress-drum-case7-moreinfo1: "What happened?"
-distress-drum-case7-moreinfo2: "BEGIN TRANSLATION --[ Cargo bay open. Crew inside. Youth cause. All dead. Help. ]-- END TRANSLATION"
-distress-drum-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-drum-case7-takepeople: "I can transport your people. Come on board."
-distress-drum-case7-peoplespawn: "BEGIN TRANSLATION --[ Exited vessel. Vacuum present. Pick up life. ]-- END TRANSLATION"
+#Caso 7
+distress-drum-case7: "BEGIN TRANSLATION --[ S.O.S.! Nave {nombredelbuque}. Nombre {nombre}. Tripulación muerta o desaparecida. Necesita ayuda. ]-- END TRANSLATION"
+distress-drum-case7-moreinfo1: "¿Qué ha pasado?"
+distress-drum-case7-moreinfo2: "BEGIN TRANSLATION --[ Bahía de carga abierta. Tripulación dentro. Causa joven. Todos muertos. Ayuda. ]-- END TRANSLATION"
+distress-drum-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Vigas[/url]]"
+distress-drum-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-drum-case7-peoplespawn: "COMENZAR TRADUCCION --[ Nave abandonada. Vacío presente. Recoger vida. ]-- FIN TRADUCCION"
 
-#Case 8
-distress-drum-case8: "BEGIN TRANSLATION --[ Vessel {vesselname}. Explosion occurred. Captain dead. Help. ]-- END TRANSLATION"
-distress-drum-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-drum-case8: "BEGIN TRANSLATION --[ Buque {vesselname}. Explosión. Capitán muerto. Ayuda. ]-- END TRANSLATION"
+distress-drum-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-drum-case9: "BEGIN TRANSLATION --[ Ship {vesselname}. Rock Space Object hit. Stuck. Cut loose or die. Help. ]-- END TRANSLATION"
-distress-drum-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-drum-case9-success: "BEGIN TRANSLATION --[ Thank you. Reward: spare parts to you. ]-- END TRANSLATION"
+#Caso9
+distress-drum-case9: "BEGIN TRANSLATION --[ Nave {vesselname}. Objeto espacial rocoso alcanzado. Atascado. Soltarse o morir. Ayuda. ]-- END TRANSLATION"
+distress-drum-case9-cando: "Puedo hacerlo. Te soltaré enseguida".
+distress-drum-case9-success: "BEGIN TRANSLATION --[ Gracias. Recompensa: piezas de repuesto para ti. ]-- END TRANSLATION"
 
-#Case 10
-distress-drum-case10: "BEGIN TRANSLATION --[ Prison Ship {vesselname}. Carry violencers. Destroyed prison. You take violencers instead. Arrive station. ]-- END TRANSLATION"
-distress-drum-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-drum-case10-peoplespawn: "BEGIN TRANSLATION --[ Pickup violencers. Vacuum present. ]-- END TRANSLATION"
+#Caso 10
+distress-drum-case10: "BEGIN TRANSLATION --[ Barco prisión {nombredelbuque}. Llevar violadores. Prisión destruida. Lleva violencers en su lugar. Llegar estación. ]-- FIN TRADUCCIÓN"
+distress-drum-case10-takepeople: "{nombredelbuque}, puedo transportar a sus prisioneros. Envíalos".
+distress-drum-case10-peoplespawn: "BEGIN TRANSLATION --[ Recoge violencers. Vacío presente. ]-- END TRANSLATION"
 
-#Case 11
-distress-drum-case11: "BEGIN TRANSLATION --[ Near disaster. Must return. You take survivors. Captain! Go starbase. ]-- END TRANSLATION"
-distress-drum-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-drum-case11-peoplespawn: "BEGIN TRANSLATION --[ Take survivors. Vacuum present. ]-- END TRANSLATION"
-distress-drum-case11-attackresp: "BEGIN TRANSLATION --[ Surprise assault! Peaceful intent! ]-- END TRANSLATION"
+#Caso 11
+distress-drum-case11: "COMENZAR TRADUCCION --[ Cerca de desastre. Deben regresar. Lleven supervivientes. ¡Capitán! Vaya a base estelar. ]-- FIN TRADUCCION"
+distress-drum-case11-takepeople: "{nombre de la nave}, me llevaré a los supervivientes."
+distress-drum-case11-peoplespawn: "BEGIN TRANSLATION --[ Toma supervivientes. Vacío presente. ]-- END TRANSLATION"
+distress-drum-case11-attackresp: "BEGIN TRANSLATION --[ ¡Asalto sorpresa! ¡Intención pacífica! ]-- END TRANSLATION"
 
-#Case 12
-distress-drum-case12-header: "Ship under attack"
-distress-drum-case12: "BEGIN TRANSLATION --[ Survey Ship {vesselname}. Emergency. Attacker surprise. Help! ]-- END TRANSLATION"
-distress-drum-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-drum-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-drum-case12-header: "Barco bajo ataque"
+distress-drum-case12: "BEGIN TRANSLATION --[ Barco de reconocimiento {nombredelbuque}. Emergencia. Ataque sorpresa. ¡Socorro! ]-- END TRANSLATION"
+distress-drum-case12-canhelp: "No te preocupes, puedo ayudarte. Los atacantes no tienen ninguna posibilidad".
+distress-drum-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-drum-case13: "BEGIN TRANSLATION --[ Ship {vesselname}. Captain {name}. Follow space ice at rest. Ice block {vesselname}. Help free. ]-- END TRANSLATION"
-distress-drum-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-drum-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-drum-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-drum-case13: "BEGIN TRANSLATION --[ Nave {nombre}. Capitán {nombre}. Siga hielo espacial en reposo. Bloque de hielo {nombredelbuque}. Ayuda libre. ]-- FIN TRADUCCIÓN"
+distress-drum-case13-cantow: "Puedo ayudar. Te remolcaré a la estación espacial cercana donde podrán ayudarte más. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-drum-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-drum-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-drum-case14: "BEGIN TRANSLATION --[ Ship {vesselname}. Engines boom. Must repair. Previous owner break ship. Help. ]-- END TRANSLATION"
-distress-drum-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-drum-case14-spareparts-success: "BEGIN TRANSLATION --[ Valid fix. Thank you. Repair more later. ]-- END TRANSLATION"
+#Caso14
+distress-drum-case14: "BEGIN TRANSLATION --[ Nave {vesselname}. Explosión de motores. Debe repararse. Propietario anterior romper nave. Ayuda. ]-- END TRANSLATION"
+distress-drum-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puede utilizar. [Requiere: {item-base:item.part.engine}]"
+distress-drum-case14-spareparts-success: "BEGIN TRANSLATION --[Arreglo válido. Gracias. Reparar más tarde. ]-- END TRANSLATION"
 
-#Case 15
-distress-drum-case15-header: "Distress Call"
-distress-drum-case15: "BEGIN TRANSLATION --[ Spacestation {vesselname} transmit. Space rock collide outside. Take wound inflicted. Other station. Help. ]-- END TRANSLATION"
-distress-drum-case15-takepeople: "I can take your evacuees."
-distress-drum-case15-peoplespawn: "BEGIN TRANSLATION --[ Vacuum present. Survivor pick up needed. ]-- END TRANSLATION"
-distress-drum-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-drum-case15-header: "Llamada de socorro"
+distress-drum-case15: "BEGIN TRANSLATION --[ Estación espacial {vesselname} transmitir. Roca espacial colisiona en el exterior. Toma herida infligida. Otra estación. Ayuda. ]-- FIN TRADUCCIÓN"
+distress-drum-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-drum-case15-peoplespawn: "BEGIN TRANSLATION --[ Vacío presente. Se necesita recoger supervivientes. ]-- END TRANSLATION"
+distress-drum-case15-crewgone: "[i][cccccc]Granizo está abierto pero parecen estar demasiado centrados en las reparaciones para responder[-][/i]"
 
-#Case 16
-distress-drum-case16: "BEGIN TRANSLATION --[ Hello. Station {vesselname} present. Weapons damaged. Power overload. Request {item-base:item.part.weapon}? Help? ]-- END TRANSLATION"
-distress-drum-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-drum-case16-partthanks: "BEGIN TRANSLATION --[ Thank you. Part satisfactory. ]-- END TRANSLATION"
-distress-drum-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-drum-case16-vesselhandin: "BEGIN TRANSLATION --[ Thank you. Movement finished. Repairs happen. ]-- END TRANSLATION"
-distress-drum-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
+#Caso 16
+distress-drum-case16: "BEGIN TRANSLATION --[ Hola. Estación {vesselname} presente. Armas dañadas. Sobrecarga de energía. Solicito {item-base:item.part.weapon}? ¿Ayuda? FIN DE LA TRADUCCIÓN
+distress-drum-case16-weaponparts: "Puedo darte partes de armas, seguro. [Requiere: 1 x {item-base:item.part.weapon}]"
+distress-drum-case16-partthanks: "BEGIN TRANSLATION --[Gracias. Parte satisfactoria. ]-- END TRANSLATION"
+distress-drum-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-drum-case16-vesselhandin: "BEGIN TRANSLATION --[ Gracias. Movimiento terminado. Reparaciones ocurren. ]-- END TRANSLATION"
+distress-drum-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
 
 #Distress Calls
 #Explorer Union Generics
-distress-eu-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-eu-header1: "Distress Call"
-distress-eu-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-eu-nohelp1: "Sorry {vesselname}. I can't help."
-distress-eu-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-eu-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-eu-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-eu-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-eu-canhelp1: "Don't worry, I'll fight them off."
-distress-eu-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-eu-being-towed: "We're awaiting a tow to starbase."
+distress-eu-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-eu-header1: "Llamada de socorro"
+distress-eu-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-eu-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-eu-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-eu-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-eu-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+distress-eu-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-eu-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-eu-nohelp2: "Te mereces lo que te pase. ¡Muere!"
+distress-eu-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-eu-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-eu-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-eu-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-eu-case1: "Capitán, este es el {nombredelbuque}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto del reactor, podría volver a ponerme en marcha".
+distress-eu-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-eu-case1-partthanks: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de momentos una vez que la instalación esté completa."
 
-#Case 3
-distress-eu-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-eu-case3-moreinfo: "How did the pilot die?"
-distress-eu-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-eu-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-eu-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-eu-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-eu-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-eu-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-eu-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-eu-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-eu-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-eu-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-eu-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+distress-eu-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-eu-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-eu-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-eu-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-eu-case4-cantow: "I'll tow it, sure."
-distress-eu-case4-notow: "I don't think so computer. That ship is mine now."
-distress-eu-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso 4
+distress-eu-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-eu-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-eu-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, espere mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen este buque al lugar seguro más cercano y alerten a los propietarios".
+distress-eu-case4-cantow: "Lo remolcaré, seguro".
+distress-eu-case4-notow: "No lo creo ordenador. Ese barco es mío ahora".
+distress-eu-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-eu-case5-header: "Ship under attack"
-distress-eu-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-eu-case5-moreinfo: "How did the Captain die?"
-distress-eu-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-eu-case5-attacker1: "What do you want we are busy"
-distress-eu-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-eu-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-eu-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-eu-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-eu-case5-header: "Barco bajo ataque"
+distress-eu-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {vesselname}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-eu-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-eu-case5-moreinfo2: "El capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos bajo ataque! Por favor, ayúdennos".
+distress-eu-case5-attacker1: "¿Qué quieres? Estamos ocupados"
+distress-eu-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-eu-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-eu-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-eu-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-eu-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-eu-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-eu-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-eu-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso6
+distress-eu-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-eu-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Rayos Tractores[/url]]"
+distress-eu-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-eu-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-eu-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-eu-case7-moreinfo1: "What happened?"
-distress-eu-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-eu-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-eu-case7-takepeople: "I can transport your people. Come on board."
-distress-eu-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-eu-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo!"
+distress-eu-case7-moreinfo1: "¿Qué ha pasado?"
+distress-eu-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-eu-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-eu-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-eu-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-eu-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-eu-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-eu-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-eu-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarlos a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-eu-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-eu-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-eu-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-eu-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayuda".
+distress-eu-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-eu-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-eu-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-eu-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-eu-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso10
+distress-eu-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-eu-case10-takepeople: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-eu-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-eu-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-eu-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-eu-case11-peoplespawn: "Here they are, be safe!"
-distress-eu-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-eu-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y tengo que volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-eu-case11-takepeople: "{nombredelbuque}, llevaré a los supervivientes".
+distress-eu-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-eu-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. Por favor!"
 
-#Case 12
-distress-eu-case12-header: "Ship under attack"
-distress-eu-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-eu-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-eu-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-eu-case12-header: "Nave bajo ataque"
+distress-eu-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-eu-case12-canhelp: "No se preocupen, puedo ayudarlos. Los atacantes no tienen ninguna posibilidad".
+distress-eu-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-eu-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-eu-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-eu-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-eu-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-eu-case13: "Esta es la nave {vesselname} bajo el mando del Capitán {name}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-eu-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-eu-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-eu-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-eu-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-eu-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-eu-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-eu-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-eu-case14-spareparts: "Tengo algunas piezas de repuesto del motor que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-eu-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-eu-case15-header: "Distress Call"
-distress-eu-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-eu-case15-takepeople: "I can take your evacuees."
-distress-eu-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-eu-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-eu-case15-header: "Llamada de socorro"
+distress-eu-case15: "Esta es la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-eu-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-eu-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podrían recogernos por favor?"
+distress-eu-case15-crewgone: "[i][cccccc]El granizo está abierto pero parecen estar demasiado concentrados en las reparaciones para responder[-][/i]"
 
-#Case 16
-distress-eu-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-eu-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-eu-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-eu-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-eu-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-eu-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
+#Caso 16
+distress-eu-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-eu-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-eu-case16-partthanks: "Gracias por las piezas. Funcionarán bien".
+distress-eu-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-eu-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-eu-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
 
 #Distress Calls
 #Independent Traders Generics
-distress-indtrad-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-indtrad-header1: "Distress Call"
-distress-indtrad-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-indtrad-nohelp1: "Sorry {vesselname}. I can't help."
-distress-indtrad-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-indtrad-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-indtrad-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-indtrad-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-indtrad-canhelp1: "Don't worry, I'll fight them off."
-distress-indtrad-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-indtrad-being-towed: "We're awaiting a tow to starbase."
+distress-indtrad-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-indtrad-header1: "Llamada de socorro"
+distress-indtrad-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-indtrad-nohelp1: "Lo siento {nombredelbuque}. No puedo ayudarle".
+distress-indtrad-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-indtrad-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-indtrad-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+distress-indtrad-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-indtrad-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-indtrad-nohelp2: "Te mereces lo que te pase. Muérete".
+distress-indtrad-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-indtrad-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-indtrad-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-indtrad-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-indtrad-case1: "Capitán, aquí {nombredelbuque}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto del reactor, podría volver a ponerme en marcha".
+distress-indtrad-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-indtrad-case1-partes-gracias: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de momentos una vez que la instalación esté completa."
 
-#Case 3
-distress-indtrad-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-indtrad-case3-moreinfo: "How did the pilot die?"
-distress-indtrad-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-indtrad-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-indtrad-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-indtrad-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-indtrad-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-indtrad-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-indtrad-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-indtrad-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-indtrad-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros. [Requiere Equipamiento [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-indtrad-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-indtrad-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+distress-indtrad-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-indtrad-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-indtrad-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-indtrad-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-indtrad-case4-cantow: "I'll tow it, sure."
-distress-indtrad-case4-notow: "I don't think so computer. That ship is mine now."
-distress-indtrad-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso 4
+distress-indtrad-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-indtrad-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-indtrad-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ahora está libre de interferencias extrañas y es capaz de operar bajo su propia energía de nuevo. Por favor, permanezcan a la espera mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen este buque al lugar seguro más cercano y alerten a los propietarios".
+distress-indtrad-case4-cantow: "Lo remolcaré, seguro".
+distress-indtrad-case4-notow: "No lo creo ordenador. Esa nave es mía ahora".
+distress-indtrad-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-indtrad-case5-header: "Ship under attack"
-distress-indtrad-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-indtrad-case5-moreinfo: "How did the Captain die?"
-distress-indtrad-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-indtrad-case5-attacker1: "What do you want we are busy"
-distress-indtrad-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-indtrad-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-indtrad-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-indtrad-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-indtrad-case5-header: "Barco bajo ataque"
+distress-indtrad-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {nombre de la nave}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-indtrad-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-indtrad-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos bajo ataque! Por favor, ayúdennos".
+distress-indtrad-case5-attacker1: "Qué quieres estamos ocupados"
+distress-indtrad-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-indtrad-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-indtrad-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-indtrad-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-indtrad-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-indtrad-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-indtrad-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-indtrad-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso 6
+distress-indtrad-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-indtrad-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-indtrad-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-indtrad-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-indtrad-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-indtrad-case7-moreinfo1: "What happened?"
-distress-indtrad-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-indtrad-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-indtrad-case7-takepeople: "I can transport your people. Come on board."
-distress-indtrad-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-indtrad-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo!"
+distress-indtrad-case7-moreinfo1: "¿Qué ha pasado?"
+distress-indtrad-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-indtrad-case7-cantow: "Claro, puedo remolcarte. [Requiere equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-indtrad-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-indtrad-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-indtrad-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-indtrad-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-indtrad-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-indtrad-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-indtrad-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-indtrad-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-indtrad-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-indtrad-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-indtrad-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-indtrad-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-indtrad-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-indtrad-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-indtrad-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso 10
+distress-indtrad-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-indtrad-case10-takepeople: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-indtrad-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-indtrad-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-indtrad-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-indtrad-case11-peoplespawn: "Here they are, be safe!"
-distress-indtrad-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-indtrad-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y tengo que volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?".
+distress-indtrad-case11-takepeople: "{nombredelbuque}, llevaré a los supervivientes".
+distress-indtrad-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-indtrad-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. ¡Por favor!"
 
-#Case 12
-distress-indtrad-case12-header: "Ship under attack"
-distress-indtrad-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-indtrad-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-indtrad-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-indtrad-case12-header: "Nave bajo ataque"
+distress-indtrad-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-indtrad-case12-canhelp: "No se preocupen, puedo ayudarles. Los atacantes no tienen ninguna posibilidad".
+distress-indtrad-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-indtrad-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-indtrad-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-indtrad-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-indtrad-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-indtrad-case13: "Esta es la nave {nombredelbuque} bajo el mando del Capitán {nombre}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-indtrad-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere Equipar [url=codex://codex.intermediate.tractoring]Vigas tractoras[/url]]"
+distress-indtrad-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-indtrad-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-indtrad-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-indtrad-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-indtrad-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-indtrad-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-indtrad-case14-spareparts: "Tengo algunas piezas de repuesto del motor que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-indtrad-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-indtrad-case15-header: "Distress Call"
-distress-indtrad-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-indtrad-case15-takepeople: "I can take your evacuees."
-distress-indtrad-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-indtrad-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-indtrad-case15-header: "Llamada de socorro"
+distress-indtrad-case15: "Aquí la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-indtrad-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-indtrad-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-indtrad-case15-crewgone: "[i][cccccc]El saludo está abierto pero parecen estar demasiado concentrados en las reparaciones para responder[-][/i]"
 
 #Case 16
-distress-indtrad-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-indtrad-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-indtrad-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-indtrad-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-indtrad-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-indtrad-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
+distress-indtrad-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-indtrad-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-indtrad-case16-partthanks: "Gracias por las piezas. Funcionarán perfectamente".
+distress-indtrad-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-indtrad-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-indtrad-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
 
 #Distress Calls
 #Kal'Giri Generics
-distress-kalgiri-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-kalgiri-header1: "Distress Call"
-distress-kalgiri-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-kalgiri-nohelp1: "Sorry {vesselname}. I can't help."
-distress-kalgiri-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-kalgiri-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-kalgiri-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-kalgiri-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-kalgiri-canhelp1: "Don't worry, I'll fight them off."
-distress-kalgiri-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-kalgiri-being-towed: "We're awaiting a tow to starbase."
+angustia-kalgiri-chantaje-pagado: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-kalgiri-header1: "Llamada de socorro"
+distress-kalgiri-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-kalgiri-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-kalgiri-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-kalgiri-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-kalgiri-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+angustia-kalgiri-ataque1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-kalgiri-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-kalgiri-nohelp2: "Te mereces lo que te pase. ¡Muere!"
+distress-kalgiri-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-kalgiri-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-kalgiri-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-kalgiri-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-kalgiri-case1: "Capitán, aquí {nombredelbuque}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto del reactor, podría volver a ponerme en marcha".
+distress-kalgiri-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-kalgiri-case1-partes-gracias: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de momentos una vez que la instalación esté completa."
 
-#Case 3
-distress-kalgiri-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-kalgiri-case3-moreinfo: "How did the pilot die?"
-distress-kalgiri-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-kalgiri-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-kalgiri-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-kalgiri-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-kalgiri-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-kalgiri-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-kalgiri-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-kalgiri-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-kalgiri-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros". [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-kalgiri-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-kalgiri-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+distress-kalgiri-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-kalgiri-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-kalgiri-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-kalgiri-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-kalgiri-case4-cantow: "I'll tow it, sure."
-distress-kalgiri-case4-notow: "I don't think so computer. That ship is mine now."
-distress-kalgiri-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso4
+distress-kalgiri-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-kalgiri-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-kalgiri-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, permanezcan a la espera mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen esta nave al lugar seguro más cercano y alerten a los propietarios".
+distress-kalgiri-case4-cantow: "Lo remolcaré, seguro".
+distress-kalgiri-case4-notow: "No lo creo ordenador. Esa nave es mía ahora".
+distress-kalgiri-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-kalgiri-case5-header: "Ship under attack"
-distress-kalgiri-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-kalgiri-case5-moreinfo: "How did the Captain die?"
-distress-kalgiri-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-kalgiri-case5-attacker1: "What do you want we are busy"
-distress-kalgiri-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-kalgiri-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-kalgiri-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-kalgiri-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-kalgiri-case5-header: "Barco bajo ataque"
+distress-kalgiri-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {nombre de la nave}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-kalgiri-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-kalgiri-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos siendo atacados! Por favor, ayúdennos".
+distress-kalgiri-case5-attacker1: "¿Qué quieres? Estamos ocupados"
+distress-kalgiri-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no vale la pena".
+distress-kalgiri-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-kalgiri-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-kalgiri-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-kalgiri-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-kalgiri-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-kalgiri-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-kalgiri-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso6
+distress-kalgiri-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere ayuda. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-kalgiri-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-kalgiri-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-kalgiri-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-kalgiri-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-kalgiri-case7-moreinfo1: "What happened?"
-distress-kalgiri-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-kalgiri-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-kalgiri-case7-takepeople: "I can transport your people. Come on board."
-distress-kalgiri-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-kalgiri-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo!"
+distress-kalgiri-case7-moreinfo1: "¿Qué ha pasado?"
+distress-kalgiri-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-kalgiri-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-kalgiri-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-kalgiri-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-kalgiri-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-kalgiri-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-kalgiri-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-kalgiri-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Rayos Tractores[/url]]"
 
-#Case 9
-distress-kalgiri-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-kalgiri-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-kalgiri-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-kalgiri-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-kalgiri-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-kalgiri-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-kalgiri-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-kalgiri-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-kalgiri-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso10
+distress-kalgiri-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-kalgiri-case10-takepeople: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-kalgiri-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-kalgiri-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-kalgiri-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-kalgiri-case11-peoplespawn: "Here they are, be safe!"
-distress-kalgiri-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-kalgiri-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y tengo que volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-kalgiri-case11-takepeople: "{nombredelbuque}, llevaré a los supervivientes".
+distress-kalgiri-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-kalgiri-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. ¡Por favor!"
 
-#Case 12
-distress-kalgiri-case12-header: "Ship under attack"
-distress-kalgiri-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-kalgiri-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-kalgiri-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-kalgiri-case12-header: "Nave bajo ataque"
+distress-kalgiri-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-kalgiri-case12-canhelp: "No se preocupen, puedo ayudarles. Los atacantes no tienen ninguna posibilidad".
+distress-kalgiri-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-kalgiri-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-kalgiri-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-kalgiri-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-kalgiri-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Case13
+distress-kalgiri-case13: "Esta es la nave {nombredelbuque} bajo el mando del Capitán {nombre}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-kalgiri-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial cercana, donde podrán ayudarte más. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-kalgiri-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-kalgiri-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-kalgiri-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-kalgiri-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-kalgiri-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-kalgiri-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-kalgiri-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-kalgiri-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-kalgiri-case15-header: "Distress Call"
-distress-kalgiri-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-kalgiri-case15-takepeople: "I can take your evacuees."
-distress-kalgiri-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-kalgiri-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-kalgiri-case15-header: "Llamada de socorro"
+distress-kalgiri-case15: "Aquí la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-kalgiri-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-kalgiri-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-kalgiri-case15-crewgone: "[i][cccccc]El saludo está abierto pero parecen estar demasiado concentrados en las reparaciones para responder[-][/i]"
 
-#Case 16
-distress-kalgiri-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-kalgiri-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-kalgiri-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-kalgiri-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-kalgiri-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-kalgiri-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
+#Caso 16
+distress-kalgiri-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-kalgiri-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-kalgiri-case16-partthanks: "Gracias por las partes. Funcionarán perfectamente".
+distress-kalgiri-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-kalgiri-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-kalgiri-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
 
 #Distress Calls
 #Madd's Generics
-distress-madd-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-madd-header1: "Distress Call"
-distress-madd-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-madd-nohelp1: "Sorry {vesselname}. I can't help."
-distress-madd-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-madd-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-madd-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-madd-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-madd-canhelp1: "Don't worry, I'll fight them off."
-distress-madd-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-madd-being-towed: "We're awaiting a tow to starbase."
+distress-madd-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-madd-header1: "Llamada de socorro"
+distress-madd-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-madd-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-madd-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-madd-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-madd-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+distress-madd-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-madd-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-madd-nohelp2: "Te mereces lo que te pase. ¡Muere!"
+distress-madd-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-madd-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-madd-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-madd-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-madd-case1: "Capitán, aquí la {vesselname}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto del reactor, podría volver a ponerme en marcha".
+distress-madd-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-madd-case1-partthanks: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de momentos una vez que la instalación esté completa."
 
-#Case 3
-distress-madd-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-madd-case3-moreinfo: "How did the pilot die?"
-distress-madd-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-madd-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-madd-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-madd-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-madd-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-madd-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-madd-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-madd-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-madd-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros". [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-madd-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-madd-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+distress-madd-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-madd-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-madd-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-madd-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-madd-case4-cantow: "I'll tow it, sure."
-distress-madd-case4-notow: "I don't think so computer. That ship is mine now."
-distress-madd-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso 4
+distress-madd-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-madd-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-madd-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, espere mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen este buque al lugar seguro más cercano y alerten a los propietarios".
+distress-madd-case4-cantow: "Lo remolcaré, seguro".
+distress-madd-case4-notow: "No lo creo ordenador. Ese barco es mío ahora".
+distress-madd-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-madd-case5-header: "Ship under attack"
-distress-madd-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-madd-case5-moreinfo: "How did the Captain die?"
-distress-madd-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-madd-case5-attacker1: "What do you want we are busy"
-distress-madd-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-madd-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-madd-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-madd-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-madd-case5-header: "Barco bajo ataque"
+distress-madd-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {vesselname}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-madd-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-madd-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos siendo atacados! Por favor, ayúdennos".
+distress-madd-case5-attacker1: "¿Qué quieres? Estamos ocupados"
+distress-madd-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-madd-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-madd-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-madd-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-madd-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-madd-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-madd-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-madd-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso6
+distress-madd-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-madd-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-madd-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-madd-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-madd-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-madd-case7-moreinfo1: "What happened?"
-distress-madd-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-madd-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-madd-case7-takepeople: "I can transport your people. Come on board."
-distress-madd-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-madd-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo!"
+distress-madd-case7-moreinfo1: "¿Qué ha pasado?"
+distress-madd-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-madd-case7-cantow: "Claro, puedo remolcarte. [Requiere equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-madd-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-madd-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-madd-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-madd-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-madd-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-madd-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-madd-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-madd-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-madd-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-madd-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-madd-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-madd-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-madd-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-madd-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-madd-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso10
+distress-madd-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-madd-case10-takepeople: "{nombredelbuque}, puedo transportar a sus prisioneros. Envíelos".
+distress-madd-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-madd-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-madd-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-madd-case11-peoplespawn: "Here they are, be safe!"
-distress-madd-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-madd-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y necesito volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-madd-case11-takepeople: "{nombredelbuque}, llevaré a los supervivientes".
+distress-madd-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-madd-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. Por favor!"
 
-#Case 12
-distress-madd-case12-header: "Ship under attack"
-distress-madd-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-madd-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-madd-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-madd-case12-header: "Nave bajo ataque"
+distress-madd-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-madd-case12-canhelp: "No se preocupen, puedo ayudarles. Los atacantes no tienen ninguna posibilidad".
+distress-madd-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-madd-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-madd-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-madd-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-madd-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-madd-case13: "Esta es la nave {nombredelbuque} bajo el mando del Capitán {nombre}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-madd-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-madd-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-madd-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
 
-#Case 14
-distress-madd-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-madd-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-madd-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-madd-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-madd-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-madd-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-madd-case15-header: "Distress Call"
-distress-madd-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-madd-case15-takepeople: "I can take your evacuees."
-distress-madd-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-madd-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-madd-case15-header: "Llamada de socorro"
+distress-madd-case15: "Aquí la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-madd-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-madd-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-madd-case15-crewgone: "[i][cccccc]Granizo está abierto pero parecen estar demasiado centrados en las reparaciones para responder[-][/i]"
 
-#Case 16
-distress-madd-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-madd-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-madd-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-madd-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-madd-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-madd-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
-
-#Distress Calls
-#Sixiser Generics
-distress-sixiser-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-sixiser-header1: "Distress Call"
-distress-sixiser-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-sixiser-nohelp1: "Sorry {vesselname}. I can't help."
-distress-sixiser-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-sixiser-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-sixiser-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-sixiser-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-sixiser-canhelp1: "Don't worry, I'll fight them off."
-distress-sixiser-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-sixiser-being-towed: "We're awaiting a tow to starbase."
-
-#Case 1
-distress-sixiser-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-sixiser-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-sixiser-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
-
-#Case 3
-distress-sixiser-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-sixiser-case3-moreinfo: "How did the pilot die?"
-distress-sixiser-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-sixiser-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-sixiser-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-sixiser-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-sixiser-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
-
-#Case 4
-distress-sixiser-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-sixiser-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-sixiser-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-sixiser-case4-cantow: "I'll tow it, sure."
-distress-sixiser-case4-notow: "I don't think so computer. That ship is mine now."
-distress-sixiser-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
-
-#Case 5
-distress-sixiser-case5-header: "Ship under attack"
-distress-sixiser-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-sixiser-case5-moreinfo: "How did the Captain die?"
-distress-sixiser-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-sixiser-case5-attacker1: "What do you want we are busy"
-distress-sixiser-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-sixiser-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-sixiser-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-sixiser-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
-
-#Case 6
-distress-sixiser-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-sixiser-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-sixiser-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-sixiser-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
-
-#Case 7
-distress-sixiser-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-sixiser-case7-moreinfo1: "What happened?"
-distress-sixiser-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-sixiser-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-sixiser-case7-takepeople: "I can transport your people. Come on board."
-distress-sixiser-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-
-#Case 8
-distress-sixiser-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-sixiser-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-
-#Case 9
-distress-sixiser-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-sixiser-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-sixiser-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
-
-#Case 10
-distress-sixiser-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-sixiser-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-sixiser-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
-
-#Case 11
-distress-sixiser-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-sixiser-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-sixiser-case11-peoplespawn: "Here they are, be safe!"
-distress-sixiser-case11-attackresp: "What? No! We're a peaceful ship. Please!"
-
-#Case 12
-distress-sixiser-case12-header: "Ship under attack"
-distress-sixiser-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-sixiser-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-sixiser-case12-nohelp: "You deserve whatever is coming to you. Die!"
-
-#Case 13
-distress-sixiser-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-sixiser-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-sixiser-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-sixiser-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
-
-#Case 14
-distress-sixiser-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-sixiser-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-sixiser-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
-
-#Case 15
-distress-sixiser-case15-header: "Distress Call"
-distress-sixiser-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-sixiser-case15-takepeople: "I can take your evacuees."
-distress-sixiser-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-sixiser-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
-
-#Case 16
-distress-sixiser-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-sixiser-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-sixiser-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-sixiser-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-sixiser-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-sixiser-case16-shiphandin: "Ship received. We'll get it stripped in no time. Feel free to bring more. Station out."
+#Caso 16
+distress-madd-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-madd-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-madd-case16-partthanks: "Gracias por las piezas. Funcionarán bien".
+distress-madd-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-madd-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-madd-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema".
 
 #Distress Calls
+#SixiserGenéricos
+distress-sixiser-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-sixiser-header1: "Llamada de socorro"
+distress-sixiser-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-sixiser-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-sixiser-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-sixiser-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-sixiser-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+distress-sixiser-attack1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-sixiser-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-sixiser-nohelp2: "Te mereces lo que te pase. ¡Muere!"
+distress-sixiser-being-towed: "Estamos esperando un remolque a la base estelar."
+
+#Caso 1
+distress-sixiser-case1: "Capitán, aquí la {vesselname}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto para el reactor, podría volver a ponerme en marcha".
+distress-sixiser-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puede tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-sixiser-case1-partes-gracias: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de instantes, una vez completada la instalación."
+
+#Caso 3
+distress-sixiser-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-sixiser-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-sixiser-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-sixiser-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-sixiser-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-sixiser-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-sixiser-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
+
+#Caso4
+distress-sixiser-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-sixiser-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-sixiser-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, permanezcan a la espera mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen esta nave al lugar seguro más cercano y alerten a los propietarios".
+distress-sixiser-case4-cantow: "Lo remolcaré, seguro".
+distress-sixiser-case4-notow: "No lo creo ordenador. Esa nave es mía ahora".
+distress-sixiser-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
+
+#Caso 5
+distress-sixiser-case5-header: "Barco bajo ataque"
+distress-sixiser-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {vesselname}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-sixiser-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-sixiser-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos bajo ataque! Por favor, ayúdennos".
+distress-sixiser-case5-attacker1: "¿Qué quieres? Estamos ocupados"
+distress-sixiser-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-sixiser-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-sixiser-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-sixiser-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto, y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
+
+#Caso6
+distress-sixiser-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-sixiser-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-sixiser-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-sixiser-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
+
+#Caso 7
+distress-sixiser-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo".
+distress-sixiser-case7-moreinfo1: "¿Qué ha pasado?"
+distress-sixiser-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-sixiser-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-sixiser-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-sixiser-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
+
+#Caso 8
+distress-sixiser-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+distress-sixiser-case8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+
+#Caso 9
+distress-sixiser-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-sixiser-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-sixiser-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
+
+#Caso10
+distress-sixiser-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+socorro-sixiser-caso10-llevar-personas: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-sixiser-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
+
+#Caso 11
+distress-sixiser-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y tengo que volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-sixiser-case11-takepeople: "{nombre de la nave}, llevaré a los supervivientes."
+distress-sixiser-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-sixiser-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. ¡Por favor!"
+
+#Caso 12
+distress-sixiser-case12-header: "Nave bajo ataque"
+distress-sixiser-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-sixiser-case12-canhelp: "No se preocupen, puedo ayudarlos. Los atacantes no tienen ninguna posibilidad".
+distress-sixiser-case12-nohelp: "Te mereces lo que te pase. Muere".
+
+#Caso 13
+distress-sixiser-case13: "Esta es la nave {nombredelbuque} bajo el mando del Capitán {nombre}. Estábamos siguiendo a un cometa durante nuestro ciclo de descanso, y como resultado nos hemos visto envueltos en hielo. Por favor, presten ayuda".
+distress-sixiser-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-sixiser-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-sixiser-case13-attack: "Serás el blanco perfecto para que practique contigo. Prepárate para chupar espacio".
+
+#Caso14
+distress-sixiser-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario de la nave parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-sixiser-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-sixiser-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
+
+#Caso 15
+distress-sixiser-case15-header: "Llamada de socorro"
+distress-sixiser-case15: "Esta es la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-sixiser-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-sixiser-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-sixiser-case15-crewgone: "[i][cccccc]Granizo está abierto pero parecen estar demasiado centrados en las reparaciones para responder[-][/i]"
+
+#Case 16
+distress-sixiser-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-sixiser-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-sixiser-case16-partthanks: "Gracias por las piezas. Funcionarán perfectamente".
+distress-sixiser-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-sixiser-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-sixiser-case16-shiphandin: "Nave recibida. La desguazaremos enseguida. Siéntanse libres de traer más. Estación fuera".
+
+#Llamadas de socorro
 #Ticeroy Generics
-distress-ticeroy-blackmail-paid: "I've given all the money I have so please leave me alone and be on your way"
-distress-ticeroy-header1: "Distress Call"
-distress-ticeroy-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-ticeroy-nohelp1: "Sorry {vesselname}. I can't help."
-distress-ticeroy-plunder1: "That's too bad for you. It will make plundering you all the easier."
-distress-ticeroy-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-ticeroy-aipaybribe1: "You bastard... Fine. Here's your money. Now please leave."
-distress-ticeroy-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
-distress-ticeroy-canhelp1: "Don't worry, I'll fight them off."
-distress-ticeroy-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-ticeroy-being-towed: "We're awaiting a tow to starbase."
+distress-ticeroy-blackmail-paid: "He dado todo el dinero que tengo así que por favor déjenme en paz y sigan su camino"
+distress-ticeroy-header1: "Llamada de socorro"
+distress-ticeroy-tractorresp1: "Estás de suerte, te remolcaré a la base estelar más cercana en un santiamén". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-ticeroy-nohelp1: "Lo siento {vesselname}. No puedo ayudarle".
+distress-ticeroy-plunder1: "Qué pena por ti. Así será más fácil saquearte".
+distress-ticeroy-requestbribe1: "Es una verdadera lástima. Si no me pagas Ⱡ100 en el próximo minuto, voy a acabar contigo".
+distress-ticeroy-aipaybribe1: "Bastardo... Bien. Aquí está tu dinero. Ahora vete, por favor".
+angustia-ticeroy-ataque1: "No te preocupes, no sentirás nada. Te lo prometo. *Prime Weapons*"
+distress-ticeroy-canhelp1: "No te preocupes, lucharé contra ellos".
+distress-ticeroy-nohelp2: "Te mereces lo que te pase. Muérete".
+distress-ticeroy-being-towed: "Estamos esperando un remolque a la base estelar."
 
-#Case 1
-distress-ticeroy-case1: "Captain, this is the {vesselname}. I've just had to put down a mutiny. Unfortunately the crew managed to do some serious damage to my ship, disabling the reactor. I could use a tow or if you have some spare reactor parts, I could get up and running again."
-distress-ticeroy-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-ticeroy-case1-partthanks: "That's exactly what I need. I'll be underway in a matter of moments once the install is complete."
+#Caso 1
+distress-ticeroy-case1: "Capitán, aquí la {vesselname}. Acabo de tener que sofocar un motín. Desgraciadamente la tripulación ha conseguido dañar gravemente mi nave, inutilizando el reactor. Me vendría bien un remolque o, si tiene piezas de repuesto del reactor, podría volver a ponerme en marcha".
+distress-ticeroy-case1-reactorparts: "Creo que tengo piezas de repuesto del reactor que puedes tener. [Requiere: 1 x {item-base:item.part.engine}]"
+distress-ticeroy-case1-partes-gracias: "Eso es exactamente lo que necesito. Estaré en marcha en cuestión de instantes, una vez completada la instalación."
 
-#Case 3
-distress-ticeroy-case3: "Help us please! This is the ship {vesselname}. Our pilot was killed when the AutoDoc malfunctioned during an ion storm."
-distress-ticeroy-case3-moreinfo: "How did the pilot die?"
-distress-ticeroy-case3-moreinfo2: "The the AutoDoc caught fire and when the pilot went to put it out, she was caught in the inferno. We barely escaped, but we're trapped in the cargo hold. Please help us!"
-distress-ticeroy-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-ticeroy-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-ticeroy-case3-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-ticeroy-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
+#Caso 3
+distress-ticeroy-case3: "¡Ayúdenos por favor! Esta es la nave {vesselname}. Nuestro piloto murió cuando el AutoDoc falló durante una tormenta de iones".
+distress-ticeroy-case3-moreinfo: "¿Cómo murió el piloto?"
+distress-ticeroy-case3-moreinfo2: "El AutoDoc se incendió y cuando la piloto fue a apagarlo, quedó atrapada en el infierno. Escapamos por los pelos, pero estamos atrapados en la bodega de carga. Por favor, ayúdennos".
+distress-ticeroy-case3-cantow: "Puedo remolcarlos a una base estelar cercana. Desde allí podrán ocuparse de vosotros". [Requiere Equipar [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-ticeroy-case3-takepeople: "Tengo espacio a bordo, tendréis que hacer EVA, pero os recogeré y os llevaré a casa".
+distress-ticeroy-case3-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-ticeroy-case3-nohelp: "Eso te enseñará a contratar una nave de bajo presupuesto. Lo siento, no voy a ayudar".
 
-#Case 4
-distress-ticeroy-case4: "Beeeep Beeep. This ship is experiencing a critical issue which has rendered it inoperable. Please address the issue or tow this ship to the nearest friendly spacestation. This is an automated distress call. It has been active for 99 years, 4 months, 6 days, 12 hours and 32 minutes."
-distress-ticeroy-case4-cando: "Let's see what I can do about those ice tiles. I'll have them melted off in no time."
-distress-ticeroy-case4-success1: "Beeeeeeepp. This distress system has detected it is now free from foreign interference and is capable of operating under its own power again. Please standby while the crew is alerted...[long pause] The crew is not responding. Please tow this vessel to the nearest safe location and alert the owners."
-distress-ticeroy-case4-cantow: "I'll tow it, sure."
-distress-ticeroy-case4-notow: "I don't think so computer. That ship is mine now."
-distress-ticeroy-case4-shipturnin: "This is a great find Captain. I'll let the owners know of your participation."
+#Caso 4
+distress-ticeroy-case4: "Beeeep Beeep. Esta nave está experimentando un problema crítico que la ha dejado inoperativa. Por favor, solucione el problema o remolque esta nave a la estación espacial amiga más cercana. Esta es una llamada de socorro automática. Lleva activa 99 años, 4 meses, 6 días, 12 horas y 32 minutos".
+distress-ticeroy-case4-cando: "Veamos qué puedo hacer con esas baldosas de hielo. Las derretiré enseguida".
+distress-ticeroy-case4-success1: "Beeeeeeepp. Este sistema de socorro ha detectado que ya está libre de interferencias extrañas y es capaz de funcionar de nuevo con su propia energía. Por favor, permanezcan a la espera mientras la tripulación es alertada... [larga pausa] La tripulación no responde. Por favor, remolquen este buque al lugar seguro más cercano y alerten a los propietarios".
+distress-ticeroy-case4-cantow: "Lo remolcaré, seguro".
+distress-ticeroy-case4-notow: "No lo creo ordenador. Esa nave es mía ahora".
+distress-ticeroy-case4-shipturnin: "Es un gran hallazgo Capitán. Informaré a los propietarios de su participación".
 
-#Case 5
-distress-ticeroy-case5-header: "Ship under attack"
-distress-ticeroy-case5: "Help! We're under attack! This is the starship {vesselname}. The ship's captain was killed and we're now being attacked by his family."
-distress-ticeroy-case5-moreinfo: "How did the Captain die?"
-distress-ticeroy-case5-moreinfo2: "The Captain, {captname}, was a war criminal on our planet. He had escaped justice once, but we made sure he was served justice this time. However, he managed to get a distress call out, and now we're under attack! Please help us!"
-distress-ticeroy-case5-attacker1: "What do you want we are busy"
-distress-ticeroy-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
-distress-ticeroy-case5-attackerbribe-fail: "Hah, you dont even have that amount"
-distress-ticeroy-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-ticeroy-case5-success: "Thank you for getting me out of there captain! You did the right thing, and stood for justice for our planet. Here, take this as a sign of our thanks."
+#Caso 5
+distress-ticeroy-case5-header: "Barco bajo ataque"
+distress-ticeroy-case5: "¡Ayuda! ¡Estamos siendo atacados! Esta es la nave {nombre de la nave}. El capitán de la nave fue asesinado y ahora estamos siendo atacados por su familia".
+distress-ticeroy-case5-moreinfo: "¿Cómo murió el capitán?"
+distress-ticeroy-case5-moreinfo2: "El Capitán, {captname}, era un criminal de guerra en nuestro planeta. Ya había escapado de la justicia una vez, pero nos aseguramos de que esta vez se le hiciera justicia. Sin embargo, se las arregló para hacer una llamada de socorro, ¡y ahora estamos bajo ataque! Por favor, ayúdennos".
+distress-ticeroy-case5-attacker1: "Qué quieres estamos ocupados"
+distress-ticeroy-case5-attackerbribe: "Toma, coge este Ⱡ1000 como compensación y vete. Esta pelea no merece la pena".
+distress-ticeroy-case5-attackerbribe-fail: "Hah, ni siquiera tienes esa cantidad"
+distress-ticeroy-case5-attackerbribe-success: "Tienes razón, esta pelea no vale la pena. Tu pago cubre con creces nuestros gastos".
+distress-ticeroy-case5-success: "¡Gracias por sacarme de ahí capitán! Hiciste lo correcto y defendiste la justicia para nuestro planeta. Tome esto como muestra de nuestro agradecimiento".
 
-#Case 6
-distress-ticeroy-case6: "This is a distress call. Our ship, {vesselname}, requires assistance. Our reactor was stolen by unknown aliens, and we need a {item-base:item.part.reactor} to continue our journey."
-distress-ticeroy-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-ticeroy-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-ticeroy-case6-partthanks: "Just what we needed Captain. We'll be underway shortly. {vesselname} out."
+#Caso 6
+distress-ticeroy-case6: "Esta es una llamada de socorro. Nuestra nave, {vesselname}, requiere asistencia. Nuestro reactor ha sido robado por alienígenas desconocidos, y necesitamos un {item-base:item.part.reactor} para continuar nuestro viaje."
+distress-ticeroy-case6-tractorresp: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-ticeroy-case6-parts: "Estás de suerte Capitán. Tengo las piezas que necesita. Prepárese para recibirlas. [Requiere: 1 x {item-base:item.part.reactor}]"
+distress-ticeroy-case6-partthanks: "Justo lo que necesitábamos Capitán. Nos pondremos en marcha en breve. {nombredelbuque} fuera".
 
-#Case 7
-distress-ticeroy-case7: "S.O.S.! This is the ship {vesselname}. My name is {name} and the crew is dead or missing! We're stranded aboard!"
-distress-ticeroy-case7-moreinfo1: "What happened?"
-distress-ticeroy-case7-moreinfo2: "It appears the Captain's nuisance child decompressed the cargo bay while much of the crew was inside. They've all been lost to space. We have no idea how to operate this ship. Can you take us to a nearby station?"
-distress-ticeroy-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-ticeroy-case7-takepeople: "I can transport your people. Come on board."
-distress-ticeroy-case7-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
+#Caso 7
+distress-ticeroy-case7: "¡S.O.S.! Esta es la nave {nombredelbuque}. ¡Me llamo {nombre} y la tripulación está muerta o desaparecida! Estamos varados a bordo".
+distress-ticeroy-case7-moreinfo1: "¿Qué ha pasado?"
+distress-ticeroy-case7-moreinfo2: "Parece que el niño pesado del capitán descomprimió la bahía de carga mientras gran parte de la tripulación estaba dentro. Todos se han perdido en el espacio. No tenemos ni idea de cómo manejar esta nave. ¿Puede llevarnos a una estación cercana?"
+distress-ticeroy-case7-cantow: "Claro, puedo remolcarte. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-ticeroy-case7-takepeople: "Puedo transportar a tu gente. Suban a bordo".
+distress-ticeroy-case7-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA podría recogernos por favor"
 
-#Case 8
-distress-ticeroy-case8: "This is the {vesselname}. We've had an explosion on board. The Captain and Engineer are dead. We need assistance."
-distress-ticeroy-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+#Caso 8
+distress-ticeroy-case8: "Este es el {vesselname}. Hemos tenido una explosión a bordo. El capitán y el ingeniero han muerto. Necesitamos ayuda".
+auxilio-ticeroy-caso8-cantow: "Es una verdadera lástima Capitán. Puedo remolcarte a la base estelar más cercana en breve". [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
-#Case 9
-distress-ticeroy-case9: "This is the ship {vesselname}. We've become embedded with an asteroid following a collision. We are unable to manuever and require extraction. Please help."
-distress-ticeroy-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-ticeroy-case9-success: "Very good Captain. Thank you for your help. Here's some spare parts we have that you might find useful."
+#Caso 9
+distress-ticeroy-case9: "Esta es la nave {vesselname}. Hemos quedado incrustados en un asteroide tras una colisión. Somos incapaces de maniobrar y requerimos extracción. Por favor, ayúdennos".
+distress-ticeroy-case9-cando: "Puedo hacerlo. Os soltaré enseguida".
+distress-ticeroy-case9-success: "Muy bien Capitán. Gracias por su ayuda. Aquí hay algunas piezas de repuesto que tenemos que podrían serle útiles."
 
-#Case 10
-distress-ticeroy-case10: "This is the prison ship {vesselname}. We are carrying a number of violent passengers and they attempted to riot. Our ship is disabled and we request you carry our passengers to a nearby station for further processing."
-distress-ticeroy-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-ticeroy-case10-peoplespawn: "Alright the prisoners have been ejected and are ready for pickup"
+#Caso 10
+distress-ticeroy-case10: "Este es el buque prisión {vesselname}. Llevamos varios pasajeros violentos y han intentado amotinarse. Nuestra nave está inutilizada y solicitamos que lleven a nuestros pasajeros a una estación cercana para su posterior procesamiento."
+distress-ticeroy-case10-takepeople: "{nombre-de-nave}, puedo transportar a sus prisioneros. Envíelos".
+distress-ticeroy-case10-peoplespawn: "Muy bien los prisioneros han sido expulsados y están listos para ser recogidos"
 
-#Case 11
-distress-ticeroy-case11: "Captain! Good thing you've come by. There was a disaster nearby and I need to head back. My hold is full on survivors, can you take them to the nearby starbase?"
-distress-ticeroy-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-ticeroy-case11-peoplespawn: "Here they are, be safe!"
-distress-ticeroy-case11-attackresp: "What? No! We're a peaceful ship. Please!"
+#Caso 11
+distress-ticeroy-case11: "¡Capitán! Menos mal que ha venido. Ha habido un desastre cerca y tengo que volver. Mi bodega está llena de supervivientes, ¿puede llevarlos a la base estelar cercana?"
+distress-ticeroy-case11-takepeople: "{nombredelbuque}, llevaré a los sobrevivientes".
+distress-ticeroy-case11-peoplespawn: "¡Aquí están, ponte a salvo!"
+distress-ticeroy-case11-attackresp: "¿Qué? ¡No! Somos una nave pacífica. Por favor!"
 
-#Case 12
-distress-ticeroy-case12-header: "Ship under attack"
-distress-ticeroy-case12: "Emergency! This is the {vesselname}, we're a survey ship. We're under attack by unknown aggressors. Please help us!"
-distress-ticeroy-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
-distress-ticeroy-case12-nohelp: "You deserve whatever is coming to you. Die!"
+#Caso 12
+distress-ticeroy-case12-header: "Nave bajo ataque"
+distress-ticeroy-case12: "¡Emergencia! Este es el {nombredelbuque}, somos un barco de reconocimiento. Estamos siendo atacados por agresores desconocidos. Por favor, ¡ayúdennos!"
+distress-ticeroy-case12-canhelp: "No se preocupen, puedo ayudarles. Los atacantes no tienen ninguna posibilidad".
+distress-ticeroy-case12-nohelp: "Te mereces lo que te pase. Muere".
 
-#Case 13
-distress-ticeroy-case13: "This is the ship {vesselname} under Captain {name}. We were following a comet during our rest cycle, and became encased in ice as a result. Please render assistance."
-distress-ticeroy-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
-distress-ticeroy-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
-distress-ticeroy-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
+#Caso 13
+distress-ticeroy-case13: "Esta es la nave {vesselname} bajo el mando del Capitán {name}. Estábamos siguiendo un cometa durante nuestro ciclo de descanso, y como resultado nos hemos quedado encerrados en hielo. Por favor, presten ayuda".
+distress-ticeroy-case13-cantow: "Puedo ayudar. Te remolcaré hasta la estación espacial más cercana, donde podrán ayudarte más. [Requiere Equipado [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
+distress-ticeroy-case13-canhelp: "Estás de suerte. Puedo quitarte ese hielo en un santiamén".
+distress-ticeroy-case13-attack: "Serás el blanco perfecto para practicar. Prepárate para chupar espacio".
 
-#Case 14
-distress-ticeroy-case14: "Captain, we need your assistance. This is the {vesselname}, and we've suffered catastrophic engine problems. The last owner of the ship appears to have falsified maintenance log, and we're now paying for it."
-distress-ticeroy-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-ticeroy-case14-spareparts-success: "That'll make these temporary fixes work. Thanks for the help."
+#Caso14
+distress-ticeroy-case14: "Capitán, necesitamos su ayuda. Esta es la {vesselname}, y hemos sufrido problemas catastróficos en el motor. El último propietario del barco parece haber falsificado el registro de mantenimiento, y ahora estamos pagando por ello."
+distress-ticeroy-case14-spareparts: "Tengo algunas piezas de motor de repuesto que puedes usar. [Requiere: {item-base:item.part.engine}]"
+distress-ticeroy-case14-spareparts-success: "Eso hará que estos arreglos temporales funcionen. Gracias por la ayuda".
 
-#Case 15
-distress-ticeroy-case15-header: "Distress Call"
-distress-ticeroy-case15: "This is the spacestation {vesselname}. We've suffered extreme damage following an unexpected meteor storm. We have injured that need to be taken to any nearby station. Can you help?"
-distress-ticeroy-case15-takepeople: "I can take your evacuees."
-distress-ticeroy-case15-peoplespawn: "We have left the vessel and are now in EVA could you pick us up please"
-distress-ticeroy-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
+#Caso 15
+distress-ticeroy-case15-header: "Llamada de socorro"
+distress-ticeroy-case15: "Esta es la estación espacial {vesselname}. Hemos sufrido daños extremos tras una inesperada tormenta de meteoritos. Tenemos heridos que necesitan ser trasladados a alguna estación cercana. ¿Pueden ayudarnos?"
+distress-ticeroy-case15-takepeople: "Puedo llevar a sus evacuados".
+distress-ticeroy-case15-peoplespawn: "Hemos abandonado la nave y ahora estamos en EVA ¿podría recogernos por favor?"
+distress-ticeroy-case15-crewgone: "[i][cccccc]El saludo está abierto pero parecen estar demasiado concentrados en las reparaciones como para responder[-][/i]"
 
-#Case 16
-distress-ticeroy-case16: "Hello Captain. This is the station {vesselname}. We've recently lost our weapons due to a power overload. Do you have an extra {item-base:item.part.weapon} available?"
-distress-ticeroy-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-ticeroy-case16-partthanks: "Thanks for the parts. These will work just fine."
-distress-ticeroy-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-ticeroy-case16-vesselhandin: "Thanks Captain for bringing the ship in. We'll see it gets the attention it needs."
-distress-ticeroy-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
+#Caso 16
+distress-ticeroy-case16: "Hola Capitán. Esta es la estación {vesselname}. Recientemente hemos perdido nuestras armas debido a una sobrecarga de energía. ¿Tiene un {item-base:item.part.weapon} extra disponible?"
+distress-ticeroy-case16-weaponparts: "Puedo darte partes de armas, claro. [Requiere: 1 x {elemento-base:item.part.weapon}]"
+distress-ticeroy-case16-partthanks: "Gracias por las piezas. Funcionarán perfectamente".
+distress-ticeroy-case16-plunder: "Acabas de admitir que estás indefenso. Págame Ⱡ100, o probaremos lo fuerte que es tu casco".
+distress-ticeroy-case16-vesselhandin: "Gracias Capitán por traer la nave. Veremos que reciba la atención que necesita".
+distress-ticeroy-case16-prisonershandin: "Buen trabajo. Otra nave arrebatada a los piratas es otra muesca para la seguridad del sistema"

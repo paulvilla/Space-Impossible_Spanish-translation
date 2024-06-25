@@ -1,572 +1,572 @@
-problem-completestep-subheader: "{sysstar} System"
+problem-completestep-subheader: "{sysstar} Sistema"
 
 #Solar Problem ==============================================================================================================
 problem-default-solar-title: "Solar Upheaval"
-problem-default-solar-step1-summary: "Help Local Ships in Distress"
+problem-default-solar-step1-summary: "Ayuda a Barcos Locales en Apuros"
 problem-default-solar-step1-desc: |
- [h1]Solar Upheaval[/h1]
- [h2]Ships in Distress[/h2]
- The local star, {sysstar}, has been under going a period of intense fluctuations. It is wreaking havoc on local shipping, as the solar flares are hitting their barely-shielded computer cores far beyond their minimum level specifications. Help local ships in [em]Distress[/em] and get them going again or ferry their passengers safely to a local station.
+ [h1]Conmoción Solar[/h1]
+ [h2]Naves en apuros[/h2]
+ La estrella local, {sysstar}, ha estado atravesando un periodo de intensas fluctuaciones. Está causando estragos en las naves locales, ya que las erupciones solares están golpeando sus núcleos informáticos, apenas protegidos, mucho más allá de sus especificaciones de nivel mínimo. Ayuda a las naves locales en [em]apuros[/em] y haz que se pongan en marcha de nuevo o transporta a sus pasajeros de forma segura a una estación local.
 
-problem-default-solar-distress1: We are in distress! Our computer cores have been scrambled due to the solar activity and we need assistance!
-problem-drum-solar-distress1: BEGIN TRANSLATION --[ Distress! Computer cores scrambled by solar activity. Assistance required! ]-- END TRANSLATION
-problem-default-solar-distress1-opt-takepeople: You're in luck. I can take your passengers to safety.
-problem-default-solar-distress1-peoplespawn: Thank you! We're launching our eva suits now. Pick us up!
-problem-drum-solar-distress1-peoplespawn: BEGIN TRANSLATION --[ Gratitude! Launching EVA suits. Pick us up! ]-- END TRANSLATION
-problem-default-solar-step1-opt-handin: Station, I have found some of your people who needed rescuing. Prepare to receive them.
-problem-default-solar-step1-suc: Captain, passengers received. Medical says they are in good condition. Thanks for your help.
-problem-drum-solar-step1-suc: BEGIN TRANSLATION --[ Captain, passengers received. Medical reports good condition. Thank you for help. ]-- END TRANSLATION
-problem-default-solar-step1-complete: Good work. However the problem isn't solved yet. Continue working with local authorities to finish the problem.
-problem-drum-solar-step1-complete: BEGIN TRANSLATION --[ Good job. Problem not solved. Work with local authorities to finish. ]-- END TRANSLATION
-problem-default-solar-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-solar-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
-problem-drum-solar-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problema-defecto-solar-distress1: ¡Estamos en apuros! Nuestros núcleos informáticos se han estropeado debido a la actividad solar y ¡necesitamos ayuda!
+problema-drum-solar-distress1: ¡Problema! Núcleos informáticos perturbados por la actividad solar. Necesitamos ayuda. FIN DE LA TRADUCCIÓN
+problema-drum-solar-distress1-opt-takepeople: Estás de suerte. Puedo llevar a sus pasajeros a un lugar seguro.
+problem-default-solar-distress1-peoplespawn: ¡Gracias! Estamos lanzando nuestros trajes eva ahora. ¡Recógenos!
+problem-drum-solar-distress1-peoplespawn: BEGIN TRANSLATION --[ ¡Gratitud! Lanzando trajes EVA. ¡Recógenos! ]-- END TRANSLATION
+problem-default-solar-step1-opt-handin: Estación, he encontrado a algunos de los suyos que necesitaban ser rescatados. Prepárense para recibirlos.
+problem-default-solar-step1-suc: Capitán, pasajeros recibidos. Los médicos dicen que están en buenas condiciones. Gracias por su ayuda.
+problem-drum-solar-step1-suc: BEGIN TRANSLATION --[ Capitán, pasajeros recibidos. El médico dice que están en buen estado. Gracias por su ayuda. ]-- FIN DE LA TRADUCCIÓN
+problema-defecto-solar-paso1-completo: Buen trabajo. Sin embargo el problema no está resuelto todavía. Continúe trabajando con las autoridades locales para terminar el problema.
+problem-drum-solar-step1-complete: BEGIN TRANSLATION --[ Buen trabajo. El problema no está resuelto. Trabaje con las autoridades locales para terminarlo. ]-- END TRANSLATION
+problema-defecto-solar-paso2-completo-requiere-tractor: Necesito un tractor, ¿pueden proporcionarme uno?
+problem-default-solar-step2-complete-reqtractor-give: Sí, aquí tienes un tractor que debería ser suficiente. Asegúrate de equiparlo en tu nave.
+problema-tambor-solar-paso2-completo-requiere-tractor-dar: BEGIN TRANSLATION --[ Afirmativo, tractor proporcionado. Equipar en nave. ]-- END TRANSLATION
 
-problem-default-solar-step2-summary: "Gather and Deliver Probe Data"
+problem-default-solar-step2-summary: "Recoger y entregar datos de sonda"
 problem-default-solar-step2-desc: |
- [h1]Solar Upheaval[/h1]
- [h2]The Data Question[/h2]
- Following the help given to local ships-in-distress, the immediate disaster is over. However, the star is threatening to increase its activity again any day now. A team of scientists are working on the problem, but they haven't been able to get their probe data yet. These scientists can be helped by tracking down and collecting the [em]Solar Probe[/em] data from [em]Asteroid Fields[/em] and returning it to a local station for analysis.
+ [h1]Conmoción Solar[/h1]
+ [h2]La cuestión de los datos[/h2]
+ Tras la ayuda prestada a las naves locales en apuros, el desastre inmediato ha terminado. Sin embargo, la estrella amenaza con volver a aumentar su actividad en cualquier momento. Un equipo de científicos está trabajando en el problema, pero aún no han podido obtener los datos de su sonda. Se puede ayudar a estos científicos localizando y recogiendo los datos de la [em]Sonda Solar[/em] de [em]Campos de Asteroides[/em] y devolviéndolos a una estación local para su análisis.
  
 problem-default-solar-solarprobe-header: "{vesselname}"
-problem-default-solar-solarprobe-hail1: Solar probe has been online and collecting data continuously. Data buffers are full. Data available for delivery.
-problem-default-solar-solarprobe-opt-req: Probe, prepare your data for upload on my command. Launch.
-problem-default-solar-solarprobe-give: Data compiled and launched. Buffers cleared. Probe shutting down.
-problem-default-solar-solarprobe-hail-done: Data already launched. Buffers have been cleared. Unable to recreate data entries.
-problem-default-solar-step2-opt-handin: Station, I have the solar probe data available for transmission. Prepare to receive.
-problem-default-solar-step2-suc: Thank you Captain. Data received. We will get this to the scientists immediately.
-problem-drum-solar-step2-suc: BEGIN TRANSLATION --[ Thank. Captain. Data receive. Immediate scientist convey. ]-- END TRANSLATION
-problem-default-solar-step2-complete: Good work Captain. The scientists are pouring over the data now.
-problem-drum-solar-step2-complete: BEGIN TRANSLATION --[ Good work. Captain. Scientist study data. ]-- END TRANSLATION
+problem-default-solar-solarprobe-hail1: La sonda solar ha estado en línea y recogiendo datos continuamente. Los búferes de datos están llenos. Datos disponibles para entrega.
+problem-default-solar-solarprobe-opt-req: Sonda, prepara tus datos para cargarlos a mi orden. Lanzamiento.
+problem-default-solar-solarprobe-give: Datos compilados y lanzados. Búferes vaciados. Sonda apagándose.
+problem-default-solar-solarprobe-hail-done: Datos ya lanzados. Se han borrado los búferes. No se pueden volver a crear entradas de datos.
+problem-default-solar-step2-opt-handin: Estación, tengo los datos de la sonda solar disponibles para su transmisión. Prepárese para recibir.
+problema-default-solar-step2-suc: Gracias Capitán. Datos recibidos. Se los haremos llegar a los científicos inmediatamente.
+problema-tambor-solar-paso2-suc: BEGIN TRANSLATION --[Gracias. Capitán. Datos recibidos. Transmisión inmediata a los científicos. ]-- END TRANSLATION
+problema-defecto-solar-paso2-completo: Buen trabajo, Capitán. Los científicos están revisando los datos ahora.
+problema-tambor-solar-paso2-completo: BEGIN TRANSLATION --[ Buen trabajo. Capitán. Los científicos estudian los datos. ]-- END TRANSLATION
 
-problem-default-solar-step3-summary: "Deploy Solar Modulation Platforms"
+problema-defecto-solar-paso3-resumen: "Desplegar Plataformas de Modulación Solar"
 problem-default-solar-step3-desc: |
- [h1]Solar Upheaval[/h1]
- [h2]A Solution is Calculated[/h2]
- The probe data has yielded great results in analyzing the activity of star {sysstar}. The scientists have provided some leads that engineers are now using to produce Solar Modulation Platforms, some kind of device that will sit in high solar orbit, and help to keep the star friendly to spacefaring life. Lend a hand in getting these platforms into place at each designated [em]Solar Probe Location[/em], as each one has to be placed in a specific location as determined by the scientists. The undeployed platforms can be found near the station [em]Solar Probe Factory[/em].
+ [h1]Conmoción Solar[/h1]
+ [h2]Se calcula una solución[/h2]
+ Los datos de la sonda han dado grandes resultados en el análisis de la actividad de la estrella {sysstar}. Los científicos han proporcionado algunas pistas que los ingenieros están utilizando ahora para producir Plataformas de Modulación Solar, una especie de dispositivo que se situará en órbita solar alta, y ayudará a mantener la estrella amigable para la vida espacial. Echa una mano para colocar estas plataformas en cada [em]Solar Probe Location[/em] designada, ya que cada una tiene que colocarse en un lugar específico determinado por los científicos. Las plataformas no desplegadas se pueden encontrar cerca de la estación [em]Fábrica de Sondas Solares[/em].
  
-problem-default-solar-solarplatform-handin1: Good work Captain. This platform is in position and ready to go.
-problem-drum-solar-solarplatform-handin1: BEGIN TRANSLATION --[ Good work. Captain. Platform in position. Ready. ]-- END TRANSLATION
-problem-default-solar-solarfactory-hail: Hello Captain. We can supply the solar platforms needed for deployment. It'll be up to you to get it into position.
-problem-drum-solar-solarfactory-hail: BEGIN TRANSLATION --[ Hello. Captain. Solar platform supply available. Deploy position responsibility. ]-- END TRANSLATION
-problem-default-solar-solarfactory-reqplatform: Station, can you launch another platform? I am ready to tow it.
-problem-default-solar-solarfactory-reqplatform-granted: Understood Captain. We are launching a platform now. Good luck.
-problem-drum-solar-solarfactory-reqplatform-granted: BEGIN TRANSLATION --[ Understood. Captain. Platform launch now. Good luck. ]-- END TRANSLATION
-problem-default-solar-solarfactory-reqplatform-denied: Negative Captain. We have limited resources available. There is already a platform available nearby.
-problem-drum-solar-solarfactory-reqplatform-denied: BEGIN TRANSLATION --[ Negative. Captain. Limited resources. Nearby available platform. ]-- END TRANSLATION
-problem-default-solar-step3-complete: Amazing Captain. All platforms have been deployed and are working! The star is stabilizing. Thank you for your help.
-problem-drum-solar-step3-complete: BEGIN TRANSLATION --[ Amazing. Captain. All platforms deploy. Work! Star stabilize. Grateful for help. ]-- END TRANSLATION
+problem-default-solar-solarplatform-handin1: Buen trabajo Capitán. Esta plataforma está en posición y lista para funcionar.
+problem-drum-solar-solarplatform-handin1: BEGIN TRANSLATION --[Buen trabajo. Capitán. Plataforma en posición. Lista. ]-- END TRANSLATION
+problema-tambor-solar-factoria-solar-hail: Hola Capitán. Podemos suministrar las plataformas solares necesarias para el despliegue. Dependerá de usted ponerlas en posición.
+problema-tambor-solar-factoria-solar-hail: Hola. Capitán. Suministro de plataformas solares disponible. Desplegar responsabilidad de posición. ]-- FIN TRADUCCIÓN
+problema-defecto-solar-factoria-solar-reqplataforma: Estación, ¿puede lanzar otra plataforma? Estoy listo para remolcarla.
+problem-default-solar-solarfactory-reqplatform-granted: Entendido Capitán. Estamos lanzando una plataforma ahora. Buena suerte.
+problema-tambor-solar-factory-reqplatform-granted: BEGIN TRANSLATION --[ Entendido. Capitán. Lanzamiento de plataforma ahora. Buena suerte. ]-- END TRANSLATION
+problema-drum-solar-factory-reqplatform-denied: Negativo Capitán. Tenemos recursos limitados disponibles. Ya hay una plataforma disponible cerca.
+problema-tambor-solar-factory-reqplatform-denied: BEGIN TRANSLATION --[ Negativo. Capitán. Recursos limitados. Plataforma cercana disponible. ]-- END TRANSLATION
+problem-default-solar-step3-complete: Increíble Capitán. ¡Todas las plataformas han sido desplegadas y están funcionando! La estrella se está estabilizando. Gracias por su ayuda.
+problema-tambor-solar-paso3-completo: Asombroso. Capitán. Todas las plataformas desplegadas. ¡Funcionen! Estrella estabilizada. Agradecido por la ayuda. FIN DE LA TRADUCCIÓN.
 
-problem-default-solar-opt-getbuff: Station, I am ready for my reward.
-problem-default-solar-givebuff: Sure thing Captain. Thanks again for your help with the star issue.
-problem-drum-solar-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-defecto-solar-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-solar-givebuff: Seguro Capitán. Gracias de nuevo por su ayuda con el asunto de la estrella.
+problema-drum-solar-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
 #Music Festival ==============================================================================================================
-problem-default-musicfestival-title: "Music and Cultural Festival"
-problem-default-musicfestival-step1-summary: "Pick up and deliver the mis-delivered banners to station"
+problem-default-musicfestival-title: "Festival de Música y Cultura"
+problem-default-musicfestival-step1-summary: "Recoger y entregar las pancartas mal entregadas en la estación"
 problem-default-musicfestival-step1-desc: |
- [h1]Music and Cultural Festival[/h1]
- [h2]Lost in Shipping[/h2]
- With the cultural council's approval, the preparations for the music and culture festival is in full swing. That means lots of food, music, dancing and mimery to be had. The downside: it is proving to be disorganized chaos in getting it all together. The latest issue is that person ordering banners for the festival has fallen sick and their replacement ordered the banners to the wrong location. Now there's these expensive banners sitting in cargo pods everywhere but where they should be. Help get things back on track by picking up at nearby stations and delivering the cargo, [em]Music Festival Delivery[/em], to the right location.
+ [h1]Festival de Música y Cultura[/h1]
+ [h2]Perdido en el envío[/h2]
+ Con la aprobación del consejo cultural, los preparativos para el festival de música y cultura están en pleno apogeo. Eso significa que habrá mucha comida, música, baile y mimos. El inconveniente es que todo está resultando un caos desorganizado. El último problema es que la persona que encargó las pancartas para el festival se puso enferma y su sustituto las envió al lugar equivocado. Ahora esas caras pancartas están en contenedores por todas partes menos donde deberían estar. Ayuda a que las cosas vuelvan a su cauce recogiendo en las estaciones cercanas y entregando la carga, [em]Music Festival Delivery[/em], en el lugar correcto.
  
-problem-default-musicfestival-station: Are you here to help with the music festival? Are you keeping up to date?
-problem-default-musicfestival-step1-opt-handin: I have found some of your banners. Prepare to receive them.
-problem-default-musicfestival-step1-suc: You've done it. A banner found and recovered.
-problem-default-musicfestival-step1-complete: Thanks for the help Captain! You have no idea how expensive it would have been to have these replaced.
+problema-entrega-festival-de-música-estación: ¿Estás aquí para ayudar con el festival de música? ¿Estás al día?
+problem-default-musicfestival-step1-opt-handin: He encontrado algunas de tus pancartas. Prepárate para recibirlos.
+problem-default-musicfestival-step1-suc: Lo has conseguido. Una pancarta encontrada y recuperada.
+problem-default-musicfestival-step1-complete: ¡Gracias por la ayuda Capitán! No tienes ni idea de lo caro que habría sido reemplazarlas.
 
-problem-default-musicfestival-step2-summary: "Rescue the stranded musicians"
+problem-default-musicfestival-step2-summary: "Rescatar a los músicos varados"
 problem-default-musicfestival-step2-desc: |
- [h1]Music and Cultural Festival[/h1]
- [h2]Missing Musicians[/h2]
- What a disaster! Even with the banner delivery issue fixed, there's now the issue that the musicians shuttles have run out of fuel. These are some of the best musicians in the galaxy, and their sitting out in space, slowly freezing to death all for this event! Find the [em]Music Ship[/em], help rescue these people and get them to the safety of a warm and powered station.
+ [h1]Festival de Música y Cultura[/h1]
+ [h2]Músicos desaparecidos[/h2]
+ ¡Qué desastre! Incluso con el problema de la entrega de pancartas solucionado, ahora está el problema de que las lanzaderas de los músicos se han quedado sin combustible. Estos son algunos de los mejores músicos de la galaxia, y están sentados en el espacio, muriéndose lentamente de frío, ¡todo por este evento! Encuentra la [em]Nave Musical[/em], ayuda a rescatar a estas personas y llévalas a la seguridad de una estación caliente y con energía.
  
-problem-default-musicfestival-distress1: Help! We have run out of fuel while on our way to the music festival. We are freezing out here! Can you help us?
-problem-default-musicfestival-distress1-opt-takepeople: Yeah, I can help you. Be prepared to be picked up.
-problem-default-musicfestival-distress1-peoplespawn-header: Musician
-problem-default-musicfestival-distress1-peoplespawn: I am preparing for the space walk. Don't leave me hanging.
-problem-default-musicfestival-step2-opt-handin: I have some musicians for you. They should warm up in no time.
-problem-default-musicfestival-step2-suc: Slightly cold musician received. Thank you captain.
-problem-default-musicfestival-step2-complete: All missing musicians accounted for. Our thanks to you captain.
+problema-defecto-festival-de-musica-distress1: ¡Ayuda! Nos hemos quedado sin combustible de camino al festival de música. Nos estamos congelando. ¿Nos pueden ayudar?
+problem-default-musicfestival-distress1-opt-takepeople: Sí, puedo ayudarles. Estad preparados para que os recoja.
+problem-default-musicfestival-distress1-peoplespawn-header: Músico
+problem-default-musicfestival-distress1-peoplespawn: Me estoy preparando para el paseo espacial. No me dejes colgado.
+problem-default-musicfestival-step2-opt-handin: Tengo algunos músicos para ti. No tardarán en entrar en calor.
+problem-default-musicfestival-step2-suc: Músico ligeramente frío recibido. Gracias, capitán.
+problema-fallo-festival-de-musica-paso2-completo: Todos los músicos desaparecidos. Gracias capitán.
 
-problem-default-musicfestival-step3-summary: "Destroy or pay off the bootlegging pirates"
+problem-default-musicfestival-step3-summary: "Destruye o paga a los piratas contrabandistas"
 problem-default-musicfestival-step3-desc: |
- [h1]Music and Cultural Festival[/h1]
- [h2]Bootlegging Bandits[/h2]
- Can anything get worse!? We have finally gotten things off the ground, only to be threatened by pirates! Apparently one of their cowardly colleagues have smuggled a recording device into the closed session rehearsels and they are now threatening to sell boot legs of the sessions. This would economically ruin the festival as we were counting on the recording sales to cover the costs. Help locate the [em]Pirate Radio Broadcast[/em] and stop these pirated copies before they are able to disseminate the records.
+ [h1]Festival de música y cultura[/h1]
+ [h2]Bandidos contra el contrabando[/h2]
+ ¿Puede haber algo peor? Por fin hemos conseguido arrancar, ¡sólo para vernos amenazados por piratas! Al parecer, uno de sus cobardes colegas ha introducido de contrabando un dispositivo de grabación en los ensayos de las sesiones a puerta cerrada y ahora amenazan con vender los boot legs de las sesiones. Esto arruinaría económicamente el festival, ya que contábamos con las ventas de las grabaciones para cubrir los costes. Ayuda a localizar la [em]Emisora de Radio Pirata[/em] y a detener estas copias piratas antes de que puedan difundir los discos.
  
-problem-default-musicfestival-pirateradiostation: Pirate Radio Station. You have records that don't belong to you.
-problem-default-musicfestival-pirateradiostation-station: So they sent you huh? You ready to pay up?
-problem-default-musicfestival-pirateradiostation-opt-bribe: Fine. I have been authorized to pay you to make sure the bootlegs are destroyed. Here you go.
-problem-default-musicfestival-pirateradiostation-bribe-suc: Fair deal. See, it didn't hurt that much to ensure everyone was happy.
-problem-default-musicfestival-pirateradiostation-bribe-fail: What are you crazy? You call that a bribe?
-problem-default-musicfestival-pirateradiostation-bribed: I've destroyed the bootlegs now get outta here.
-problem-default-musicfestival-step3-complete: Good work Captain! With the bootlegs destroyed and the festival well underway, this have been a smashing success! Thank you so very much.
+problem-default-musicfestival-pirateradiostation: Emisora de Radio Pirata. Tiene discos que no le pertenecen.
+problem-default-musicfestival-pirateradiostation-station: Así que te enviaron, ¿eh? ¿Estás listo para pagar?
+problem-default-musicfestival-pirateradiostation-opt-bribe: Bien. Me han autorizado a pagarte para que te asegures de que se destruyen los bootlegs. Aquí tiene.
+problem-default-musicfestival-pirateradiostation-bribe-suc: Trato justo. Ves, no me dolió tanto asegurarme de que todos estuvieran contentos.
+problema-fallo-festival-de-musica-pirateradiostation-soborno-fallo: ¿Estás loco? ¿Llamas a eso un soborno?
+problem-default-musicfestival-pirateradiostation-bribed: He destruido los bootlegs, ahora lárgate de aquí.
+problem-default-musicfestival-step3-complete: ¡Buen trabajo, capitán! Con los piratas destruidos y el festival en marcha, ¡ha sido un éxito rotundo! Muchas gracias.
 
-#music problem solved
-problem-default-musicfestival-station-aftermath: Thanks for all the help! Enjoy the music festival!
-trader-musicfestival: Festival Trader
+#music problema resuelto
+problem-default-musicfestival-station-aftermath: ¡Gracias por toda la ayuda! ¡Disfrutad del festival de música!
+trader-musicfestival: Trader del festival
 
-problem-default-musicfestival-opt-getbuff: Station, I am ready for my reward.
-problem-default-musicfestival-givebuff: We can't thank you enough for saving the music festival. Here you go.
-problem-drum-musicfestival-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-musicfestival-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-musicfestival-givebuff: No podemos agradecerte lo suficiente por salvar el festival de música. Aquí tienes.
+problem-drum-musicfestival-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
 #Mutiny ==============================================================================================================
-problem-default-mutiny-title: "Mutinous Crew"
-problem-default-mutiny-step1-summary: "Discover and analyze broadcast sources"
+problem-default-mutiny-title: "Tripulación amotinada"
+problem-default-mutiny-step1-summary: "Descubrir y analizar las fuentes de emisión"
 problem-default-mutiny-step1-desc: |
  [h1]Mutinous Crew[/h1]
- [h2]What are these signals?[/h2]
- There have been an uptick in errant signals criscrossing the system. Add on the fact they are heavily encrypted has local command staff raising their eyebrows. They want it investigated before reporting to Ticeroy High Command. The last known positions of the broadcasts are marked as [em]Signal Location[/em] and should be investigated.
-problem-default-mutiny-step1-proximity: "Encased in ice? Try to extract its from the frozen confines."
+ [h2]¿Qué son estas señales?[/h2]
+ Ha habido un aumento en las señales errantes que cruzan el sistema. El hecho de que estén fuertemente encriptadas ha hecho que el personal de mando local levante las cejas. Quieren que se investigue antes de informar al Alto Mando de Ticeroy. Las últimas posiciones conocidas de las emisiones están marcadas como [em]Localización de la señal[/em] y deben ser investigadas.
+problem-default-mutiny-step1-proximity: "¿Encerrado en hielo? Intenta extraerlo de los confines helados".
  
-problem-default-mutiny-freedbeacon-header: "{vesselname}"
-problem-default-mutiny-freedbeacon-text: UNAUTHORIZED ACCESS DETECTED *bzzt* [i][cccccc]{vesselname} self destructs as you attempt to investigate however you were able to pickup the location of another signal[/i][-]
-problem-default-mutiny-step1-complete: "Local Command commends you on your assistance. Local Command will be in contact soon."
-problem-default-mutiny-step1-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-mutiny-step1-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-default-mutiny-freedbeacon-header: "{nombredelbuque}"
+problem-default-mutiny-freedbeacon-text: ACCESO NO AUTORIZADO DETECTADO *bzzt* [i][cccccc]{nombredelbuque} se autodestruye al intentar investigar sin embargo has podido captar la localización de otra señal[/i][-]
+problem-default-mutiny-step1-complete: "El Mando Local le felicita por su ayuda. El Mando Local se pondrá en contacto en breve".
+problem-default-mutiny-step1-complete-reqtractor: Necesito un tractor, ¿puedes proporcionarme uno?
+problem-default-mutiny-step1-complete-reqtractor-give: Sí, aquí tienes un tractor que debería ser suficiente. Asegúrate de equiparlo en tu nave.
 
-problem-default-mutiny-step2-summary: "Disable and deliver ships wanted for questioning"
+problem-default-mutiny-step2-summary: "Desactivar y entregar naves buscadas para interrogatorio"
 problem-default-mutiny-step2-desc: |
- [h1]Mutinous Crew[/h1]
- [h2]Troubling Trends[/h2]
- Intentionally buried broadcast equipment hidden in icesteroids? Very troubling. Local Command reports several ships are active, but not responding to recent orders. Perhaps they have something to do with all of this. Track those [em]Uncooperating Ships[/em] down, disable them if you must, and tractor them back to a starbase for investigation.
+ [h1]Tripulación amotinada[/h1]
+ [h2]Tendencias preocupantes[/h2]
+ ¿Equipos de transmisión enterrados intencionadamente ocultos en icesteroides? Muy preocupante. El Mando Local informa de que varias naves están activas, pero no responden a órdenes recientes. Quizás tengan algo que ver con todo esto. Rastrea esas [em]Naves que no cooperan[/em], desactívalas si es necesario, y tráelas de vuelta a una base estelar para su investigación.
  
-problem-default-mutiny-step2-opt-handin: "I have a ship ready to be processed."
-problem-default-mutiny-step2-handin-start: "That's another ship down. Good work."
-problem-default-mutiny-step2-complete: "All the ships are accounted for. We will process the crew and get to the bottom of this."
-problem-default-mutiny-step3-summary: "Transport and deliver space marines"
+problema-default-mutiny-paso2-opt-handin: "Tengo una nave lista para ser procesada".
+problema-default-mutiny-step2-handin-start: "Otra nave derribada. Buen trabajo".
+problem-default-mutiny-step2-complete: "Todas las naves están contabilizadas. Procesaremos a la tripulación y llegaremos al fondo de esto".
+problem-default-mutiny-step3-summary: "Transportar y entregar marines espaciales"
 problem-default-mutiny-step3-desc: |
- [h1]Mutinous Crew[/h1]
- [h2]So, It's Come to This[/h2]
- Mutiny! That is the only the answer to what is happening here in the system. Our collected intelligence indicates that several crews have mutinied and are using abandoned mining outposts to gather. Ticeroy High Command has been informed of what is happening and in turn has authorized the use of space marines to board and execute any mutinous crews found aboard the space stations. Pick up and transport these vacuum formed marines from any loyal Ticeroy station to the [em]Hidden Base[/em] and help put an end to this mutiny once and for all.
+ [h1]Tripulación amotinada[/h1]
+ [h2]Así que, hemos llegado a esto[/h2]
+ ¡Motín! Esa es la única respuesta a lo que está sucediendo aquí en el sistema. Nuestra inteligencia recogida indica que varias tripulaciones se han amotinado y están utilizando puestos mineros abandonados para reunirse. El Alto Mando de Ticeroy ha sido informado de lo que está ocurriendo y a su vez ha autorizado el uso de marines espaciales para abordar y ejecutar a cualquier tripulación amotinada que se encuentre a bordo de las estaciones espaciales. Recoge y transporta a estos marines formados en el vacío desde cualquier estación leal a Ticeroy hasta la [em]Base Oculta[/em] y ayuda a poner fin a este motín de una vez por todas.
  
-problem-default-mutiny-opt-reqmarines: "I am ready to transport the space marines."
-problem-default-mutiny-reqmarines-peoplespawn: "Space marines ready for pick up."
-problem-default-mutiny-reqmarines-hasmarines: "I'm sorry Captain it appears you already have some marines onboard."
-problem-default-mutiny-step3-complete: "Excellent work Captain. The mutinous dogs have been put down. Local Command thanks you."
-problem-default-mutiny-abandonedship-hail-header: ABANDONED VESSEL
-problem-default-mutiny-abandonedship-hail: [i][cccccc]Hail is open but there is no response. It appears the starship has been completely abandoned[-][/i]
-problem-default-mutiny-mutineersurrender-text: Alright alright! You got us. Just don't blow us up!
-problem-default-mutiny-ship-handin1: Thanks for bringing the ship in. It will be processed. 
-problem-default-mutiny-base-hail1: What do you want?
-problem-default-mutiny-base-opt-sendmarines: Station! Stand down and prepare to be boarded! 
-problem-default-mutiny-base-infilsuccess: Captain. My men and I have successfully seized control of the station. Thanks for the lift.
-problem-default-mutiny-base-sendmarines-sent: Marines are prepared and beginning their boarding now.
+problema-defecto-mutiny-opt-reqmarines: "Estoy listo para transportar a los marines espaciales".
+problem-default-mutiny-reqmarines-peoplespawn: "Marines espaciales listos para recoger".
+problema-default-mutiny-reqmarines-hasmarines: "Lo siento Capitán parece que ya tiene algunos marines a bordo".
+problem-default-mutiny-step3-complete: "Excelente trabajo Capitán. Los perros amotinados han sido sacrificados. El mando local se lo agradece".
+problema-default-mutiny-abandononedship-hail-header: NAVE ABANDONADA
+problema-default-mutiny-abandononedship-hail: [i][cccccc]El saludo está abierto pero no hay respuesta. Parece que la nave ha sido completamente abandonada[-][/i]
+problem-default-mutiny-mutineersurrender-text: ¡Muy bien, muy bien! Ya nos tienes. No nos hagas explotar.
+problem-default-mutiny-ship-handin1: Gracias por traer la nave. Será procesada. 
+problema-defecto-mutiny-base-granizo1: ¿Qué quieres?
+problema-defecto-mutiny-base-opt-sendmarines: ¡Estación! ¡Retírense y prepárense para ser abordados! 
+problem-default-mutiny-base-infilsuccess: Capitán. Mis hombres y yo hemos tomado con éxito el control de la estación. Gracias por traerme.
+problema-defecto-mutiny-base-sendmarines-enviado: Los marines están preparados y comenzando su abordaje ahora.
 
-problem-default-mutiny-opt-getbuff: Station, I am ready for my reward.
-problem-default-mutiny-givebuff: After how you handled the mutiny, you deserve every bit of our thanks.
-problem-drum-mutiny-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-defecto-mutiny-opt-getbuff: Estación, estoy listo para mi recompensa.
+problema-defecto-mutiny-givebuff: Después de cómo manejaste el motín, te mereces todo nuestro agradecimiento.
+problema-tambor-mutín-darbuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
 #Trade Gone Aray ==============================================================================================================
-problem-default-tradesgoneawry-title: "Trade Negotiations Gone Awry"
-problem-default-tradesgoneawry-step1-summary: "Contact the Unknown Vessels Within Asteroid Fields"
+problem-default-tradesgoneawry-title: "Las negociaciones comerciales se torcieron"
+problem-default-tradesgoneawry-step1-summary: "Contactar con los buques desconocidos dentro de los campos de asteroides"
 problem-default-tradesgoneawry-step1-desc: |
- [h1]Trade Negotiations Gone Awry[/h1]
- [h2]Unknown Visitors[/h2]
- The system governor has recently been in trade negotiations with our neighboring system for some much required raw mineral rights. Things had been progressing well over the last few weeks until suddenly all contact was cut off with the system's trade team. And now, in the last few days, unidentified ships with travel vectors from the neighbor system have been spotted flying throughout our system, visiting asteroid fields. We need help figuring out if these two events are connected. Help establish a dialogue with these visitors by trying to communicate with them. Hail every [em]Unknown Ship[/em] that you come across when visiting an [em]Asteroid Field[/em].
+ [h1]Las negociaciones comerciales se tuercen[/h1]
+ [h2]Visitantes desconocidos[/h2]
+ El gobernador del sistema ha estado recientemente en negociaciones comerciales con nuestro sistema vecino por algunos derechos minerales en bruto muy necesarios. Las cosas habían progresado bien durante las últimas semanas hasta que, de repente, se cortó todo contacto con el equipo comercial del sistema. Y ahora, en los últimos días, naves no identificadas con vectores de viaje desde el sistema vecino han sido vistas volando por nuestro sistema, visitando campos de asteroides. Necesitamos ayuda para averiguar si estos dos eventos están conectados. Ayude a establecer un diálogo con estos visitantes intentando comunicarse con ellos. Saluda a todas las [em]Naves Desconocidas[/em] con las que te cruces cuando visites un [em]Campo de Asteroides[/em].
  
-problem-default-tradesgoneawry-step1-complete: "Good work Captain. We are starting to see a trend here with these contacts."
-problem-drum-tradesgoneawry-step1-complete: "BEGIN TRANSLATION --[ Good Results. Pattern emerging. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-unknownship-hail: *burst of static as they close their comms*
+problem-default-tradesgoneawry-step1-complete: "Buen trabajo Capitán. Estamos empezando a ver una tendencia aquí con estos contactos".
+problema-tambor-tradesgoneawry-paso1-completo: "BEGIN TRANSLATION --[ Buenos resultados. Patrón emergente. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-unknownship-hail: *estallido de estática mientras cierran sus comunicaciones*
 
-problem-default-tradesgoneawry-step2-summary: "Disable Unknown Vessels and Arrest Crew"
+problem-default-tradesgoneawry-step2-summary: "Desactivar naves desconocidas y arrestar tripulación"
 problem-default-tradesgoneawry-step2-desc: |
- [h1]Trade Negotiations Gone Awry[/h1]
- [h2]More Questions than Answers[/h2]
- Despite our best efforts to contact these unidentified ships, they have been fleeing contact. The governor's office is demanding some answers. Is this a prelude to an invasion? Was the negotiations just a tactic to test our resourcefulness? We need to figure it out. We need to be more aggressive and get some answers. Help get those answers by disabling these [em]Foreign Ships[/em] and arrest their crew for questioning. 
+ [h1]Las negociaciones comerciales se tuercen[/h1]
+ [h2]Más preguntas que respuestas[/h2]
+ A pesar de nuestros esfuerzos por contactar con estas naves no identificadas, han huido del contacto. La oficina del gobernador exige respuestas. ¿Es esto el preludio de una invasión? ¿Fueron las negociaciones sólo una táctica para probar nuestro ingenio? Tenemos que averiguarlo. Tenemos que ser más agresivos y obtener algunas respuestas. Ayuda a obtener esas respuestas inutilizando estos [em]Barcos Extranjeros[/em] y arrestando a su tripulación para interrogarla. 
  
  
-problem-default-tradesgoneawry-step2-opt-handin: "I have some crew for questioning"
-problem-default-tradesgoneawry-step2-suc: "Thanks. We'll take them from here."
-problem-drum-tradesgoneawry-step2-suc: "BEGIN TRANSLATION --[ Gratitude. Responsibility assumed. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-step2-complete: "Thanks for your help. The governor's office has the interrogators standing by."
-problem-drum-tradesgoneawry-step2-complete: "BEGIN TRANSLATION --[ Gratitude for aid. Interrogators await at governor's office. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-tradesgoneawry-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
-problem-drum-tradesgoneawry-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-tradesgoneawry-step2-opt-handin: "Tengo tripulación para interrogar"
+problem-default-tradesgoneawry-step2-suc: "Gracias. Los llevaremos desde aquí".
+problem-drum-tradesgoneawry-step2-suc: "BEGIN TRANSLATION --[ Gratitud. Responsabilidad asumida. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete: "Gracias por su ayuda. La oficina del gobernador tiene a los interrogadores preparados".
+problem-drum-tradesgoneawry-step2-complete: "BEGIN TRANSLATION --[ Gratitud por la ayuda. Los interrogadores esperan en la oficina del gobernador. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete-reqtractor: Necesito un tractor, ¿pueden proporcionarme uno?
+problem-default-tradesgoneawry-step2-complete-reqtractor-give: Sí, aquí hay un tractor que debería ser suficiente. Asegúrate de equiparlo en tu nave.
+problem-drum-tradesgoneawry-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Afirmativo, tractor proporcionado. Equipar en la nave. ]-- END TRANSLATION
 
-problem-default-tradesgoneawry-shipsurrender-text: Very well. We are clearly no match for you. We surrender.
-problem-drum-tradesgoneawry-shipsurrender-text: BEGIN TRANSLATION --[ Understood. Inferiority acknowledged. Surrender initiated. ]-- END TRANSLATION
-problem-default-tradesgoneawry-shipsurrender-opt-takepeople: I will be taking you in for questioning. Prepare to be transported.
-problem-default-tradesgoneawry-shipsurrender-peoplespawn: Understood. Our crew is now ready for pick up.
-problem-drum-tradesgoneawry-shipsurrender-peoplespawn: BEGIN TRANSLATION --[ Understood. Crew prepared for retrieval. ]-- END TRANSLATION
+problem-default-tradesgoneawry-shipsurrender-text: Muy bien. Claramente no somos rival para ustedes. Nos rendimos.
+problem-drum-tradesgoneawry-shipsurrender-text: Entendido. Inferioridad reconocida. Rendición iniciada. ]-- END TRANSLATION
+problem-default-tradesgoneawry-shipsurrender-opt-takepeople: Los llevaré para interrogarlos. Prepárense para ser transportados.
+problem-default-tradesgoneawry-shipsurrender-peoplespawn: Entendido. Nuestra tripulación está lista para ser recogida.
+problema-drum-tradesgoneawry-shipsurrender-peoplespawn: BEGIN TRANSLATION --[ Entendido. Tripulación preparada para la recogida. ]-- END TRANSLATION
 
-problem-default-tradesgoneawry-step3-summary: "Find and Retrieve the Weapon Stockpiles"
+problem-default-tradesgoneawry-step3-summary: "Encontrar y recuperar los arsenales de armas"
 problem-default-tradesgoneawry-step3-desc: |
- [h1]Trade Negotiations Gone Awry[/h1]
- [h2]Neighbor Betrayal[/h2]
- The interrogations of the captured crews have been enlightening. The governor's office has discovered that the neighboring system has been stockpiling weapons within our system the entire time the negotiations have been going on. What a betrayal! Help clear these stockpiles by seizing them from the [em]Asteroid Fields[/em] they are stashed in and deliver them to our stations.
+ [h1]Las negociaciones comerciales se tuercen[/h1]
+ [h2]Traición del vecino[/h2]
+ Los interrogatorios de las tripulaciones capturadas han sido esclarecedores. La oficina del gobernador ha descubierto que el sistema vecino ha estado almacenando armas en nuestro sistema durante todo el tiempo que han durado las negociaciones. ¡Qué traición! Ayuden a limpiar estos arsenales sacándolos de los [em]Campos de Asteroides[/em] en los que están escondidos y entréguenlos en nuestras estaciones.
  
-problem-default-tradesgoneawry-step3-opt-handin: "I have some weapons to hand in."
-problem-default-tradesgoneawry-handinweapons-ack: "Understood, prepare to transfer them now."
-problem-drum-tradesgoneawry-handinweapons-ack: "BEGIN TRANSLATION --[ Understood. Prepare for transfer. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-step3-complete: "Good work Captain. The Governor's office is satisfied we have foiled the plot for invasion. Much of the thanks goes to you."
-problem-drum-tradesgoneawry-step3-complete: "BEGIN TRANSLATION --[ Great Effort. Foiled invasion plot. Governor pleased. Much thanks. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-weapcontainer-handin1: Weapon container received.
-problem-drum-tradesgoneawry-weapcontainer-handin1: BEGIN TRANSLATION --[ Weapon container received. ]-- END TRANSLATION
+problem-default-tradesgoneawry-step3-opt-handin: "Tengo algunas armas que entregar".
+problem-default-tradesgoneawry-handinweapons-ack: "Entendido, prepárense para transferirlas ahora".
+problema-drum-tradesgoneawry-handinweapons-ack: "BEGIN TRANSLATION --[ Entendido. Prepárense para la transferencia. ]-- END TRANSLATION"
+problema-defecto-tradesgoneawry-paso3-completo: "Buen trabajo Capitán. La oficina del Gobernador está satisfecha de que hayamos frustrado el complot de invasión. Gran parte del agradecimiento es para usted".
+problem-drum-tradesgoneawry-step3-complete: "BEGIN TRANSLATION --[ Gran esfuerzo. Complot de invasión frustrado. Gobernador satisfecho. Muchas gracias. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-weapcontainer-handin1: Contenedor de armas recibido.
+problem-drum-tradesgoneawry-weapcontainer-handin1: BEGIN TRANSLATION --[ Contenedor de armas recibido. ]-- END TRANSLATION
 
-problem-default-tradesgoneawry-opt-getbuff: Station, I am ready for my reward.
-problem-default-tradesgoneawry-givebuff: With your help we were able to stop our aggressive neighbor. You deserve this and more.
-problem-drum-tradesgoneawry-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-defecto-tradesgoneawry-opt-getbuff: Estación, estoy listo para mi recompensa.
+problema-default-tradesgoneawry-givebuff: Con tu ayuda hemos podido detener a nuestro agresivo vecino. Te mereces esto y más.
+problem-drum-tradesgoneawry-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
 #Ancient Relics ==============================================================================================================
-problem-default-ancientrelics-title: "Ancient War Relics"
-problem-default-ancientrelics-step1-summary: "Destroy Oddly Glowing Asteroids"
+problem-default-ancientrelics-title: "Antiguas Reliquias de Guerra"
+problem-default-ancientrelics-step1-summary: "Destruir asteroides extrañamente brillantes"
 problem-default-ancientrelics-step1-desc: |
- [h1]Ancient War Relics[/h1]
- [h2]Unintended Discovery[/h2]
- It is well known we are not the first species to inhabit this region of space. Archaeologists  have been turning up sites for years now. We don't really know who they were, but we know they've been gone for a long time now. It turns out some of these sites aren't just simple cultural curiosities. Recent mining activities have apparently activated some kind of... response, which has caused significant damage via explosions throughout the system. We have identified some more of these armed asteroids in our [em]Mining Outposts[/em] and need them destroyed before they do any more damage. Help destroy these [em]Oddly Glowing Asteroid[/em] before anyone else gets hurt.
+ [h1]Antiguas Reliquias de Guerra[/h1]
+ [h2]Descubrimiento involuntario[/h2]
+ Es bien sabido que no somos la primera especie que habita esta región del espacio. Los arqueólogos llevan años descubriendo yacimientos. No sabemos realmente quiénes eran, pero sabemos que hace mucho tiempo que desaparecieron. Resulta que algunos de estos yacimientos no son simples curiosidades culturales. Las recientes actividades mineras aparentemente han activado algún tipo de... respuesta, que ha causado daños significativos a través de explosiones en todo el sistema. Hemos identificado algunos más de estos asteroides armados en nuestros [em]Puestos Mineros[/em] y necesitamos destruirlos antes de que causen más daños. Ayuda a destruir estos [em]Asteroides Extrañamente Brillantes[/em] antes de que alguien más resulte herido.
  
 
-problem-default-ancientrelics-step1-complete: "Seems all the trouble asteroids have been pacified. Good work."
-problem-drum-ancientrelics-step1-complete: "BEGIN TRANSLATION --[ Asteroid trouble over. Good job. ]-- END TRANSLATION"
+problem-default-ancientrelics-step1-complete: "Parece que todos los asteroides problemáticos han sido pacificados. Buen trabajo".
+problema-tambor-antiguas reliquias-paso1-completo: "BEGIN TRANSLATION --[ Problema de asteroides terminado. Buen trabajo. ]-- END TRANSLATION"
 
-problem-default-ancientrelics-step2-summary: "Reprogram Alien Outposts"
+problema-defecto-antigüedades-relictas-paso2-resumen: "Reprogramar puestos de avanzada alienígenas"
 problem-default-ancientrelics-step2-desc: |
- [h1]Ancient War Relics[/h1]
- [h2]Gone from 'Surprised' to 'Alarmed'[/h2]
- The destruction of the identified boobytrapped asteroids have relieved the immediate threat. However, there has been an uptick in alien communication bands that we have never seen before. Areas long thought empty are showing a number of alien outposts that are relaying this signal. These need to be stopped before whatever is going to happen happens. Help reprogram these [em]Ancient Relays[/em] as to stop their signal broadcast.
+ [h1]Antiguas Reliquias de Guerra[/h1]
+ [h2]Pasado de 'Sorprendido' a 'Alarmado'[/h2]
+ La destrucción de los asteroides trampa identificados ha aliviado la amenaza inmediata. Sin embargo, se ha producido un repunte en las bandas de comunicación alienígena que nunca antes habíamos visto. Zonas que durante mucho tiempo se creyeron vacías están mostrando una serie de puestos de avanzada alienígenas que están retransmitiendo esta señal. Hay que detenerlos antes de que ocurra lo que va a ocurrir. Ayuda a reprogramar estos [em]Antiguos Relés[/em] para detener la emisión de su señal.
  
-problem-default-ancientrelics-step2-complete: "With the broadcast stopped, this will hopefully cut off the problem before it gets worse."
-problem-drum-ancientrelics-step2-complete: "BEGIN TRANSLATION --[ Stopped broadcast. Problem not worse. ]-- END TRANSLATION"
+problema-defecto-antiguos-relictos-paso2-completo: "Con la emisión detenida, esto con suerte cortará el problema antes de que empeore".
+problema-tambor-ancientrelics-paso2-completo: "BEGIN TRANSLATION --[ Detenida la emisión. El problema no ha empeorado. ]-- END TRANSLATION"
 
-problem-default-ancientrelic-relay-hail1: "*short burst of static followed by repetitive beeps greet you*"
-problem-default-ancientrelic-relay-opt-beginhack: --Transmit counter-signal in old style binary--
-problem-default-ancientrelic-relay-hacksuc: "*short burst message fades*. Relay Station has been reprogrammed. Another success."
+problema-defecto-ancientrelics-relay-hail1: "*una breve ráfaga de estática seguida de pitidos repetitivos le dan la bienvenida*"
+problem-default-ancientrelic-relay-opt-beginhack: --Transmitir contra-señal en binario al viejo estilo--
+problem-default-ancientrelic-relay-hacksuc: "*mensaje de corta duración desvanecido*. La estación de retransmisión ha sido reprogramada. Otro éxito".
 
-problem-default-ancientrelics-step3-summary: "Destroy Drone Ships"
-problem-default-ancientrelics-step3-desc: |
- [h1]Ancient War Relics[/h1]
- [h2]Something Awakes[/h2]
- The relay outposts have been successfully reprogrammed. They are no longer broadcasting their signal. However, whatever they were broadcasting seems to have worked, because we are seeing space traffic where we've never seen traffic before. Long range scans suggest they're drone ships, long asleep, now active. These could prove to have a devastating impact that we just cannot allow to happen. Help destroy the [em]Ancient Drone Ships[/em] before they wreak havoc throughout the system.
+problema-default-ancientrelics-step3-summary: "Destruir Naves Drone"
+problema-default-ancientrelics-paso3-desc: |
+ [h1]Antiguas Reliquias de Guerra[/h1]
+ [h2]Algo despierta[/h2]
+ Los puestos de relevo han sido reprogramados con éxito. Ya no emiten su señal. Sin embargo, lo que sea que estaban transmitiendo parece haber funcionado, porque estamos viendo tráfico espacial donde nunca hemos visto tráfico antes. Los escaneos de largo alcance sugieren que son naves no tripuladas, dormidas durante mucho tiempo, ahora activas. Podrían tener un impacto devastador que no podemos permitir. Ayuda a destruir las [em]Naves Zángano Antiguas[/em] antes de que causen estragos en todo el sistema.
   
-problem-default-ancientrelics-step3-complete: "Those ships sure put up a fight. We are lucky whoever made them are no longer around. Thank you for the help Captain."
-problem-drum-ancientrelics-step3-complete: "BEGIN TRANSLATION --[ Ships fought hard. Lucky creators gone. Thank you, Captain. ]-- END TRANSLATION"
+problema-defecto-antiguosdrones-paso3-completado: "Esas naves han dado mucha guerra. Tenemos suerte de que quienes las hicieron ya no estén por aquí. Gracias por la ayuda, capitán".
+problema-tambor-antiguas reliquias-paso3-completo: "BEGIN TRANSLATION --[ Las naves lucharon duro. Suerte que sus creadores ya no están. Gracias Capitán. ]-- END TRANSLATION"
 
-problem-default-ancientrelics-opt-getbuff: Station, I am ready for my reward.
-problem-default-ancientrelics-givebuff: After the trouble those ancient machines caused, we are happy to grant you this.
-problem-drum-ancientrelics-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-ancientrelics-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-ancientrelics-givebuff: Después de los problemas que causaron esas máquinas antiguas, estamos encantados de concederte esto.
+problem-drum-ancientrelics-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
 #Space Wasp Infestation ==============================================================================================================
-problem-default-spacewasps-title: "Space Wasp Infestation"
-problem-default-spacewasps-step1-summary: "Identify and Destroy Space Hives"
+problem-default-spacewasps-title: "Infestación de Avispas Espaciales"
+problem-default-spacewasps-step1-summary: "Identificar y destruir colmenas espaciales"
 problem-default-spacewasps-step1-desc: |
- [h1]Space Wasp Infestation[/h1]
- [h2]What's that Hum?[/h2]
- A strange hum is being reported, resonnating through manufacturing equipment and interfering with operations, some workers are reporting. This is a problem as this area is strongly needed to keep up their manufacturing output as designated by the Office of Manufacturing Integrity and Throughput. Help investigate, and if possible, eliminate the cause of this hum throughout the system.
+ [h1]Infestación de avispas espaciales[/h1]
+ [h2]¿Qué es ese zumbido?[/h2]
+ Un extraño zumbido está siendo reportado, resonando a través del equipo de fabricación e interfiriendo con las operaciones, algunos trabajadores están informando. Esto es un problema, ya que esta área es muy necesaria para mantener su producción de fabricación según lo designado por la Oficina de Integridad de Fabricación y Rendimiento. Ayude a investigar y, si es posible, a eliminar la causa de este zumbido en todo el sistema.
  
-problem-default-spacewasps-step1-complete: Those factory workers will be eternally grateful. No one likes dealing with space wasps.
-problem-drum-spacewasps-step1-complete: BEGIN TRANSLATION --[ Workers happy. No wasps. ]-- END TRANSLATION
-problem-default-spacewasps-clearstation-header: Clear Station
+problema-defecto-spacewasps-paso1-completado: Los trabajadores de la fábrica estarán eternamente agradecidos. A nadie le gusta tratar con avispas espaciales.
+problema-tambor-avispas-espaciales-paso1-completo: BEGIN TRANSLATION --[ Trabajadores felices. No avispas. ]-- END TRANSLATION
+problema-defecto-avispas-espaciales-despejar-estación-cabecera: Limpiar estación
 
-problem-default-spacewasps-clearstation-header: Wasp-free Station
-problem-default-spacewasps-clearstation-text: Thanks captain. You have no idea how much of a relief it is to be rid of those wasps.
+problem-default-spacewasps-clearstation-header: Estación libre de avispas
+problema-default-spacewasps-clearstation-text: Gracias capitán. No sabe el alivio que supone librarse de esas avispas.
  
-problem-default-spacewasps-step2-summary: "Defeat Workers and Acquire Jelly"
+problem-default-spacewasps-step2-summary: "Derrota a los trabajadores y adquiere gelatina"
 problem-default-spacewasps-step2-desc: |
- [h1]Space Wasp Infestation[/h1]
- [h2]Royal Jelly is a Must Have[/h2]
- This isn't the first time Space Wasps have been sighted in this quadrant of space. Unfortunately it won't be the last either. That said, we might as well take this opprotunity to get some Royal Jelly. This jelly has strange biomorphic capabilities that any scientist would give their left hand for. Head to any [em]Asteroid Field[/em], find some of this jelly, acquire it, and deliver it to a nearby station.
+ [h1]Infestación de avispas espaciales[/h1]
+ [h2]La Jalea Real es Imprescindible[/h2]
+ No es la primera vez que se ven avispas espaciales en este cuadrante del espacio. Por desgracia, tampoco será la última. Dicho esto, podríamos aprovechar esta oportunidad para conseguir un poco de Jalea Real. Esta jalea tiene extrañas capacidades biomórficas por las que cualquier científico daría su mano izquierda. Dirígete a cualquier [em]Campo de asteroides[/em], encuentra un poco de esta gelatina, adquiérela y entrégala en una estación cercana.
  
-problem-default-spacewasps-step2-opt-handin: I have some jelly to turn over.
-problem-default-spacewasps-step2-suc: Jelly received. It sure is tasty looking.
-problem-drum-spacewasps-step2-suc: BEGIN TRANSLATION --[ Jelly received. Looks good. ]-- END TRANSLATION
-problem-default-spacewasps-step2-complete: Good work Captain. We have enough jelly to work with for years.
-problem-drum-spacewasps-step2-complete: BEGIN TRANSLATION --[ Captain, good job. Jelly for years. ]-- END TRANSLATION
+problema-defecto-spacewasps-paso2-opt-handin: Tengo algo de gelatina para entregar.
+problem-default-spacewasps-step2-suc: Jalea recibida. Tiene un aspecto muy sabroso.
+problem-drum-spacewasps-step2-suc: BEGIN TRANSLATION --[ Gelatina recibida. Tiene buena pinta. ]-- END TRANSLATION
+problema-defecto-spacewasps-paso2-completo: Buen trabajo, Capitán. Tenemos suficiente gelatina para trabajar durante años.
+problema-tambor-espacewasps-paso2-completo: BEGIN TRANSLATION --[ Capitán, buen trabajo. Jalea para años. ]-- END TRANSLATION
  
-problem-default-spacewasps-step3-summary: "Queen and Hive Destroyed"
+problema-defecto-spacewasps-paso3-resumen: "Reina y colmena destruidas"
 problem-default-spacewasps-step3-desc: |
- [h1]Space Wasp Infestation[/h1]
- [h2]The Queen is Mad[/h2]
- The Wasp Queens are on the move. Our specialists theorize they have gotten wind of us stealing their Royal Jelly and is now on a rampage. They are reportedly at warp, traveling with her personal hives and royal entourage. Stop it before it causes permenant damage.
+ [h1]Infestación de Avispas Espaciales[/h1]
+ [h2]La Reina está Loca[/h2]
+ Las Reinas Avispa están en movimiento. Nuestros especialistas teorizan que se han enterado de que les hemos robado su jalea real y ahora están furiosas. Al parecer están en warp, viajando con sus colmenas personales y su séquito real. Detenlo antes de que cause daños permanentes.
  
-problem-default-spacewasps-step3-complete: Thank you for all your work Captain. Those space wasps have been defeated. Hopefully they never return either. Man... I hate that buzzing.
-problem-drum-spacewasps-step3-complete: BEGIN TRANSLATION --[ Thank Captain. Wasps gone. Hope they stay gone. Hate buzzing. ]-- END TRANSLATION
-problem-default-spacewasps-hail: [i][cccccc]Hails are open, but all you hear is the intense humm of angry space wasps[-][/i]
+problema-defecto-spacewasps-paso3-completado: Gracias por todo su trabajo Capitán. Esas avispas espaciales han sido derrotadas. Esperemos que nunca vuelvan tampoco. Hombre... Odio ese zumbido.
+problema-tambor-avispas-espaciales-paso-3-completado: BEGIN TRANSLATION --[ Gracias Capitán. Las avispas se han ido. Espero que sigan fuera. Odio el zumbido. ]-- END TRANSLATION
+problema-defecto-spacewasps-hail: [i][cccccc]Las llamadas están abiertas, pero lo único que se oye es el intenso zumbido de las avispas espaciales enfadadas[-][/i]
 
-problem-default-spacewasps-opt-getbuff: Station, I am ready for my reward.
-problem-default-spacewasps-givebuff: Spacewasps were no laughing matter. With your help they were eradicated as they should be. Accept our gratitude.
-problem-drum-spacewasps-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-default-spacewasps-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-spacewasps-givebuff: Los Spacewasps no eran cosa de risa. Con su ayuda fueron erradicados como es debido. Acepta nuestra gratitud.
+problema-tambor-espacewasps-dar-abono: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
  
 #Rogue Scientist Breeding Eugenic Abherrations ==============================================================================================================
-problem-default-rogueeugenics-title: "Rogue Scientist Breeding Eugenic Abherrations"
-problem-default-rogueeugenics-step1-summary: "Hail and Retrieve Station Datalogs"
+problem-default-rogueeugenics-title: "Científico Canalla Cría Abherraciones Eugénicas"
+problem-default-rogueeugenics-step1-summary: "Salve y recupere los registros de datos de la estación"
 problem-default-rogueeugenics-step1-desc: |
- [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
- [h2]All Quiet on the Science Front[/h2]
- A number of specialized research stations have recently gone quiet. This isn't completely unheard of, but even their data sharing uplinks are barely transmitting their latest findings, which is unusual. You can be of help by visiting each [em]Research Facility[/em] and get their data logs for analysis.
+ [h1]Científico sin escrúpulos criando aborrecimientos eugenésicos[/h1]
+ [h2]Silencio en el frente científico[/h2]
+ Varias estaciones de investigación especializadas han enmudecido recientemente. Esto no es completamente inaudito, pero incluso sus enlaces ascendentes de intercambio de datos apenas transmiten sus últimos descubrimientos, lo cual es inusual. Puedes ser de ayuda visitando cada [em]Centro de Investigación[/em] y obtener sus registros de datos para analizarlos.
  
-problem-default-rogueeugenics-step1-opt-handin: I have retrieved the data logs. Prepare to receive them.
-problem-default-rogueeugenics-step1-suc: Thank you Captain. Logs received and will be processed.
-problem-drum-rogueeugenics-step1-suc: BEGIN TRANSLATION --[ Logs received. Processing now, Captain. ]-- END TRANSLATION
-problem-default-rogueeugenics-step1-complete: You have done it. All the logs have been retrieved.
-problem-drum-rogueeugenics-step1-complete: BEGIN TRANSLATION --[ All logs retrieved. Well done. ]-- END TRANSLATION
+problem-default-rogueeugenics-step1-opt-handin: He recuperado los registros de datos. Prepárate para recibirlos.
+problema-defecto-rogueeugenics-paso1-suc: Gracias Capitán. Logs recibidos y serán procesados.
+problem-drum-rogueeugenics-step1-suc: BEGIN TRANSLATION --[ Registros recibidos. Procesando ahora, Capitán. ]-- END TRANSLATION
+problema-defecto-rogueeugenics-paso1-completo: Lo has hecho. Todos los registros han sido recuperados.
+problema-tambor-rogueeugenics-paso1-completo: BEGIN TRANSLATION --[ Todos los registros recuperados. Bien hecho. ]-- END TRANSLATION
  
-problem-default-rogueeugenics-step2-summary: "Force the Suspected Dirty Police to Surrender for Questioning"
+problem-default-rogueeugenics-step2-summary: "Forzar al sospechoso de policía corrupto a entregarse para ser interrogado"
 problem-default-rogueeugenics-step2-desc: |
- [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
- [h2]Corruption and Bribery[/h2]
- The stations datalogs are still being analyzed, but it appears they were all visited by a few local space police before things got weird. We suspect these police may be taking bribes and involved in some kind of enforcement or other illegal activity. You can help by bringing these space cops while they're on patrol as [em]Police Ship[/em], in for questioning.
+ [h1]Científico canalla que cría abortos eugenésicos[/h1]
+ [h2]Corrupción y soborno[/h2]
+ Todavía se están analizando los registros de datos de las estaciones, pero parece que todas fueron visitadas por unos cuantos policías espaciales locales antes de que las cosas se pusieran raras. Sospechamos que estos policías pueden estar aceptando sobornos y estar implicados en algún tipo de aplicación de la ley u otra actividad ilegal. Puedes ayudar trayendo a estos policías espaciales mientras patrullan como [em]Nave policial[/em], para interrogarlos.
  
-problem-default-rogueeugenics-step2-opt-handin: Station, I have some of those dirty cops for you.
-problem-default-rogueeugenics-step2-suc: Thank you Captain. We're going to get to the bottom of this.
-problem-drum-rogueeugenics-step2-suc: BEGIN TRANSLATION --[ Prisoner received. Thank you, Captain. ]-- END TRANSLATION
-problem-default-rogueeugenics-step2-complete: Good work. Enough of the dirty cops have been apprehended. We are going to work them over shortly.
+problema-defecto-rogueeugenics-paso2-opt-handin: Estación, tengo algunos de esos sucios policías para ti.
+problema-default-rogueeugenics-paso2-suc: Gracias Capitán. Vamos a llegar al fondo de esto.
+problem-drum-rogueeugenics-step2-suc: BEGIN TRANSLATION --[ Prisionero recibido. Gracias Capitán. ]-- END TRANSLATION
+problema-defecto-rogueeugenics-paso2-completo: Buen trabajo. Suficientes policías corruptos han sido detenidos. Vamos a trabajar sobre ellos en breve.
  
-problem-default-rogueeugenics-step3-summary: "Investigate and Destroy Bio-Mechanoid Monstrosities"
+problema-default-rogueeugenics-paso3-resumen: "Investigar y destruir monstruosidades bio-mecanoides"
 problem-default-rogueeugenics-step3-desc: |
- [h1]Rogue Scientist Breeding Eugenic Abherrations[/h1]
- [h2]Serious and Deadly[/h2]
- It turns out the space police in question were dirty! They were taking bribes to look the other way, even going so far as to, at times, deliver the banned bio-organic materials the scientists was using. We now suspect these scientists were "breeding" bio-mechanoid ships. One of these crooked cops was able to give us the location of several out-of-the-way asteroid regions the scientists may be using. Return to the [em]Research Facilities[/em] you had previously visited and destroy any monstrosities you may find.
+ [h1]Científico sin escrúpulos que cría aberraciones eugenésicas[/h1]
+ [h2]Graves y mortales[/h2]
+ Resulta que la policía espacial en cuestión ¡estaba sucia! Aceptaban sobornos para hacer la vista gorda e incluso, en ocasiones, entregaban los materiales bioorgánicos prohibidos que utilizaban los científicos. Ahora sospechamos que estos científicos estaban "criando" naves bio-mecanoides. Uno de estos policías corruptos fue capaz de darnos la ubicación de varias regiones de asteroides alejadas que los científicos podrían estar utilizando. Regresa a las [em]Instalaciones de Investigación[/em] que habías visitado anteriormente y destruye cualquier monstruosidad que puedas encontrar.
  
-problem-default-rogueeugenics-step3-complete: You have done it. The bio-mechanoid ships have been dealt with, much to everyones relief.
-problem-drum-rogueeugenics-step3-complete: BEGIN TRANSLATION --[ Bio-mechanoid ships dealt with. Everyone relieved. Good job. ]-- END TRANSLATION
+problema-defecto-rogueeugenics-paso3-completado: Lo has conseguido. Las naves bio-mecanoides han sido eliminadas, para alivio de todos.
+problema-tambor-rogueeugenics-paso3-completo: BEGIN TRANSLATION --[ Naves bio-mecanoides eliminadas. Todos aliviados. Buen trabajo. ]-- END TRANSLATION
 
-problem-default-rogueeugenics-lab-hail1: Hello Captain. What brings you out here?
-problem-drum-rogueeugenics-lab-hail1: BEGIN TRANSLATION --[ Hello. Captain here. Purpose? ]-- END TRANSLATION
-problem-default-rogueeugenics-lab-opt-req: Lab, where is your data?
-problem-default-rogueeugenics-lab-give: Captain, one moment, checking you clearence... Ok, here is the data. You are good to go.
-problem-drum-rogueeugenics-lab-give: BEGIN TRANSLATION --[ Captain, wait. Clearance check... Done. Data sent. Go. ]-- END TRANSLATION
-problem-default-rogueeugenics-lab-hail-done: We have already received uploaded the data recently. We cannot transmit another one at this time.
-problem-drum-rogueeugenics-lab-hail-done: BEGIN TRANSLATION --[ Data received recently. No transmission now. ]-- END TRANSLATION
-problem-default-rogueeugenics-police-hail1: Hail received. What is going on?
-problem-drum-rogueeugenics-police-hail1: BEGIN TRANSLATION --[ Hail received. Report? ]-- END TRANSLATION
-problem-default-rogueeugenics-police-opt-question: Officer, do you mind answering some questions?
-problem-default-rogueeugenics-police-surrender-text: Ok ok, you've got me. I surrender.
-problem-drum-rogueeugenics-police-surrender-text: BEGIN TRANSLATION --[ Alright, I give up. Surrendering. ]-- END TRANSLATION
-problem-default-rogueeugenics-police-opt-takepeople: Get out of your ship, I'm taking you in.
-problem-default-rogueeugenics-police-peoplespawn: Ok, just don't hurt me. I'll cooperate.
-problem-drum-rogueeugenics-police-peoplespawn: BEGIN TRANSLATION --[ Surrender engaged. Cooperation entailed ]-- END TRANSLATION
+problema-defecto-rogueeugenics-lab-hail1: Hola Capitán. ¿Qué te trae por aquí?
+problema-tambor-rogueeugenics-lab-hail1: BEGIN TRANSLATION --[ Hola. Capitán aquí. ¿Propósito? ]-- END TRANSLATION
+problem-default-rogueeugenics-lab-opt-req: Laboratorio, ¿dónde están sus datos?
+problem-default-rogueeugenics-lab-give: Capitán, un momento, comprobando que está despejado... Ok, aquí están los datos. Puede continuar.
+problem-drum-rogueeugenics-lab-give: BEGIN TRANSLATION --[ Capitán, espere. Comprobación de autorización... Hecho. Datos enviados. Adelante. ]-- END TRANSLATION
+problema-defecto-rogueeugenics-lab-hail-hecho: Ya hemos recibido cargado los datos recientemente. No podemos transmitir otro en este momento.
+problem-drum-rogueeugenics-lab-hail-done: BEGIN TRANSLATION --[ Datos recibidos recientemente. No hay transmisión ahora. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-hail1: Granizo recibido. ¿Qué está pasando?
+problem-drum-rogueeugenics-police-hail1: BEGIN TRANSLATION --[Granizo recibido. ¿Informe? ]-- END TRANSLATION
+problema-tambor-rogueeugenics-policia-opt-pregunta: Oficial, ¿le importaría responder algunas preguntas?
+problem-default-rogueeugenics-police-surrender-text: Ok ok, me tienes. Me rindo.
+problem-drum-rogueeugenics-police-surrender-text: BEGIN TRANSLATION --[ De acuerdo, me rindo. Me rindo. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-opt-takepeople: Salgan de su nave, los voy a llevar.
+problem-default-rogueeugenics-police-peoplespawn: Vale, pero no me hagas daño. Cooperaré.
+problema-tambor-rogueeugenics-police-peoplespawn: BEGIN TRANSLATION --[ Rendición comprometida. Cooperación implicada ]-- END TRANSLATION
 
-problem-default-rogueeugenics-opt-getbuff: Station, I am ready for my reward.
-problem-default-rogueeugenics-givebuff: Please accept our gratitude after your hard work with dealing with those abominations of science.
-problem-drum-rogueeugenics-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-rogueeugenics-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-rogueeugenics-givebuff: Por favor, acepta nuestra gratitud después de tu duro trabajo con esas abominaciones de la ciencia.
+problem-drum-rogueeugenics-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Agradecimiento. ]-- END TRANSLATION
  
 #Extra Solar Energy Ribbon ==============================================================================================================
 problem-default-extrasolarribbon-title: "Extra Solar Energy Ribbon"
-problem-default-extrasolarribbon-step1-summary: "Collect and Deliver Ship Log Entries"
+problem-default-extrasolarribbon-step1-summary: "Recoger y entregar los registros de la nave"
 problem-default-extrasolarribbon-step1-desc: |
- [h1]Extra Solar Energy Ribbon[/h1]
- [h2]Ribbon Wrecked Ships[/h2]
- Reports of ships in distress are spiking higher than usual. Local authorities aren't sure why, and are requesting local captains help where possible. Visit the [em]Distress Calls[/em] and gather whatever intelligence is available.
+ [h1]Cinta de energía solar extra[/h1]
+ [h2]Cinta Naves Naufragadas[/h2]
+ Los informes de barcos en apuros están aumentando más de lo habitual. Las autoridades locales no están seguras del motivo y solicitan la ayuda de los capitanes locales en la medida de lo posible. Visita las [em]Llamadas de socorro[/em] y reúne toda la información disponible.
  
-problem-default-extrasolarribbon-step1-opt-handin: Station, I have some logs for you to parse.
-problem-default-extrasolarribbon-step1-suc: Captain, logs received. Thanks for your help. We'll get the eggheads working on this right away.
-problem-drum-extrasolarribbon-step1-suc: BEGIN TRANSLATION --[ Captain, logs received. Thanks for your help. Eggheads work now. ]-- END TRANSLATION
-problem-default-extrasolarribbon-step1-complete: Good work Captain. You have done more than your fair share. We should have some answers to this problem shortly.
-problem-drum-extrasolarribbon-step1-complete: BEGIN TRANSLATION --[ Good work Captain. You do more than fair share. Answers come soon. ]-- END TRANSLATION
-problem-default-extrasolarribbon-log: The log describes the last moments of the ship before the energy ribbon breaches its hull.
+problema-defecto-extrasolarribbon-paso1-opt-handin: Estación, tengo algunos registros para que los analices.
+problem-default-extrasolarribbon-step1-suc: Capitán, registros recibidos. Gracias por su ayuda. Pondremos a los cerebritos a trabajar en esto de inmediato.
+problem-drum-extrasolarribbon-step1-suc: BEGIN TRANSLATION --[ Capitán, registros recibidos. Gracias por su ayuda. Los cabezas de huevo trabajan ahora. ]-- END TRANSLATION
+problema-tambor-extrasolarribbon-paso1-completo: Buen trabajo, Capitán. Has hecho más de lo que debías. Deberíamos tener algunas respuestas a este problema en breve.
+problema-tambor-extrasolarribbon-paso1-completo: BEGIN TRANSLATION --[ Buen trabajo Capitán. Ha hecho más de lo justo. Las respuestas llegarán pronto. ]-- END TRANSLATION
+problem-default-extrasolarribbon-log: El registro describe los últimos momentos de la nave antes de que la cinta de energía rompa su casco.
  
-problem-default-extrasolarribbon-step2-summary: "Deliver Relief Supplies"
+problem-default-extrasolarribbon-step2-summary: "Entregar suministros de socorro"
 problem-default-extrasolarribbon-step2-desc: |
- [h1]Extra Solar Energy Ribbon[/h1]
- [h2]Supplies are Needed[/h2]
- The situation around the system is deteriorating faster than ever. The strange energy readings are showing up nearly everywhere, and even stations are being damaged. We are asking available captains to help ferry supplies from the [em]Relief Zone[/em] to [em]Stations in Need[/em]. 
+ [h1]Cinta de Energía Solar Extra[/h1]
+ [h2]Se necesitan suministros[/h2]
+ La situación alrededor del sistema se está deteriorando más rápido que nunca. Las extrañas lecturas de energía están apareciendo en casi todas partes, e incluso las estaciones están siendo dañadas. Pedimos a los capitanes disponibles que ayuden a transportar suministros desde la [em]Zona de Socorro[/em] a las [em]Estaciones Necesitadas[/em]. 
  
-problem-default-extrasolarribbon-step2-opt-handin: Here, take these supplies to help get things operating again.
-problem-drum-extrasolarribbon-step2-opt-handin: BEGIN TRANSLATION --[ Supplies. Take. Help things operate. ]-- END TRANSLATION
-problem-default-extrasolarribbon-step2-suc: Thanks for the relief supplies!
-problem-default-extrasolarribbon-step2-complete: Captain, those relief supplies you delivered will have a great benefit throughout the system.
-problem-drum-extrasolarribbon-step2-complete: BEGIN TRANSLATION --[ Captain, relief supplies have great benefit. System wide. ]-- END TRANSLATION
-problem-default-extrasolarribbon-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-extrasolarribbon-step2-complete-reqtractor-give: Yes, here's a tractor for you.
-problem-drum-extrasolarribbon-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Tractor. Here. Yes. ]-- END TRANSLATION
-problem-default-extrasolarribbon-reliefcentral: Hello Captain. This is Relief Central. What do you need?
-problem-drum-extrasolarribbon-reliefcentral: BEGIN TRANSLATION --[ Captain. Relief Central speaking. Need what? ]-- END TRANSLATION
-problem-default-extrasolarribbon-reliefcentral-opt-req: Relief Central, I'm here to pick up some supplies for delivery.
-problem-default-extrasolarribbon-reliefcentral-give: Stand by. Here are some supplies. Oh and Captain, keep up the good work.
-problem-drum-extrasolarribbon-reliefcentral-give: BEGIN TRANSLATION --[ Supplies coming. Captain, good work. ]-- END TRANSLATION
-problem-default-extrasolarribbon-distressstation: It's been a pretty bad time since the incident. Do you have any good news?
-problem-drum-extrasolarribbon-distressstation: BEGIN TRANSLATION --[ Bad time since incident. Good news? ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-opt-handin: Toma, coge estos suministros para ayudar a que las cosas vuelvan a funcionar.
+problema-tambor-extrasolarribbon-paso2-opt-handin: BEGIN TRANSLATION --[ Suministros. Toma. Ayuda a que las cosas funcionen. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-suc: ¡Gracias por los suministros de ayuda!
+problem-default-extrasolarribbon-step2-complete: Capitán, esos suministros de socorro que entregó tendrán un gran beneficio en todo el sistema.
+problema-tambor-extrasolarribbon-paso2-completo: BEGIN TRANSLATION --[ Capitán, los suministros de socorro tendrán un gran beneficio en todo el sistema. ]-- END TRANSLATION
+problema-tambor-extrasolarribbon-paso2-completo-requiere-tractor: Necesito un tractor, ¿puede suministrarme uno?
+problem-default-extrasolarribbon-step2-complete-reqtractor-give: Sí, aquí tiene un tractor.
+problem-drum-extrasolarribbon-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Tractor. Aquí. Sí. ]-- END TRANSLATION
+problema-tambor-extrasolarribbon-requiere-tractor-entregar: Hola Capitán. Aquí Central de Socorro. ¿Qué necesita?
+problema-tambor-extrasolarribbon-reliefcentral: BEGIN TRANSLATION --[ Capitán. Central de Socorro al habla. ¿Necesita qué? ]-- END TRANSLATION
+problem-default-extrasolarribbon-reliefcentral-opt-req: Central de Socorro, estoy aquí para recoger algunos suministros para la entrega.
+problem-default-extrasolarribbon-reliefcentral-give: Espere. Aquí hay algunos suministros. Ah, y Capitán, siga con el buen trabajo.
+problema-tambor-extrasolarribbon-reliefcentral-dar: BEGIN TRANSLATION --[ Suministros llegando. Capitán, buen trabajo. ]-- END TRANSLATION
+problema-tambor-extrasolarribbon-alivio-central: Ha sido un tiempo bastante malo desde el incidente. ¿Tiene alguna buena noticia?
+problem-drum-extrasolarribbon-distressstation: BEGIN TRANSLATION --[ Mal momento desde el incidente. ¿Buenas noticias? ]-- END TRANSLATION
  
-problem-default-extrasolarribbon-step3-summary: "Deliver the unassembled Deflector parts"
+problema-tambor-extrasolarribbon-paso3-resumen: "Entregar las piezas del Deflector sin montar"
 problem-default-extrasolarribbon-step3-desc: |
- [h1]Extra Solar Energy Ribbon[/h1]
- [h2]Scientists Have an Idea[/h2]
- Scientists have finally determined the cause of all the chaos in the system. There is an extra solar ribbon passing not too far outside the solar system and causing all the problems. We have devised a strategy to deflect the radiation, but need capable captains to collect and assemble the device. We need the [em]Anti Graviton Deflector[/em] parts to be picked up from each [em]Part Pickup[/em] and delivered to the [em]Anti Graviton Deflector Assembly Site[/em]. When this machine is assembled, it should provide protection for the solar system until the energy ribbon moves far enough back into interstellar space.
+ [h1]Cinta de energía solar extra[/h1]
+ [h2]Los científicos tienen una idea[/h2]
+ Los científicos han determinado por fin la causa de todo el caos del sistema. Hay una cinta solar extra que pasa no muy lejos del sistema solar y está causando todos los problemas. Hemos ideado una estrategia para desviar la radiación, pero necesitamos capitanes capaces de reunir y ensamblar el dispositivo. Necesitamos que las piezas del [em]Deflector Anti Gravitón[/em] se recojan en cada [em]Recogida de Piezas[/em] y se entreguen en el [em]Lugar de Ensamblaje del Deflector Anti Gravitón[/em]. Cuando esta máquina esté ensamblada, debería proporcionar protección al sistema solar hasta que la cinta de energía retroceda lo suficiente hacia el espacio interestelar.
  
-problem-default-extrasolarribbon-step3-complete: Good work! The solar ribbon has been sent back into deep space through your hard work. The system is safe again.
-problem-drum-extrasolarribbon-step3-complete: BEGIN TRANSLATION --[ Energy ribbon back in space. Safe system. Good work! ]-- END TRANSLATION
+problema-defecto-cinta-extrasolar-paso3-completado: ¡Buen trabajo! La cinta solar ha sido enviada de vuelta al espacio profundo gracias a tu duro trabajo. El sistema es seguro de nuevo.
+problema-tambor-extrasolarribbon-paso3-completo: BEGIN TRANSLATION --[ Cinta de energía de vuelta al espacio. Sistema seguro. ¡Buen trabajo! ]-- END TRANSLATION
 
-problem-default-extrasolarribbon-part-handin: [i]Part begins to deploy into its final configuration[/i] 
+problem-default-extrasolarribbon-part-handin: [i]Parte comienza a desplegarse en su configuración final[/i] 
 
-problem-default-extrasolarribbon-opt-getbuff: Station, I am ready for my reward.
-problem-default-extrasolarribbon-givebuff: Captain, with the retreat of the energy ribbon, we are free to give you this in thanks.
-problem-drum-extrasolarribbon-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-extrasolarribbon-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-extrasolarribbon-givebuff: Capitán, con la retirada de la cinta de energía, somos libres de darle esto en agradecimiento.
+problema-tambor-extrasolarribbon-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
  
 #Alien Settler Encroachment ==============================================================================================================
 problem-default-foreignencroachment-title: "Alien Settler Encroachment"
-problem-default-foreignencroachment-step1-summary: "Destroy Encroaching Miners"
-problem-drum-foreignencroachment-step1-summary: "Destroy Encroaching Miners"
+problem-default-foreignencroachment-step1-summary: "Destruir mineros invasores"
+problem-drum-foreignencroachment-step1-summary: "Destruir mineros invasores"
 problem-drum-foreignencroachment-step1-desc: |
- [h1]Alien Settler Encroachment[/h1]
- BEGIN TRANSLATION --[ Non druminence ore gatherers detected within territory. [em]Mining Activity[/em] detected destruction compliance ore gatherers. ]-- END TRANSLATION
+ [h1]Invasión de Colonos Extranjeros[/h1]
+ [em]Actividad minera[/em] [em]Actividad minera[/em] [em]Actividad minera[/em [em]Actividad minera[/em] detectada destrucción cumplimiento recolectores de mineral. ]-- FIN DE LA TRADUCCIÓN
  
-problem-default-foreignencroachment-step1-complete: BEGIN TRANSLATION --[ Good work. Ore gatherers eradicated. ]-- END TRANSLATION
+problema-defecto-enfoque-extranjero-paso1-completo: BEGIN TRANSLATION --[ Buen trabajo. Recolectores de mineral erradicados. ]-- END TRANSLATION
  
-problem-default-foreignencroachment-step2-summary: "Destroy Encroaching Colony Fleets"
-problem-drum-foreignencroachment-step2-summary: "Destroy Encroaching Colony Fleets"
+problem-default-foreignencroachment-step2-summary: "Destruir flotas de colonias invasoras"
+problem-drum-foreignencroachment-step2-summary: "Destruir flotas de colonias invasoras"
 problem-drum-foreignencroachment-step2-desc: |
  [h1]Alien Settler Encroachment[/h1]
- BEGIN TRANSLATION --[ Non druminence populators detected colonizing. Druminence protected area of space, unavailable to non druminence populators. Destroy [em]Encroaching Colony Fleets[/em] encouragement by Druminence Heirarchy. ]-- END TRANSLATION
+ BEGIN TRANSLATION --[ Se detectan colonizadores no druminence. Druminence zona protegida del espacio, no disponible para los no druminence populators. Destruir [em]Flotas colonizadoras invasoras[/em] alentadas por la Herarquía Druminence. FIN DE LA TRADUCCIÓN
  
-problem-default-foreignencroachment-step2-complete: BEGIN TRANSLATION --[ Druminence Heirarchy content. Populators eradicated. ]-- END TRANSLATION
-problem-default-foreignencroachment-colonyship-text: Whoa! We are just simple settlers looking to find a new world to colonize.
-problem-default-foreignencroachment-colonyship-opt-leave: Turn that ship around, or face the consequences on encroaching upon protected space.
-problem-default-foreignencroachment-colonyship-leaving: Alright! We'll leave the area, but, I'll have you know, many young families will be crushed by this.
+problema-defecto-enfrentamiento-extranjero-paso2-completo: BEGIN TRANSLATION --[ Contenido de la Herarquía Druminence. Poblaciones erradicadas. ]-- END TRANSLATION
+problema-por-defecto-acercamiento-extranjero-colonización-texto: ¡Vaya! Sólo somos simples colonos en busca de un nuevo mundo que colonizar.
+problem-default-foreignencroachment-colonyship-opt-leave: Da la vuelta a esa nave o atente a las consecuencias de invadir un espacio protegido.
+problema-por-defecto-invasión-extranjera-nave-colonia-abandonar: ¡De acuerdo! Abandonaremos la zona, pero quiero que sepas que muchas familias jóvenes se verán perjudicadas por esto.
  
-problem-default-foreignencroachment-step3-summary: "Destroy Military Support for the Colonists"
-problem-drum-foreignencroachment-step3-summary: "Destroy Military Support for the Colonists"
+problem-default-foreignencroachment-step3-summary: "Destruir el apoyo militar a los colonos"
+problem-drum-foreignencroachment-step3-summary: "Destruir el apoyo militar a los colonos"
 problem-drum-foreignencroachment-step3-desc: |
- [h1]Alien Settler Encroachment[/h1]
- BEGIN TRANSLATION --[ Non druminence combators detected. Escort populator negation quotient for druminence interests. [em]Encroaching Military Fleet[/em] termination required once and for all. ]-- END TRANSLATION
+ [h1]Invasión de Colonos Extranjeros[/h1]
+ COMENZAR TRADUCCIÓN --[ No druminence combatientes detectados. Escort populator negación cociente para druminence intereses. [em]Flota militar invasora[/em] terminación requerida de una vez por todas. FIN DE LA TRADUCCIÓN
 
-problem-default-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Combat Fleet eradicated. Work complete satisfactory. ]-- END TRANSLATION 
-problem-drum-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Combat Fleet eradicated. Work complete satisfactory. ]-- END TRANSLATION
+problema-defecto-enfriamiento-extranjero-paso3-completo: BEGIN TRANSLATION --[Flota de combate erradicada. Trabajo completado satisfactoriamente. ]-- END TRANSLATION 
+problema-tambor-acercamiento-extranjero-paso3-completo: BEGIN TRANSLATION --[ Flota de combate erradicada. Trabajo completado satisfactoriamente. ]-- END TRANSLATION
 
-problem-default-foreignencroachment-opt-getbuff: Station, I am ready for my reward.
-problem-drum-foreignencroachment-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-default-foreignencroachment-opt-getbuff: Estación, estoy listo para mi recompensa.
+problema-tambor-acceso-extranjero-dar-recompensa: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
  
 #Juice Smugglers ==============================================================================================================
 problem-default-drugsmugglers-title: "Juice Smugglers"
-problem-default-drugsmugglers-step1-summary: "Investigate Suspicious Ships and Intimidate Them"
+problem-default-drugsmugglers-step1-summary: "Investigar barcos sospechosos e intimidarlos"
 problem-default-drugsmugglers-step1-desc: |
- [h1]Juice Smugglers[/h1]
- [h2]Juice Is A Problem[/h2]
- Do you know what Juice is? It's a narcotic that is on the rise. Miners are particularly fond of it, as well as party goers who want to go for hours. The local office wants to stop it however. We know that pirates are manufacturing it, but we're not quite sure how its getting onto the stations. The new approach is to stop all cargo ships before they dock and offload. Help out with this effort by intercepting the cargo fleets and questioning any [em]Suspicious Ship[/em]. Let us see if we can't generate some intelligence.
+ [h1]Contrabandistas de zumo[/h1]
+ [h2]El Zumo es un Problema[/h2]
+ ¿Sabes lo que es el Juice? Es un narcótico que está en auge. Los mineros son especialmente aficionados a ella, así como los fiesteros que quieren pasarse horas y horas. Sin embargo, la oficina local quiere detenerlo. Sabemos que los piratas la fabrican, pero no estamos seguros de cómo llega a las estaciones. El nuevo enfoque consiste en detener todos los cargueros antes de que atraquen y descarguen. Ayúdanos en este esfuerzo interceptando las flotas de carga e interrogando a cualquier [em]Nave Sospechosa[/em]. Veamos si podemos generar algo de inteligencia.
  
-problem-default-drugsmugglers-step1-complete: Juice smugglers got what was coming to them. Good work.
-problem-drum-drugsmugglers-step1-complete: BEGIN TRANSLATION --[ Juice smugglers punished. Good work. ]-- END TRANSLATION
+problema-defecto-contrabandistas-de-drogas-paso1-completo: Los contrabandistas de jugo recibieron lo que se merecían. Buen trabajo.
+problema-tambor-contrabandistas-de-drogas-paso1-completo: BEGIN TRANSLATION --[ Contrabandistas de jugo castigados. Buen trabajo. ]-- END TRANSLATION
  
-problem-default-drugsmugglers-step2-summary: "Locate and Raid Known Drug Sites inside the belt"
+problem-default-drugsmugglers-step2-summary: "Localizar y asaltar puntos de droga conocidos dentro del cinturón"
 problem-default-drugsmugglers-step2-desc: |
- [h1]Juice Smugglers[/h1]
- [h2]Juice Delivery[/h2]
- The previous part of the operation was successful. With your help we were able to destroy a number of the Juice shipments as well as get some leads on where in the system the stuff is being manufactured. The next step in this operation is to raid the distribution points based on the leads from the cargo haulers. The Space Police need a hand raiding these places. Pick up the agents from a [em]Station[/em] and bring them to [em]Known Drug Site[/em] to raid the stations. 
+ [h1]Contrabandistas de zumo[/h1]
+ [h2]Entrega de zumo[/h2]
+ La parte anterior de la operación fue un éxito. Con tu ayuda pudimos destruir varios de los envíos de Zumo, así como conseguir algunas pistas sobre en qué parte del sistema se está fabricando. El siguiente paso en esta operación es asaltar los puntos de distribución en base a las pistas de los transportistas de carga. La Policía Espacial necesita ayuda para asaltar estos lugares. Recoge a los agentes de una [em]Estación[/em] y llévalos a [em]Lugar Conocido de Drogas[/em] para asaltar las estaciones. 
  
-problem-default-drugsmugglers-opt-reqpolice: I am ready to transport the police. Send them over.
-problem-default-drugsmugglers-reqpolice-haspolice: You already have some police onboard.
-problem-drum-drugsmugglers-reqpolice-haspolice: BEGIN TRANSLATION --[ Police onboard. Already there. ]-- END TRANSLATION
-problem-default-drugsmugglers-reqpolice-peoplespawn: The police are ready to be picked up.
-problem-default-drugsmugglers-step2-complete: Yeah! Got those dirt bags. Good work Captain. Thanks for the help.
-problem-drum-drugsmugglers-step2-complete: BEGIN TRANSLATION --[ Dirt bags caught. Good work Captain. Thankful for help. ]-- END TRANSLATION
+problem-default-drugsmugglers-opt-reqpolice: Estoy listo para transportar a la policía. Envíalos.
+problem-default-drugsmugglers-reqpolice-haspolice: Ya tiene policía a bordo.
+problema-drum-drugsmugglers-reqpolice-haspolice: BEGIN TRANSLATION --[ Policía a bordo. Ya está ahí. ]-- END TRANSLATION
+problema-drum-drugsmugglers-reqpolice-peoplespawn: La policía está lista para ser recogida.
+problem-default-drugsmugglers-step2-complete: ¡Sí! Tenemos a esos sucios. Buen trabajo, capitán. Gracias por la ayuda.
+problema-drum-drugsmugglers-paso2-completo: BEGIN TRANSLATION --[ Bolsas de suciedad atrapadas. Buen trabajo Capitán. Gracias por la ayuda. ]-- END TRANSLATION
  
-problem-default-drugsmugglers-step3-summary: "Destroy Chemical Stockpile"
+problema-default-drugsmugglers-paso3-resumen: "Destruir arsenal químico"
 problem-default-drugsmugglers-step3-desc: |
- [h1]Juice Smugglers[/h1]
- [h2]Juice Chemical Engineering[/h2]
- Things are looking good, but we are still one major step away from stopping the Juice problem in the system. Following the raids we were able to find information on a trade route leading to the the location of the manufacturing location. Find it at [em]Secret Drug Lab[/em], and remove their ability to make more by destroying all their [em]Precursor Chemicals[/em].
+ [h1]Contrabandistas de Jugos[/h1]
+ [h2]Ingeniería química de zumos[/h2]
+ Las cosas pintan bien, pero aún nos falta un gran paso para acabar con el problema del Zumo en el sistema. Tras las redadas hemos podido encontrar información sobre una ruta comercial que conduce a la ubicación del lugar de fabricación. Encuéntralo en [em]Laboratorio secreto de drogas[/em], y elimina su capacidad de fabricar más destruyendo todos sus [em]Precursores químicos[/em].
  
-problem-default-drugsmugglers-step3-complete: You have done it again. Another Juice operation shut down.
-problem-drum-drugsmugglers-step3-complete: BEGIN TRANSLATION --[ Juice operation stopped. Done again. ]-- END TRANSLATION
+problema-default-drugsmugglers-paso3-completo: Lo has vuelto a hacer. Otra operación Zumo cerrada.
+problema-default-drugsmugglers-paso3-completo: BEGIN TRANSLATION --[ Operación Zumo parada. Hecho otra vez. ]-- END TRANSLATION
 
-problem-default-drugsmugglers-ship-innocent-hail: Hello Captain, how may I assist you?
-problem-drum-drugsmugglers-ship-innocent-hail: BEGIN TRANSLATION --[ Hello Captain. Help needed? ]-- END TRANSLATION
-problem-default-drugsmugglers-ship-opt-interrogate: Do you know where the juice is coming from?
-problem-default-drugsmugglers-ship-innocent-reply: I swear I don't know! I just carry auto farming equipment!
-problem-drum-drugsmugglers-ship-innocent-reply: BEGIN TRANSLATION --[ Swear. Don't know. Auto farming equipment carrier only. ]-- END TRANSLATION
-problem-default-drugsmugglers-ship-aggro-hail:  Hello Captain, how may I assist you?
-problem-drum-drugsmugglers-ship-aggro-hail: BEGIN TRANSLATION --[ Want know what? ]-- END TRANSLATION
-problem-default-drugsmugglers-shipsurrender-text: Oh no! You've got me. I can't stand the beating. I surrender and I'll tell you everything!
-problem-drum-drugsmugglers-shipsurrender-text: BEGIN TRANSLATION --[ Oh no! Got me. Beating unbearable. Surrender. Tell all! ]-- END TRANSLATION
-problem-default-drugsmugglers-drugoutpost-hail1: You don't have the guts to take us on. We control the drugs in this sector of space.
-problem-drum-drugsmugglers-drugoutpost-hail1: BEGIN TRANSLATION --[ You no guts take us. Control drugs in this sector space. ]-- END TRANSLATION
-problem-default-drugsmugglers-drugoutpost-opt-sendpolice: The police are being sent. Prepare to be boarded!
-problem-default-drugsmugglers-drugoutpost-raidsuccess: Good work Captain. This station is now under police control.
-problem-drum-drugsmugglers-drugoutpost-raidsuccess: BEGIN TRANSLATION --[ Captain good work. Station now under police control. ]-- END TRANSLATION
+problema-tambor-drogas-contrabandistas-nave-inocente-granizo: Hola Capitán, ¿en qué puedo ayudarle?
+problema-drogas-contrabandistas-nave-inocente-granizo: BEGIN TRANSLATION --[ Hola Capitán. ¿Necesita ayuda? ]-- END TRANSLATION
+problema-contrabandistas-de-drogas-nave-inocente-interrogar: ¿Sabe de dónde viene el jugo?
+problema-default-drugsmugglers-nave-inocente-replica: ¡Juro que no lo sé! ¡Sólo llevo equipo de autocultivo!
+problema-drogas-contrabandistas-barco-inocente-respuesta: BEGIN TRANSLATION --[Lo juro. No lo sé. Sólo transporto equipo agrícola para automóviles. ]-- END TRANSLATION
+problem-default-drugsmugglers-ship-aggro-hail:  Hola Capitán, ¿en qué puedo ayudarle?
+problem-drum-drugsmugglers-ship-aggro-hail: BEGIN TRANSLATION --[ ¿Quieres saber qué? ]-- END TRANSLATION
+problema-drum-drugsmugglers-shipsurrender-text: ¡Oh no! Me has pillado. No aguanto la paliza. ¡Me rindo y te lo contaré todo!
+problem-drum-drugsmugglers-shipsurrender-text: BEGIN TRANSLATION --[ ¡Oh no! Me tiene. Paliza insoportable. Me rindo. ¡Cuéntalo todo! ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-hail1: No tienes agallas para enfrentarte a nosotros. Controlamos las drogas en este sector del espacio.
+problema-default-drugsmugglers-drugoutpost-hail1: BEGIN TRANSLATION --[ No tenéis agallas para enfrentarnos. Controlamos las drogas en este sector del espacio. ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-opt-sendpolice: La policía está siendo enviada. Prepárense para ser abordados.
+problem-default-drugsmugglers-drugoutpost-raidsuccess: Buen trabajo, Capitán. Esta estación está ahora bajo control policial.
+problema-drum-drugsmugglers-drugoutpost-raidsuccess: BEGIN TRANSLATION --[ Capitán buen trabajo. Estación ahora bajo control policial. ]-- END TRANSLATION
 
-problem-default-drugsmugglers-opt-getbuff: Station, I am ready for my reward.
-problem-default-drugsmugglers-givebuff: Captain, the system is once again Juice free thanks to your work. Please accept this token of appreciation.
-problem-drum-drugsmugglers-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-defecto-drugsmugglers-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-drugsmugglers-givebuff: Capitán, el sistema vuelve a estar libre de Jugo gracias a su trabajo. Por favor, acepte esta muestra de agradecimiento.
+problema-drum-drugsmugglers-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Agradecimiento. ]-- END TRANSLATION
 
-#Generic 1 Step Problems
-problem-default-pirates-title: Problems with Pirates
-problem-default-pirates-step1-summary: Destroy Pirate Vessels
+#Problemas genéricos de 1 paso
+problem-default-pirates-title: Problemas con Piratas
+problem-default-pirates-step1-summary: Destruir Barcos Piratas
 problem-default-pirates-step1-desc:  |
- [h1]Problems with Pirates[/h1]
- The Sixiser Pirates are an expansive band of loosely organized pirates. They have no qualms about looting, plundering, stealing or 'expropriating'. They also dabble in slaves and narcotics. They are constantly about, when you stop one, it feels like another will just take its place. Do your part and help stop some.
+ [h1]Problemas con los Piratas[/h1]
+ Los Piratas Sixiser son una banda expansiva de piratas vagamente organizados. No tienen reparos en saquear, expoliar, robar o "expropiar". También trafican con esclavos y estupefacientes. Están en constante movimiento, y cuando se detiene a uno, parece que otro ocupará su lugar. Ponga de su parte y ayude a detener a algunos.
 
-problem-default-pirates-step1-complete: Great job, Captain! The pirate vessels have been neutralized, and our cargo is now safe. 
-problem-drum-pirates-step1-complete: BEGIN TRANSLATION --[ Captain good work. Pirate vessels destruction confirmed and celebrated. ]-- END TRANSLATION
+problema-defecto-piratas-paso1-completo: ¡Gran trabajo, Capitán! Las naves piratas han sido neutralizadas y nuestra carga está a salvo. 
+problema-piratas-defecto-paso1-completado: BEGIN TRANSLATION --[ Capitán buen trabajo. Destrucción de naves piratas confirmada y celebrada. ]-- END TRANSLATION
 
-problem-default-pirates-opt-getbuff: Station, I am ready for my reward.
-problem-default-pirates-givebuff: We are happy the pirates are gone. Accept this as our thanks.
-problem-drum-pirates-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-piratas-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-pirates-givebuff: Estamos contentos de que los piratas se hayan ido. Acepta esto como agradecimiento.
+problema-tambor-piratas-dar-recompensa: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
-problem-default-dumpedcargo-title: Supply Time Running Short
-problem-default-dumpedcargo-step1-summary: Deliver cargo pods to nearby station
+problem-default-dumpedcargo-title: Se acaba el tiempo de suministro
+problem-default-dumpedcargo-step1-summary: Entregar cápsulas de carga en estación cercana
 problem-default-dumpedcargo-step1-desc:  |
- [h1]Supply Time Running Short[/h1]
- A local delivery ship has had to dump its cargo after an on-board emergency. That cargo needs to be delivered before it expires. Lend a hand and help deliver the goods. Look for [em]Dumped Cargo[/em] and bring the cargo pods to any near by [em]station[/em].
+ [h1]Tiempo de suministro escaso[/h1]
+ Una nave de reparto local ha tenido que deshacerse de su carga tras una emergencia a bordo. Esa carga necesita ser entregada antes de que caduque. Echa una mano y ayuda a entregar la mercancía. Busca [em]Dumped Cargo[/em] y lleva las cápsulas de carga a cualquier [em]estación[/em] cercana.
  
-problem-default-dumpedcargo-step1-opt-handin: I have one of the cargo pods
-problem-default-dumpedcargo-handin-ack: Understood please deliver it over here
-problem-drum-dumpedcargo-handin-ack: BEGIN TRANSLATION --[ Arrive cargo desired location ]-- END TRANSLATION 
-problem-default-dumpedcargo-cargo-handin1: Cargo container received.
-problem-drum-dumpedcargo-cargo-handin1: BEGIN TRANSLATION --[ Receivement done ]-- END TRANSLATION 
-problem-default-dumpedcargo-step1-complete: Great work Captain! Your prompt response and efficient transport helped us avoid any loss of valuable goods.
-problem-drum-dumpedcargo-step1-complete: BEGIN TRANSLATION --[ Captain good work. Welcomed help assistance delivered time wise well. Loss avoided. ]-- END TRANSLATION 
+problem-default-dumpedcargo-step1-opt-handin: Tengo una de las cápsulas de carga
+problem-default-dumpedcargo-handin-ack: Entendido por favor entréguelo aquí
+problema-default-dumpedcargo-handin-ack: BEGIN TRANSLATION --[ Llega carga ubicación deseada ]-- END TRANSLATION 
+problem-default-dumpedcargo-cargo-handin1: Contenedor de carga recibido.
+problem-drum-dumpedcargo-cargo-handin1: BEGIN TRANSLATION --[ Recepción realizada ]-- END TRANSLATION 
+problema-drum-volcado-carga-paso1-completo: ¡Gran trabajo Capitán! Su rápida respuesta y su eficiente transporte nos ayudaron a evitar cualquier pérdida de mercancías valiosas.
+problema-tambor-volcado-carga-paso1-completo: BEGIN TRANSLATION --[ Capitán buen trabajo. Ayuda bien recibida y entregada a tiempo. Pérdida evitada. ]-- FIN DE LA TRADUCCIÓN 
 
-problem-default-dumpedcargo-opt-getbuff: Station, I am ready for my reward.
-problem-default-dumpedcargo-givebuff: Thank you for picking up and deliverying all the dumped cargo. Accept our gratitude with this.
-problem-drum-dumpedcargo-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-dumpedcargo-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-dumpedcargo-givebuff: Gracias por recoger y entregar toda la carga volcada. Acepta nuestra gratitud con esto.
+problem-drum-dumpedcargo-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION
 
-problem-default-oreshortage-title: Ore Shortage
+problema-escasez-de-mineral-title: Escasez de Mineral
 
-problem-default-oreshortage-tritanium-step1-summary: Deliver Tritanium Ore to Ore Collection Point
+problem-default-oreshortage-tritanium-step1-summary: Entregar Mineral de Tritanio en Punto de Recogida de Mineral
 problem-default-oreshortage-tritanium-step1-desc:  |
- [h1]Ore Shortage[/h1]
- Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.tritanium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+ [h1]Escasez de Mineral[/h1]
+ Debido a paradas de trabajo no programadas, retrasos en el envío y equipos rotos, nos estamos quedando sin mineral. El mineral es la columna vertebral de cualquier civilización espacial, sin él no podemos construir las naves, estaciones y equipos necesarios para movernos por la galaxia. Ayúdanos a cubrir nuestras necesidades básicas llevando algo de {item-base:item.ore.tritanium} al [em]Punto de recogida de mineral[/em]. Puedes extraerlo, comprarlo o robarlo, pero hazlo.
 
-problem-default-oreshortage-magnesite-step1-summary: Deliver Magnesite Ore to Ore Collection Point
+problem-default-oreshortage-magnesite-step1-summary: Entrega mineral de magnesita en el punto de recogida de mineral.
 problem-default-oreshortage-magnesite-step1-desc:  |
- [h1]Ore Shortage[/h1]
- Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.magnesite} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+ [h1]Escasez de Mineral[/h1]
+ Debido a paradas de trabajo no programadas, retrasos en el envío y equipos rotos, nos estamos quedando sin mineral. El mineral es la columna vertebral de cualquier civilización espacial, sin él no podemos construir las naves, estaciones y equipos necesarios para movernos por la galaxia. Ayúdanos a cubrir nuestras necesidades básicas llevando algo de {item-base:item.ore.magnesite} al [em]Punto de recogida de mineral[/em]. Puedes extraerla, comprarla o robarla, por lo que a nosotros respecta.
 
-problem-default-oreshortage-bonivium-step1-summary: Deliver Bonivium Ore to Ore Collection Point
+problem-default-oreshortage-bonivium-step1-summary: Entrega Mineral de Bonivio en el Punto de Recogida de Mineral
 problem-default-oreshortage-bonivium-step1-desc:  |
- [h1]Ore Shortage[/h1]
- Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.bonivium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+ [h1]Escasez de Mineral[/h1]
+ Debido a paradas de trabajo no programadas, retrasos en el envío y equipos rotos, nos estamos quedando sin mineral. El mineral es la columna vertebral de cualquier civilización espacial, sin él no podemos construir las naves, estaciones y equipos necesarios para movernos por la galaxia. Ayúdanos a cubrir nuestras necesidades básicas llevando algo de {item-base:item.ore.bonivium} al [em]Punto de recogida de mineral[/em]. Puedes extraerlo, comprarlo o robarlo, por lo que a nosotros respecta.
 
-problem-default-oreshortage-kelbium-step1-summary: Deliver Kelbium Ore to Ore Collection Point
+problem-default-oreshortage-kelbium-summary1: Entrega mineral de kelbio en el punto de recogida de mineral
 problem-default-oreshortage-kelbium-step1-desc:  |
- [h1]Ore Shortage[/h1]
- Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.kelbium} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+ [h1]Escasez de Mineral[/h1]
+ Debido a paradas de trabajo no programadas, retrasos en el envío y equipos rotos, nos estamos quedando sin mineral. El mineral es la columna vertebral de cualquier civilización espacial, sin él no podemos construir las naves, estaciones y equipos necesarios para movernos por la galaxia. Ayúdanos a cubrir nuestras necesidades básicas llevando algo de {item-base:item.ore.kelbium} al [em]Punto de recogida de mineral[/em]. Puedes extraerlo, comprarlo o robarlo, pero hazlo.
 
-problem-default-oreshortage-virmatite-step1-summary: Deliver Virmatite Ore to Ore Collection Point
+problem-default-oreshortage-virmatite-step1-summary: Entrega mineral de virmatita en el punto de recogida de mineral.
 problem-default-oreshortage-virmatite-step1-desc:  |
- [h1]Ore Shortage[/h1]
- Due to unscheduled work stoppages, delayed shipping and broken equipment, we're running short on ore. Ore is the backbone of any space farring civilization, without it we can't build the ships, stations and equipment needed to move about the galaxy. Help us get caught up to our baseline needs by delivering some {item-base:item.ore.virmatite} to [em]Ore Collection Point[/em]. Mine it, buy it, steal it for all we care, just get it.
+ [h1]Escasez de Mineral[/h1]
+ Debido a paradas de trabajo no programadas, retrasos en el envío y equipos rotos, nos estamos quedando sin mineral. El mineral es la columna vertebral de cualquier civilización espacial, sin él no podemos construir las naves, estaciones y equipos necesarios para movernos por la galaxia. Ayúdanos a cubrir nuestras necesidades básicas llevando algo de {item-base:item.ore.virmatite} al [em]Punto de recogida de mineral[/em]. Puedes extraerla, comprarla o robarla, pero hazlo.
 
  
-problem-default-oreshortage-step1-opt-handin: Here is some of the ore you requested
-problem-default-oreshortage-step1-suc: Your help with the ore delivery was much appreciated!
-problem-drum-oreshortage-step1-suc: BEGIN TRANSLATION --[ Captain good work. Delivered ore accepted. ]-- END TRANSLATION
-problem-default-oreshortage-step1-complete: Captain, your help is greatly appreciated. Thanks to your efforts our operations are running smoothly again. 
-problem-drum-oreshortage-step1-complete: BEGIN TRANSLATION --[ Operation return smoothly. Thank you Captain. ]-- END TRANSLATION
+problem-default-oreshortage-step1-opt-handin: Aquí tienes parte del mineral que pediste.
+problem-default-oreshortage-step1-suc: ¡Agradecemos tu ayuda con la entrega del mineral!
+problem-drum-oreshortage-step1-suc: BEGIN TRANSLATION --[ Capitán buen trabajo. Mineral entregado aceptado. ]-- END TRANSLATION
+problema-drum-oreshortage-paso1-completo: Capitán, su ayuda es muy apreciada. Gracias a sus esfuerzos nuestras operaciones vuelven a funcionar sin problemas. 
+problema-tambor-acortamiento-paso1-completado: BEGIN TRANSLATION --[ La operación vuelve a funcionar sin problemas. Gracias Capitán. ]-- END TRANSLATION
 
-problem-default-oreshortage-opt-getbuff: Station, I am ready for my reward.
-problem-default-oreshortage-givebuff: The ore shortage is over, for now. Thank you Captain. Accept this as a token of our appreciation.
-problem-drum-oreshortage-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problema-tambor-acortado-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-oreshortage-givebuff: La escasez de mineral ha terminado, por ahora. Gracias, Capitán. Acepte esto como muestra de nuestro agradecimiento.
+problema-tambor-escasez-regalo: BEGIN TRANSLATION --[ Sí Capitán. Agradecimiento. ]-- END TRANSLATION
 
-problem-default-lockedjumpgate-title: Jumpgate Locked
-problem-default-lockedjumpgate-step1-summary: Unlock System Jumpgate
+problema-default-lockedjumpgate-title: Jumpgate Locked
+problem-default-lockedjumpgate-summary1: Desbloquear puerta de salto del sistema
 problem-default-lockedjumpgate-step1-desc:  |
- [h1]Jumpgate Locked[/h1]
- [h2]Unlock to transit[/h2]
- This system has a locked [url=codex://codex.intermediate.transit.travel]Jumpgate[/url]. Discover what region it is in and work towards unlocking it. Doing so will allow travel to the connected star system.
+ [h1]Puerta de salto bloqueada[/h1]
+ [h2]Desbloquear para transitar[/h2]
+ Este sistema tiene una [url=codex://codex.intermediate.transit.travel]Jumpgate[/url] bloqueada. Descubre en qué región se encuentra y trabaja para desbloquearla. Al hacerlo, podrás viajar al sistema estelar conectado.
 
-problem-default-lockedjumpgate-step1-complete: Great work Captain! With the jumpgate restored this should improve trade greatly
-problem-drum-lockedjumpgate-step1-complete: BEGIN TRANSLATION --[ Jumpgate engaged and restored. Captain! Great work. ]-- END TRANSLATION
+problema-default-lockedjumpgate-paso1-completo: ¡Gran trabajo Capitán! Con la puerta de salto restaurada esto debería mejorar el comercio en gran medida.
+problema-tambor-bloqueado-puerta-de-salto-paso1-completado: BEGIN TRANSLATION --[ Puerta de salto activada y restaurada. ¡Capitán! Gran trabajo. ]-- END TRANSLATION
 
-problem-default-piratelife-title: The Pirate Life
-problem-default-piratelife-step1-summary: Destroy Lawless Vessels
+problem-default-piratelife-title: La Vida Pirata
+problem-default-piratelife-step1-summary: Destruir barcos sin ley
 problem-default-piratelife-step1-desc:  |
- [h1]The Pirate Life[/h1]
- It's not easy being a pirate. This less restricted way of life is constantly attacked by those who see us as parasites. But, it's not true. We make our own opprotunities from the universe around us. And we never, well rarely, attack one another. A number of ships have refused to recognize our claim on this system and instead attempt to pirate from us! Of all things. Help us free ourselves of these nuisances by destroying as many [em]$fac0$Lawless ships[/em] as possible.
+ [h1]La vida pirata[/h1]
+ No es fácil ser pirata. Esta forma de vida menos restringida es atacada constantemente por quienes nos ven como parásitos. Pero no es cierto. Creamos nuestras propias oportunidades a partir del universo que nos rodea. Y nunca, bueno rara vez, nos atacamos unos a otros. Varias naves se han negado a reconocer nuestro derecho sobre este sistema y, en su lugar, ¡intentan piratearnos! De todas las cosas. Ayúdanos a liberarnos de estas molestias destruyendo tantas naves [em]$fac0$Lawless[/em] como sea posible.
 
-problem-default-piratelife-step1-complete: We will remember this Captain. Your ruthless determination in taking down the Lawless ships has reminded them who truly rules these spaceways.
+problema-defecto-vida-pirata-paso1-completo: Recordaremos a este Capitán. Tu despiadada determinación al derribar las naves de Lawless les ha recordado quién gobierna realmente estas rutas espaciales.
 
-problem-default-piratelife-opt-getbuff: Station, I am ready for my reward.
-problem-default-piratelife-givebuff: Aye Captain. You have a true pirate hearts in you, and for that, accept this as our thanks.
-problem-drum-piratelife-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+problem-default-piratelife-opt-getbuff: Estación, estoy listo para mi recompensa.
+problem-default-piratelife-givebuff: Aye Capitán. Tienes un verdadero corazón pirata en ti, y por eso, acepta esto como nuestro agradecimiento.
+problem-drum-piratelife-givebuff: BEGIN TRANSLATION --[ Sí Capitán. Reconocimiento gracias. ]-- END TRANSLATION

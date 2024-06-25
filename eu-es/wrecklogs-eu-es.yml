@@ -1,98 +1,98 @@
-#Wreck Logs
+#Registros de naufragios
 wreck-log-subheader: "DataLog"
 wreck-log-cont: "CONTINUE"
 
 #General 1
-wreck-log-gen1-header: "Captain {captname}'s Log"
-wreck-log-gen1-body: "[Final Entry] Stardate: 78795.33 Captain {captname}'s log.\n We've received new instructions from home. They want the {shipname} to practice some high speed, high G manuevers. I don't really want to, but I've requested confirmation, and it will be done. Helm has been drinking extra coffee, and says he's ready to give it a shot.\n\n I hope it works."
-wreck-log-gen1-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen1-header: "Bitácora del Capitán {captname}"
+wreck-log-gen1-body: "[Entrada Final] Fecha Estelar: 78795.33 Bitácora del Capitán {captname}.\n Hemos recibido nuevas instrucciones de casa. Quieren que {nombredela nave} practique algunas maniobras a alta velocidad y alta G. Realmente no quiero, pero he pedido confirmación, y se hará. Helm ha estado bebiendo café extra, y dice que está listo para intentarlo. Espero que funcione".
+wreck-log-gen1-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda de la {shipname}.[/i]"
 
 #General 2
-wreck-log-gen2-header: "Captain {captname}'s Log"
-wreck-log-gen2-body: "[Final Entry] We've pick up our latest manifest of medical supplies. Things are going well so far, but we're about to enter disputed territory and you can never be quite sure what will come at you out here."
-wreck-log-gen2-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen2-header: "Bitácora del Capitán {captname}"
+wreck-log-gen2-body: "[Entrada final] Hemos recogido nuestro último manifiesto de suministros médicos. Las cosas van bien hasta ahora, pero estamos a punto de entrar en territorio disputado y nunca puedes estar seguro de lo que se te viene encima aquí fuera."
+wreck-log-gen2-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 3
-wreck-log-gen3-header: "Captain {captname}'s Log"
-wreck-log-gen3-body: "[Final Entry] I swear, this is the last time I do VIP duty. I don't care if she is the daughter of my boss's boss, I've about had it. I've ordered helm to accelerate to full, asteroid field be damned. Upside of getting rid of this passenger faster, we'll all be getting home faster too."
-wreck-log-gen3-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen3-header: "Bitácora del Capitán {captname}"
+wreck-log-gen3-body: "[Entrada final] Lo juro, esta es la última vez que hago servicio VIP. No me importa si es la hija del jefe de mi jefe, estoy harto. He ordenado al timón acelerar al máximo, campo de asteroides maldito. La ventaja de deshacernos más rápido de este pasajero es que todos llegaremos más rápido a casa".
+wreck-log-gen3-more1: "[i]No quedan más entradas, la pila de escombros de la que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 4
-wreck-log-gen4-header: "Captain {captname}'s Log"
-wreck-log-gen4-body: "[Final Entry] We are three weeks out of port, and {randcrewname} is the latest to get die. We've radioed home, but they don't seem eager to send help given how sick we are. I have developed a cough, and I fear it may not be long before I am unable to do my duty. May God watch over us in this trying time."
-wreck-log-gen4-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen4-header: "Bitácora del Capitán {captname}"
+wreck-log-gen4-body: "[Entrada final] Llevamos tres semanas fuera de puerto, y {randcrewname} es el último en morir. Hemos llamado por radio a casa, pero no parecen dispuestos a enviar ayuda dado lo enfermos que estamos. He desarrollado tos, y me temo que no pasará mucho tiempo antes de que no pueda cumplir con mi deber. Que Dios nos proteja en estos momentos difíciles".
+wreck-log-gen4-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 5
-wreck-log-gen5-header: "Captain {captname}'s Log"
-wreck-log-gen5-body: "[Final Entry] ... the sensor echo we've had the last hour has turned out to be some kind of object, approximately 2m in length. We're going to bring it on board and see what it is. It may have salvage value."
-wreck-log-gen5-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen5-header: "Bitácora del Capitán {captname}"
+wreck-log-gen5-body: "[Entrada final] ... el eco del sensor que hemos tenido la última hora ha resultado ser algún tipo de objeto, de aproximadamente 2m de longitud. Vamos a traerlo a bordo y ver qué es. Puede tener valor de salvamento".
+wreck-log-gen5-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 6
-wreck-log-gen6-header: "Captain {captname}'s Log"
-wreck-log-gen6-body: "[Final Entry] The distress signal turned out to be an escape pod from the {shipname2}. We're going to be docking with it soon, and bring the survivors on board. I've order the first officer to meet our guest with a sidearm, just incase. I'm sure it'll be fine, but my gut is still uneasy anytime something like this happens."
-wreck-log-gen6-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen6-header: "Bitácora del Capitán {captname}"
+wreck-log-gen6-body: "[Entrada final] La señal de socorro resultó ser una cápsula de escape de la {shipname2}. Pronto nos acoplaremos a ella y subiremos a bordo a los supervivientes. He ordenado al primer oficial que se reúna con nuestro invitado con un arma de mano, por si acaso. Estoy seguro de que todo irá bien, pero mi instinto sigue inquieto cada vez que ocurre algo así."
+wreck-log-gen6-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 7
-wreck-log-gen7-header: "Captain {captname}'s Log"
-wreck-log-gen7-body: "[Final Entry] I hate carrying passengers. We took this extra job sinec it pays so well, but didn't figure out it was prisoners until we were loading them onboard. Fingers crossed they don't make any trouble."
-wreck-log-gen7-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen7-header: "Bitácora del Capitán {captname}"
+wreck-log-gen7-body: "[Entrada final] Odio llevar pasajeros. Aceptamos este trabajo extra porque está muy bien pagado, pero no nos dimos cuenta de que eran prisioneros hasta que los subimos a bordo. Cruzo los dedos para que no den problemas".
+wreck-log-gen7-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 8
-wreck-log-gen8-header: "Captain {captname}'s Log"
-wreck-log-gen8-body: "[Final Entry] The new crewman has been aggitating the rest for a week now. He keeps bringing up pay, and I've repeatedly told him to take it up with HQ, not me. He better not cause any problems, we're a long way from a brig."
-wreck-log-gen8-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen8-header: "Bitácora del Capitán {captname}"
+wreck-log-gen8-body: "[Entrada final] El nuevo tripulante lleva una semana agitando al resto. No para de sacar el tema de la paga, y le he dicho repetidamente que lo hable con el Cuartel General, no conmigo. Será mejor que no cause problemas, estamos muy lejos de un calabozo".
+wreck-log-gen8-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 9
-wreck-log-gen9-header: "Captain {captname}'s Log"
-wreck-log-gen9-body: "[Final Entry] I can't believe I took this command. Little did I know the engineering crew was Kal'Giri, I never would have brought my men onboard had I known. There have been a number of fights in the mess, and I fear it may continue to get worse."
-wreck-log-gen9-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen9-header: "Bitácora del Capitán {captname}"
+wreck-log-gen9-body: "[Entrada final] No puedo creer que tomara este mando. No sabía que la tripulación de ingeniería era Kal'Giri, nunca habría traído a mis hombres a bordo de haberlo sabido. Ha habido varias peleas en el comedor, y me temo que puede seguir empeorando".
+wreck-log-gen9-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 10
-wreck-log-gen10-header: "Captain {captname}'s Log"
-wreck-log-gen10-body: "[Final Entry] ... I've seen this once before. It's called Space Madness. But I've never seen it spread before. I've had to lock two crewmembers in their cabins but I fear it is not enough. We're one week away from port, I just hope we can make it there before further problems develop."
-wreck-log-gen10-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen10-header: "Bitácora del Capitán {captname}"
+wreck-log-gen10-body: "[Entrada final] ... He visto esto una vez antes. Se llama Locura Espacial. Pero nunca lo había visto extenderse. He tenido que encerrar a dos tripulantes en sus camarotes pero me temo que no es suficiente. Estamos a una semana de puerto, sólo espero que podamos llegar antes de que surjan más problemas."
+wreck-log-gen10-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 11
-wreck-log-gen11-header: "Captain {captname}'s Log"
-wreck-log-gen11-body: "[Final Entry] It is with deep sorrow I must log the death of Engineer {engname}. He was inspecting the plasma manifolds when the safety valve failed, and caused burns all over his body. I hope we can get this bucket of bolts home before any further mishaps afflict us."
-wreck-log-gen11-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen11-header: "Bitácora del Capitán {captname}"
+wreck-log-gen11-body: "[Entrada Final] Con profundo dolor debo registrar la muerte del Ingeniero {engname}. Estaba inspeccionando los colectores de plasma cuando la válvula de seguridad falló y le causó quemaduras por todo el cuerpo. Espero que podamos llevar este cubo de pernos a casa antes de que nos aflijan más desgracias".
+wreck-log-gen11-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 12
-wreck-log-gen12-header: "Captain {captname}'s Log"
-wreck-log-gen12-body: "[Final Entry] Where the hell was I? I should've seen the debris on sensors. But now I've done it. The engine manifold is clogged and I've got to go EVA to fix it. Here goes nothing."
-wreck-log-gen12-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen12-header: "Bitácora del Capitán {captname}"
+wreck-log-gen12-body: "[Entrada final] ¿Dónde demonios estaba? Debería haber visto los restos en los sensores. Pero ahora lo he hecho. El colector del motor está atascado y tengo que ir a EVA para arreglarlo. Aquí va nada".
+wreck-log-gen12-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 13
-wreck-log-gen13-header: "Captain {captname}'s Log"
-wreck-log-gen13-body: "[Final Entry] I've told {crewname} TIME and TIME AGAIN. DO NOT BUY parts from Azorian resellers. Now we're facing complete reactor failure because the supression field is fluctuating due to a bad reset valve. We're going to try to make due with just five and at half power. Maybe we'll get to port in time."
-wreck-log-gen13-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen13-header: "Bitácora del Capitán {captname}"
+wreck-log-gen13-body: "[Entrada final] Le he dicho a {crewname} UNA Y OTRA VEZ. NO COMPRAR piezas a revendedores azorianos. Ahora nos enfrentamos a un fallo completo del reactor porque el campo de supresión fluctúa debido a una válvula de reinicio defectuosa. Vamos a tratar de arreglárnoslas con sólo cinco y a media potencia. Tal vez lleguemos a puerto a tiempo".
+wreck-log-gen13-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 14
-wreck-log-gen14-header: "Captain {captname}'s Log"
-wreck-log-gen14-body: "[Final Entry] It's been 20 days since we got stuck in this gravitional anomaly. We're low on fuel, food and are 12 days overdue. I can only hope they send someone to look for us before our oxygen runs out in three days. What was I thinking investigating the sensor echo? If we make it, this will still haunt my conscience."
-wreck-log-gen14-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen14-header: "Bitácora del Capitán {captname}"
+wreck-log-gen14-body: "[Entrada final] Han pasado 20 días desde que quedamos atrapados en esta anomalía gravitacional. Nos queda poco combustible, comida y llevamos 12 días de retraso. Sólo puedo esperar que envíen a alguien a buscarnos antes de que se nos acabe el oxígeno en tres días. ¿En qué estaba pensando al investigar el eco del sensor? Si lo conseguimos, esto seguirá atormentando mi conciencia".
+wreck-log-gen14-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #General 15
-wreck-log-gen15-header: "Captain {captname}'s Log"
-wreck-log-gen15-body: "[Final Entry] It's been two days since we were attacked by the energy sucking lifeform. I lack a better name for it, but whatever it is, it has caused our energy reserves to drop by 80%. I've sent out messages, but so far have received no replies."
-wreck-log-gen15-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+wreck-log-gen15-header: "Bitácora del Capitán {captname}"
+wreck-log-gen15-body: "[Entrada final] Han pasado dos días desde que fuimos atacados por la forma de vida chupadora de energía. Me falta un nombre mejor para ella, pero sea lo que sea, ha hecho que nuestras reservas de energía se reduzcan en un 80%. He enviado mensajes, pero hasta ahora no he recibido respuesta".
+wreck-log-gen15-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
-#General 16
-wreck-log-gen16-header: "Captain {captname}'s Log"
-wreck-log-gen16-body: "[Final Entry] I'm sure of it. We've seen sensor blips for the last two days. Pirates have been haunting this area for a while now and I'm sure they're waiting for us to be offguard. We'll be ready though, come Hell or highwater."
-wreck-log-gen16-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
+#General16
+wreck-log-gen16-header: "Bitácora del Capitán {captname}"
+wreck-log-gen16-body: "[Entrada final] Estoy seguro de ello. Hemos visto señales de los sensores durante los dos últimos días. Los piratas llevan tiempo rondando esta zona y estoy seguro de que están esperando a que estemos desprevenidos. Pero estaremos preparados, contra viento y marea".
+wreck-log-gen16-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda del {shipname}.[/i]"
 
 #Druminence 1
-wreck-log-drum1-header: "Captain's Log"
-wreck-log-drum1-body: "With a burst of static, the Druminence log flashes a number of unrecognizable characters before going silent. It seems unrecoverable."
-wreck-log-drum1-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"
+wreck-log-drum1-header: "Bitácora del Capitán"
+wreck-log-drum1-body: "Con una ráfaga de estática, la bitácora del Druminence parpadea una serie de caracteres irreconocibles antes de enmudecer. Parece irrecuperable".
+wreck-log-drum1-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda de esta nave[/i]."
 
 #Druminence 2
-wreck-log-drum2-header: "Captain's Log"
-wreck-log-drum2-body: "The Druminence log briefly displays a number of dates, of which the meaning can only be guessed at."
-wreck-log-drum2-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"
+wreck-log-drum2-header: "Bitácora del Capitán"
+wreck-log-drum2-body: "El cuaderno de bitácora del Druminence muestra brevemente una serie de fechas, cuyo significado sólo puede adivinarse."
+wreck-log-drum2-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda de esta nave[/i]."
 
 #Druminence 3
-wreck-log-drum3-header: "Captain's Log"
-wreck-log-drum3-body: "Following a brief bout of vibration, the log mechanism goes permenantly silent."
-wreck-log-drum3-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of this ship.[/i]"
+wreck-log-drum3-header: "Bitácora del Capitán"
+wreck-log-drum3-body: "Tras una breve vibración, el mecanismo de la bitácora enmudece para siempre".
+wreck-log-drum3-more1: "[i]No quedan más entradas, el montón de escombros del que se recuperó este registro de datos parece ser todo lo que queda de esta nave.[/i]"
