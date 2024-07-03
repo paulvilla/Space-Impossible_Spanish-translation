@@ -12,9 +12,11 @@ Instalación
 C:\Program Files (x86)\Steam\steamapps\common\Space Impossible\GameData\base\language
 ```
 
+-----
+
 # IMPORTANTE
 ## He creado un mod en la workshop de steam con el que el trabajo se termino al 100% y se reviso
------
+
 Recomendamos usar esta opcion por encima de este reposiorio ya que automaticamente se actualiza solo en los clientes en el caso de que se realize cambios
 ```
 https://steamcommunity.com/sharedfiles/filedetails/?id=3275081908
